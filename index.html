@@ -66,7 +66,7 @@ footer a{color:var(--accent)}
 <body>
 <header>
 <h1>🏀 703Circuit <span>Season 4</span></h1>
-<p>Player Tier Board &bull; Power Rankings &bull; NBA 2K-Style Ratings<br><small>Data: 703circuit.com &bull; Real S4 rosters (50 players) &bull; S1–S3 + 571 Cup history</small></p>
+<p>Player Tier Board &bull; Power Rankings &bull; NBA 2K-Style Ratings<br><small>Data: 703circuit.com &bull; Real S4 rosters (50 players + 16 subs) &bull; S1–S3 + 571 Cup history</small></p>
 </header>
 
 <div class="controls">
@@ -74,6 +74,10 @@ footer a{color:var(--accent)}
 <button class="tab active" data-view="tiers">Tier Board</button>
 <button class="tab" data-view="power">Power Rankings</button>
 <button class="tab" data-view="twok">2K Ratings</button>
+</div>
+<div class="tabs">
+<button class="tab active" data-ds="players">Roster</button>
+<button class="tab" data-ds="subs">Subs</button>
 </div>
 <input class="search" id="search" placeholder="Search players...">
 <select class="filter" id="teamFilter"><option value="">All teams</option></select>
@@ -84,17 +88,24 @@ footer a{color:var(--accent)}
 
 <footer>
 Built for the 703Circuit community &bull; Data from <a href="https://703circuit.com">703circuit.com</a><br>
-Tiers 1–5 follow league convention (Tier 1 = Captains) &bull; Ratings are editorial, update <code>data/players.json</code> to adjust
+Tiers 1–5 follow league convention (Tier 1 = Captains) &bull; Sub tiers rank S4 sub production &bull; Ratings are editorial, update <code>data/players.json</code> or <code>data/subs.json</code> to adjust
 </footer>
 
 <script>
-let players=[];
+let players=[],subs=[],dataset='players';
+function current(){return dataset==='players'?players:subs}
 const app=document.getElementById('app'),legend=document.getElementById('legend');
-const tierNames={1:'Tier 1 — Captains 👑',2:'Tier 2 — Elite 🌟',3:'Tier 3 — Starters 🔥',4:'Tier 4 — Rotation 🛡️',5:'Tier 5 — Prospects 🌱'};
-const tierDesc={
-tiers:'<b>Tier Board:</b> League-style 1–5 system. <b>Tier 1 is reserved for team captains.</b> Tiers weigh all-time resume (MVPs, POTWs, championships) + S4 Week 1 production.',
+const tierNamesP={1:'Tier 1 — Captains 👑',2:'Tier 2 — Elite 🌟',3:'Tier 3 — Starters 🔥',4:'Tier 4 — Rotation 🛡️',5:'Tier 5 — Prospects 🌱'};
+const tierNamesS={1:'Sub Tier 1 — Elite 🌟',2:'Sub Tier 2 — Impact 🔥',3:'Sub Tier 3 — Rotation 🛡️',4:'Sub Tier 4 — Depth 🔧',5:'Sub Tier 5 — Emergency 📋'};
+let tierNames=tierNamesP;
+const tierDescP={
+tiers:'<b>Tier Board:</b> League-style 1–5 system. <b>Tier 1 is reserved for team captains.</b> Tiers weigh all-time resume (MVPs, POTWs, championships) + S4 production.',
 power:'<b>Power Rankings:</b> Every ranked player 1–N by overall rating (OVR). Same data as tiers, straight numbered list.',
 twok:'<b>2K Ratings:</b> NBA 2K-style overall + five attributes: INS (inside), OUT (outside), PLY (playmaking), DEF (defense), REB (rebounding). 90+ = elite, 85+ = star, 80+ = starter.'};
+const tierDescS={
+tiers:'<b>Sub Tier Board:</b> S4 substitute players tiered 1–5 by sub production (PPG, efficiency, games played). Tier 1 = elite sub scorers.',
+power:'<b>Sub Power Rankings:</b> Every S4 sub ranked 1–N by overall rating (OVR).',
+twok:'<b>Sub 2K Ratings:</b> NBA 2K-style overall + five attributes for every S4 substitute.'};
 
 function ovrClass(o){return o>=90?'ovr-90':o>=85?'ovr-85':o>=80?'ovr-80':'ovr-low'}
 function matches(p){const q=document.getElementById('search').value.toLowerCase(),t=document.getElementById('teamFilter').value;
@@ -103,7 +114,7 @@ return(!q||p.name.toLowerCase().includes(q))&&(!t||p.team===t)}
 function renderTiers(){
 let h='';
 for(let t=1;t<=5;t++){
-const list=players.filter(p=>p.tier===t&&matches(p));
+const list=current().filter(p=>p.tier===t&&matches(p));
 if(!list.length)continue;
 h+=`<div class="tier tier-${t}"><div class="tier-head">${tierNames[t]}<span class="count">${list.length} players</span></div><div class="player-grid">`;
 list.sort((a,b)=>b.ovr-a.ovr).forEach(p=>{h+=pCard(p)});
@@ -114,10 +125,10 @@ function pCard(p){
 return `<div class="pcard"><div class="top"><div class="ovr-badge ${ovrClass(p.ovr)}">${p.ovr}</div>
 <div><h3>${p.name}</h3><div class="team">${p.team} &bull; Tier ${p.tier}</div></div></div>
 <div class="notes">${p.notes||''}</div>
-<div class="meta">${p.isCaptain?'<span class="badge cap">Captain</span>':''}${(p.awards||[]).map(a=>`<span class="badge award">${a}</span>`).join('')}${p.s4_week1?`<span class="badge">S4 W1: ${p.s4_week1}</span>`:''}</div></div>`}
+<div class="meta">${p.isCaptain?'<span class="badge cap">Captain</span>':''}${p.isSub?'<span class="badge">SUB</span>':''}${(p.awards||[]).map(a=>`<span class="badge award">${a}</span>`).join('')}${p.s4_week1?`<span class="badge">S4 W1: ${p.s4_week1}</span>`:''}${p.gp?`<span class="badge">S4 sub: ${p.gp} GP, ${p.ppg} PPG</span>`:''}</div></div>`}
 
 function renderPower(){
-const list=players.filter(matches).sort((a,b)=>b.ovr-a.ovr);
+const list=current().filter(matches).sort((a,b)=>b.ovr-a.ovr);
 let h='<div class="rank-list">';
 list.forEach((p,i)=>{h+=`<div class="rank-row"><div class="rank-num">${i+1}</div>
 <div class="ovr-badge ${ovrClass(p.ovr)}" style="min-width:46px;height:46px;font-size:1.1rem">${p.ovr}</div>
@@ -126,7 +137,7 @@ list.forEach((p,i)=>{h+=`<div class="rank-row"><div class="rank-num">${i+1}</div
 app.innerHTML=h+'</div>'}
 
 function render2k(){
-const list=players.filter(matches).sort((a,b)=>b.ovr-a.ovr);
+const list=current().filter(matches).sort((a,b)=>b.ovr-a.ovr);
 let h='<div class="player-grid">';
 list.forEach(p=>{const a=p.attributes;
 h+=`<div class="pcard"><div class="top"><div class="ovr-badge ${ovrClass(p.ovr)}">${p.ovr}</div>
@@ -137,20 +148,27 @@ ${[['INS',a.inside],['OUT',a.outside],['PLY',a.playmaking],['DEF',a.defense],['R
 app.innerHTML=h+'</div>'}
 
 let view='tiers';
-function render(){legend.innerHTML=tierDesc[view];
+function render(){legend.innerHTML=(dataset==='subs'?tierDescS:tierDescP)[view];
 if(view==='tiers')renderTiers();else if(view==='power')renderPower();else render2k()}
 
-document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
-document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+function buildTeamFilter(){const sel=document.getElementById('teamFilter');
+sel.innerHTML='<option value="">All teams</option>';
+const teams=[...new Set(current().map(p=>p.team))].sort();
+teams.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;sel.appendChild(o)})}
+
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{
+document.querySelectorAll('[data-view]').forEach(x=>x.classList.remove('active'));
 b.classList.add('active');view=b.dataset.view;render()}));
+document.querySelectorAll('[data-ds]').forEach(b=>b.addEventListener('click',()=>{
+document.querySelectorAll('[data-ds]').forEach(x=>x.classList.remove('active'));
+b.classList.add('active');dataset=b.dataset.ds;tierNames=dataset==='subs'?tierNamesS:tierNamesP;
+buildTeamFilter();render()}));
 document.getElementById('search').addEventListener('input',render);
 document.getElementById('teamFilter').addEventListener('change',render);
 
-fetch('data/players.json').then(r=>r.json()).then(d=>{players=d;
-const teams=[...new Set(d.map(p=>p.team))].sort();
-const sel=document.getElementById('teamFilter');
-teams.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;sel.appendChild(o)});
-render()}).catch(e=>{app.innerHTML='<p style="text-align:center;padding:2rem">Could not load data/players.json</p>'});
+Promise.all([fetch('data/players.json').then(r=>r.json()),fetch('data/subs.json').then(r=>r.json())])
+.then(([p,s])=>{players=p;subs=s;buildTeamFilter();render()})
+.catch(e=>{app.innerHTML='<p style="text-align:center;padding:2rem">Could not load data files</p>'});
 </script>
 </body>
 </html>
