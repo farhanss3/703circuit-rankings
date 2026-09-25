@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>703Circuit S4 — Player Tiers & Power Rankings</title>
+<style>
+:root{--bg:#0b0e14;--card:#151a26;--accent:#f5a623;--accent2:#2d9cdb;--text:#e8ecf1;--muted:#8b94a7;--tier1:#ffd700;--tier2:#c0c0c0;--tier3:#cd7f32;--tier4:#2d9cdb;--tier5:#7b8794}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;min-height:100vh}
+header{background:linear-gradient(135deg,#1a1f2e 0%,#0b0e14 100%);padding:2rem 1rem;text-align:center;border-bottom:3px solid var(--accent)}
+header h1{font-size:1.8rem;letter-spacing:.5px}
+header h1 span{color:var(--accent)}
+header p{color:var(--muted);margin-top:.5rem;font-size:.95rem}
+.controls{max-width:1100px;margin:1.2rem auto;padding:0 1rem;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;justify-content:center}
+.tabs{display:flex;gap:.4rem;background:var(--card);padding:.3rem;border-radius:12px}
+.tab{border:none;background:transparent;color:var(--muted);padding:.6rem 1.1rem;border-radius:9px;font-weight:700;cursor:pointer;font-size:.9rem}
+.tab.active{background:var(--accent);color:#111}
+.search{background:var(--card);border:1px solid #2a3348;color:var(--text);padding:.6rem 1rem;border-radius:10px;font-size:.9rem;min-width:200px}
+select.filter{background:var(--card);border:1px solid #2a3348;color:var(--text);padding:.6rem .8rem;border-radius:10px;font-size:.9rem}
+main{max-width:1100px;margin:0 auto;padding:0 1rem 3rem}
+.tier{margin:1.4rem 0;background:var(--card);border-radius:14px;overflow:hidden;border:1px solid #232b40}
+.tier-head{padding:.9rem 1.2rem;font-weight:800;font-size:1.05rem;display:flex;align-items:center;gap:.6rem}
+.tier-1 .tier-head{background:linear-gradient(90deg,#3a2f00,#1a1600);color:var(--tier1)}
+.tier-2 .tier-head{background:linear-gradient(90deg,#2a2f38,#161a20);color:var(--tier2)}
+.tier-3 .tier-head{background:linear-gradient(90deg,#3a2410,#1c1208);color:var(--tier3)}
+.tier-4 .tier-head{background:linear-gradient(90deg,#0f2a3d,#0a1620);color:var(--tier4)}
+.tier-5 .tier-head{background:linear-gradient(90deg,#232a33,#12161b);color:var(--tier5)}
+.tier-head .count{margin-left:auto;font-size:.8rem;color:var(--muted);font-weight:600}
+.player-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.7rem;padding:1rem}
+.pcard{background:#1d2434;border:1px solid #2a3348;border-radius:11px;padding:.9rem;transition:transform .15s}
+.pcard:hover{transform:translateY(-2px);border-color:var(--accent)}
+.pcard .top{display:flex;align-items:center;gap:.7rem}
+.ovr-badge{min-width:52px;height:52px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.3rem;color:#111}
+.ovr-90{background:linear-gradient(135deg,#ffd700,#ff9d00)}
+.ovr-85{background:linear-gradient(135deg,#c0c0c0,#8e9aaf)}
+.ovr-80{background:linear-gradient(135deg,#cd7f32,#a85f1e);color:#fff!important}
+.ovr-low{background:linear-gradient(135deg,#2d9cdb,#1a6fa0);color:#fff!important}
+.pcard h3{font-size:1rem}
+.pcard .team{font-size:.78rem;color:var(--muted)}
+.pcard .notes{font-size:.82rem;color:#b9c2d4;margin-top:.5rem;line-height:1.4}
+.pcard .meta{margin-top:.55rem;display:flex;flex-wrap:wrap;gap:.35rem}
+.badge{font-size:.7rem;padding:.22rem .55rem;border-radius:20px;background:#0f1420;border:1px solid #2a3348;color:var(--muted)}
+.badge.cap{border-color:var(--tier1);color:var(--tier1)}
+.badge.award{border-color:var(--accent2);color:var(--accent2)}
+.rank-list{display:flex;flex-direction:column;gap:.55rem;margin-top:1.2rem}
+.rank-row{display:flex;align-items:center;gap:.9rem;background:var(--card);border:1px solid #232b40;border-radius:11px;padding:.75rem 1rem}
+.rank-num{font-size:1.4rem;font-weight:900;color:var(--accent);min-width:44px;text-align:center}
+.rank-row .info{flex:1}
+.rank-row .info h3{font-size:1rem}
+.rank-row .info .sub{font-size:.78rem;color:var(--muted)}
+.rank-row .tier-tag{font-size:.72rem;font-weight:800;padding:.3rem .7rem;border-radius:20px}
+.attrs{margin-top:.6rem;display:grid;grid-template-columns:1fr 1fr;gap:.35rem}
+.attr{display:flex;align-items:center;gap:.5rem;font-size:.75rem}
+.attr label{width:38px;color:var(--muted);font-weight:700}
+.bar{flex:1;height:7px;background:#0f1420;border-radius:5px;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,var(--accent2),var(--accent))}
+.attr b{width:28px;text-align:right}
+.legend{max-width:1100px;margin:0 auto;padding:0 1rem 1rem;color:var(--muted);font-size:.83rem;line-height:1.6}
+footer{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.8rem;border-top:1px solid #1d2434}
+footer a{color:var(--accent)}
+.hidden{display:none!important}
+@media(max-width:600px){header h1{font-size:1.35rem}.player-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<h1>🏀 703Circuit <span>Season 4</span></h1>
+<p>Player Tier Board &bull; Power Rankings &bull; NBA 2K-Style Ratings<br><small>Data: 703circuit.com &bull; Real S4 rosters (50 players) &bull; S1–S3 + 571 Cup history</small></p>
+</header>
+
+<div class="controls">
+<div class="tabs">
+<button class="tab active" data-view="tiers">Tier Board</button>
+<button class="tab" data-view="power">Power Rankings</button>
+<button class="tab" data-view="twok">2K Ratings</button>
+</div>
+<input class="search" id="search" placeholder="Search players...">
+<select class="filter" id="teamFilter"><option value="">All teams</option></select>
+</div>
+
+<div class="legend" id="legend"></div>
+<main id="app"></main>
+
+<footer>
+Built for the 703Circuit community &bull; Data from <a href="https://703circuit.com">703circuit.com</a><br>
+Tiers 1–5 follow league convention (Tier 1 = Captains) &bull; Ratings are editorial, update <code>data/players.json</code> to adjust
+</footer>
+
+<script>
+let players=[];
+const app=document.getElementById('app'),legend=document.getElementById('legend');
+const tierNames={1:'Tier 1 — Captains 👑',2:'Tier 2 — Elite 🌟',3:'Tier 3 — Starters 🔥',4:'Tier 4 — Rotation 🛡️',5:'Tier 5 — Prospects 🌱'};
+const tierDesc={
+tiers:'<b>Tier Board:</b> League-style 1–5 system. <b>Tier 1 is reserved for team captains.</b> Tiers weigh all-time resume (MVPs, POTWs, championships) + S4 Week 1 production.',
+power:'<b>Power Rankings:</b> Every ranked player 1–N by overall rating (OVR). Same data as tiers, straight numbered list.',
+twok:'<b>2K Ratings:</b> NBA 2K-style overall + five attributes: INS (inside), OUT (outside), PLY (playmaking), DEF (defense), REB (rebounding). 90+ = elite, 85+ = star, 80+ = starter.'};
+
+function ovrClass(o){return o>=90?'ovr-90':o>=85?'ovr-85':o>=80?'ovr-80':'ovr-low'}
+function matches(p){const q=document.getElementById('search').value.toLowerCase(),t=document.getElementById('teamFilter').value;
+return(!q||p.name.toLowerCase().includes(q))&&(!t||p.team===t)}
+
+function renderTiers(){
+let h='';
+for(let t=1;t<=5;t++){
+const list=players.filter(p=>p.tier===t&&matches(p));
+if(!list.length)continue;
+h+=`<div class="tier tier-${t}"><div class="tier-head">${tierNames[t]}<span class="count">${list.length} players</span></div><div class="player-grid">`;
+list.sort((a,b)=>b.ovr-a.ovr).forEach(p=>{h+=pCard(p)});
+h+='</div></div>'}
+app.innerHTML=h||'<p style="text-align:center;color:var(--muted);padding:2rem">No players match.</p>'}
+
+function pCard(p){
+return `<div class="pcard"><div class="top"><div class="ovr-badge ${ovrClass(p.ovr)}">${p.ovr}</div>
+<div><h3>${p.name}</h3><div class="team">${p.team} &bull; Tier ${p.tier}</div></div></div>
+<div class="notes">${p.notes||''}</div>
+<div class="meta">${p.isCaptain?'<span class="badge cap">Captain</span>':''}${(p.awards||[]).map(a=>`<span class="badge award">${a}</span>`).join('')}${p.s4_week1?`<span class="badge">S4 W1: ${p.s4_week1}</span>`:''}</div></div>`}
+
+function renderPower(){
+const list=players.filter(matches).sort((a,b)=>b.ovr-a.ovr);
+let h='<div class="rank-list">';
+list.forEach((p,i)=>{h+=`<div class="rank-row"><div class="rank-num">${i+1}</div>
+<div class="ovr-badge ${ovrClass(p.ovr)}" style="min-width:46px;height:46px;font-size:1.1rem">${p.ovr}</div>
+<div class="info"><h3>${p.name}</h3><div class="sub">${p.team} &bull; ${p.s4_week1||p.notes||''}</div></div>
+<span class="tier-tag" style="background:#0f1420;border:1px solid #2a3348;color:var(--muted)">TIER ${p.tier}</span></div>`});
+app.innerHTML=h+'</div>'}
+
+function render2k(){
+const list=players.filter(matches).sort((a,b)=>b.ovr-a.ovr);
+let h='<div class="player-grid">';
+list.forEach(p=>{const a=p.attributes;
+h+=`<div class="pcard"><div class="top"><div class="ovr-badge ${ovrClass(p.ovr)}">${p.ovr}</div>
+<div><h3>${p.name}</h3><div class="team">${p.team} &bull; OVR ${p.ovr}</div></div></div>
+<div class="attrs">
+${[['INS',a.inside],['OUT',a.outside],['PLY',a.playmaking],['DEF',a.defense],['REB',a.rebounding]].map(([l,v])=>`<div class="attr"><label>${l}</label><div class="bar"><i style="width:${v}%"></i></div><b>${v}</b></div>`).join('')}
+</div><div class="notes">${p.notes||''}</div></div>`});
+app.innerHTML=h+'</div>'}
+
+let view='tiers';
+function render(){legend.innerHTML=tierDesc[view];
+if(view==='tiers')renderTiers();else if(view==='power')renderPower();else render2k()}
+
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+b.classList.add('active');view=b.dataset.view;render()}));
+document.getElementById('search').addEventListener('input',render);
+document.getElementById('teamFilter').addEventListener('change',render);
+
+fetch('data/players.json').then(r=>r.json()).then(d=>{players=d;
+const teams=[...new Set(d.map(p=>p.team))].sort();
+const sel=document.getElementById('teamFilter');
+teams.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;sel.appendChild(o)});
+render()}).catch(e=>{app.innerHTML='<p style="text-align:center;padding:2rem">Could not load data/players.json</p>'});
+</script>
+</body>
+</html>
