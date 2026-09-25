@@ -1,878 +1,878 @@
 [
-  {
-    "name": "John Welsh",
-    "team": "Blue",
-    "tier": 1,
-    "ovr": 94,
-    "isCaptain": true,
-    "attributes": {
-      "inside": 91,
-      "outside": 94,
-      "playmaking": 92,
-      "defense": 99,
-      "rebounding": 99
-    },
-    "awards": [
-      "S1 MVP",
-      "S2 MVP"
-    ],
-    "s4_week1": null,
-    "notes": "Career PTS leader (1122). S1 & S2 MVP. Blue captain."
+ {
+  "name": "John Welsh",
+  "team": "Blue",
+  "tier": 1,
+  "ovr": 94,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 91,
+   "outside": 94,
+   "playmaking": 92,
+   "defense": 99,
+   "rebounding": 99
   },
-  {
-    "name": "Sumant Bhupathiraju",
-    "team": "White",
-    "tier": 1,
-    "ovr": 93,
-    "isCaptain": true,
-    "attributes": {
-      "inside": 92,
-      "outside": 87,
-      "playmaking": 85,
-      "defense": 90,
-      "rebounding": 93
-    },
-    "awards": [
-      "571 Cup MVP"
-    ],
-    "s4_week1": null,
-    "notes": "S4 scoring leader 17.0 PPG. 571 Cup MVP. 131 career 3PM."
+  "awards": [
+   "S1 MVP",
+   "S2 MVP"
+  ],
+  "s4_week1": null,
+  "notes": "Career PTS leader (1122). S1 & S2 MVP. Blue captain."
+ },
+ {
+  "name": "Sumant Bhupathiraju",
+  "team": "White",
+  "tier": 1,
+  "ovr": 93,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 92,
+   "outside": 87,
+   "playmaking": 85,
+   "defense": 90,
+   "rebounding": 93
   },
-  {
-    "name": "Tahseen Almas",
-    "team": "Yellow",
-    "tier": 1,
-    "ovr": 93,
-    "isCaptain": true,
-    "attributes": {
-      "inside": 87,
-      "outside": 96,
-      "playmaking": 93,
-      "defense": 91,
-      "rebounding": 87
-    },
-    "awards": [
-      "S3 MVP",
-      "S2 MVP Runner-up"
-    ],
-    "s4_week1": null,
-    "notes": "S3 MVP. 13.0 PPG, 8.0 RPG in S4. Yellow 4-0 captain."
+  "awards": [
+   "571 Cup MVP"
+  ],
+  "s4_week1": null,
+  "notes": "S4 scoring leader 17.0 PPG. 571 Cup MVP. 131 career 3PM."
+ },
+ {
+  "name": "Tahseen Almas",
+  "team": "Yellow",
+  "tier": 1,
+  "ovr": 93,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 87,
+   "outside": 96,
+   "playmaking": 93,
+   "defense": 91,
+   "rebounding": 87
   },
-  {
-    "name": "Mo Rana",
-    "team": "Black",
-    "tier": 1,
-    "ovr": 90,
-    "isCaptain": true,
-    "attributes": {
-      "inside": 87,
-      "outside": 96,
-      "playmaking": 87,
-      "defense": 95,
-      "rebounding": 83
-    },
-    "awards": [
-      "S2 W2 POTW",
-      "S3 Rd1 MVP"
-    ],
-    "s4_week1": null,
-    "notes": "1022 career PTS. 3.3 APG, 2.3 SPG in S4. Black captain."
+  "awards": [
+   "S3 MVP",
+   "S2 MVP Runner-up"
+  ],
+  "s4_week1": null,
+  "notes": "S3 MVP. 13.0 PPG, 8.0 RPG in S4. Yellow 4-0 captain."
+ },
+ {
+  "name": "Mo Rana",
+  "team": "Black",
+  "tier": 1,
+  "ovr": 90,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 87,
+   "outside": 96,
+   "playmaking": 87,
+   "defense": 95,
+   "rebounding": 83
   },
-  {
-    "name": "Sofe Fellah",
-    "team": "Green",
-    "tier": 1,
-    "ovr": 89,
-    "isCaptain": true,
-    "attributes": {
-      "inside": 89,
-      "outside": 95,
-      "playmaking": 92,
-      "defense": 95,
-      "rebounding": 87
-    },
-    "awards": [
-      "S2 W5 POTW",
-      "S3 W3 POTW"
-    ],
-    "s4_week1": null,
-    "notes": "3.0 3PG in S4. 124 career 3PM. Green captain."
+  "awards": [
+   "S2 W2 POTW",
+   "S3 Rd1 MVP"
+  ],
+  "s4_week1": null,
+  "notes": "1022 career PTS. 3.3 APG, 2.3 SPG in S4. Black captain."
+ },
+ {
+  "name": "Sofe Fellah",
+  "team": "Green",
+  "tier": 1,
+  "ovr": 89,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 89,
+   "outside": 95,
+   "playmaking": 92,
+   "defense": 95,
+   "rebounding": 87
   },
-  {
-    "name": "Fox Tariq",
-    "team": "Red",
-    "tier": 1,
-    "ovr": 89,
-    "isCaptain": true,
-    "attributes": {
-      "inside": 95,
-      "outside": 86,
-      "playmaking": 94,
-      "defense": 90,
-      "rebounding": 86
-    },
-    "awards": [
-      "S2 W1 POTW",
-      "S3 W1 & W2 POTW"
-    ],
-    "s4_week1": null,
-    "notes": "13.0 PPG in S4. Multi-time POTW (S2/S3). Red captain."
+  "awards": [
+   "S2 W5 POTW",
+   "S3 W3 POTW"
+  ],
+  "s4_week1": null,
+  "notes": "3.0 3PG in S4. 124 career 3PM. Green captain."
+ },
+ {
+  "name": "Fox Tariq",
+  "team": "Red",
+  "tier": 1,
+  "ovr": 89,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 95,
+   "outside": 86,
+   "playmaking": 94,
+   "defense": 90,
+   "rebounding": 86
   },
-  {
-    "name": "Mike Hansler",
-    "team": "Green",
-    "tier": 2,
-    "ovr": 88,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 89,
-      "outside": 84,
-      "playmaking": 83,
-      "defense": 89,
-      "rebounding": 90
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "13.8 PPG, 69% FG in S4. Green's most efficient scorer."
+  "awards": [
+   "S2 W1 POTW",
+   "S3 W1 & W2 POTW"
+  ],
+  "s4_week1": null,
+  "notes": "13.0 PPG in S4. Multi-time POTW (S2/S3). Red captain."
+ },
+ {
+  "name": "Mike Hansler",
+  "team": "Green",
+  "tier": 2,
+  "ovr": 88,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 89,
+   "outside": 84,
+   "playmaking": 83,
+   "defense": 89,
+   "rebounding": 90
   },
-  {
-    "name": "Abe Faridi",
-    "team": "Grey",
-    "tier": 2,
-    "ovr": 87,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 89,
-      "outside": 82,
-      "playmaking": 81,
-      "defense": 92,
-      "rebounding": 82
-    },
-    "awards": [
-      "S2 W3 POTW"
-    ],
-    "s4_week1": null,
-    "notes": "13.5 PPG, 66.7% FG, 2.0 SPG in S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "13.8 PPG, 69% FG in S4. Green's most efficient scorer."
+ },
+ {
+  "name": "Abe Faridi",
+  "team": "Grey",
+  "tier": 2,
+  "ovr": 87,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 89,
+   "outside": 82,
+   "playmaking": 81,
+   "defense": 92,
+   "rebounding": 82
   },
-  {
-    "name": "Sam Abdi",
-    "team": "Black",
-    "tier": 2,
-    "ovr": 86,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 87,
-      "outside": 83,
-      "playmaking": 92,
-      "defense": 83,
-      "rebounding": 90
-    },
-    "awards": [
-      "S1 W6 POTW",
-      "S2 W6 POTW"
-    ],
-    "s4_week1": null,
-    "notes": "12.3 PPG career best. Veteran wing."
+  "awards": [
+   "S2 W3 POTW"
+  ],
+  "s4_week1": null,
+  "notes": "13.5 PPG, 66.7% FG, 2.0 SPG in S4."
+ },
+ {
+  "name": "Sam Abdi",
+  "team": "Black",
+  "tier": 2,
+  "ovr": 86,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 87,
+   "outside": 83,
+   "playmaking": 92,
+   "defense": 83,
+   "rebounding": 90
   },
-  {
-    "name": "David Amin",
-    "team": "Yellow",
-    "tier": 2,
-    "ovr": 86,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 95,
-      "outside": 90,
-      "playmaking": 82,
-      "defense": 91,
-      "rebounding": 84
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "8.8 RPG career best. Yellow starter on 4-0 team."
+  "awards": [
+   "S1 W6 POTW",
+   "S2 W6 POTW"
+  ],
+  "s4_week1": null,
+  "notes": "12.3 PPG career best. Veteran wing."
+ },
+ {
+  "name": "David Amin",
+  "team": "Yellow",
+  "tier": 2,
+  "ovr": 86,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 95,
+   "outside": 90,
+   "playmaking": 82,
+   "defense": 91,
+   "rebounding": 84
   },
-  {
-    "name": "Oaan Rana",
-    "team": "Orange",
-    "tier": 2,
-    "ovr": 85,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 87,
-      "outside": 79,
-      "playmaking": 88,
-      "defense": 89,
-      "rebounding": 84
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "8.0 RPG, 1.0 BPG. Orange frontcourt anchor."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "8.8 RPG career best. Yellow starter on 4-0 team."
+ },
+ {
+  "name": "Oaan Rana",
+  "team": "Orange",
+  "tier": 1,
+  "ovr": 85,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 87,
+   "outside": 79,
+   "playmaking": 88,
+   "defense": 89,
+   "rebounding": 84
   },
-  {
-    "name": "Matt Bradley",
-    "team": "Purple",
-    "tier": 2,
-    "ovr": 85,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 79,
-      "outside": 94,
-      "playmaking": 87,
-      "defense": 90,
-      "rebounding": 76
-    },
-    "awards": [
-      "S1 W5 POTW"
-    ],
-    "s4_week1": null,
-    "notes": "Purple roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "8.0 RPG, 1.0 BPG. Orange frontcourt anchor. Orange captain."
+ },
+ {
+  "name": "Matt Bradley",
+  "team": "Purple",
+  "tier": 2,
+  "ovr": 85,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 79,
+   "outside": 94,
+   "playmaking": 87,
+   "defense": 90,
+   "rebounding": 76
   },
-  {
-    "name": "Joel Fokwa",
-    "team": "Orange",
-    "tier": 3,
-    "ovr": 84,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 77,
-      "outside": 87,
-      "playmaking": 82,
-      "defense": 81,
-      "rebounding": 81
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Orange starter, 3-1 team."
+  "awards": [
+   "S1 W5 POTW"
+  ],
+  "s4_week1": null,
+  "notes": "Purple roster \u2013 S4."
+ },
+ {
+  "name": "Joel Fokwa",
+  "team": "Orange",
+  "tier": 3,
+  "ovr": 84,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 77,
+   "outside": 87,
+   "playmaking": 82,
+   "defense": 81,
+   "rebounding": 81
   },
-  {
-    "name": "Faizan Aslam",
-    "team": "Purple",
-    "tier": 3,
-    "ovr": 84,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 84,
-      "outside": 86,
-      "playmaking": 76,
-      "defense": 84,
-      "rebounding": 83
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "S4 rebound leader 10.5 RPG."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Orange starter, 3-1 team."
+ },
+ {
+  "name": "Faizan Aslam",
+  "team": "Purple",
+  "tier": 3,
+  "ovr": 84,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 84,
+   "outside": 86,
+   "playmaking": 76,
+   "defense": 84,
+   "rebounding": 83
   },
-  {
-    "name": "Raj Mathialagan",
-    "team": "White",
-    "tier": 3,
-    "ovr": 84,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 78,
-      "outside": 86,
-      "playmaking": 92,
-      "defense": 89,
-      "rebounding": 80
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "S4 assists leader 4.0 APG."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "S4 rebound leader 10.5 RPG."
+ },
+ {
+  "name": "Raj Mathialagan",
+  "team": "White",
+  "tier": 3,
+  "ovr": 84,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 78,
+   "outside": 86,
+   "playmaking": 92,
+   "defense": 89,
+   "rebounding": 80
   },
-  {
-    "name": "Eugene Arthur",
-    "team": "White",
-    "tier": 3,
-    "ovr": 83,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 85,
-      "outside": 79,
-      "playmaking": 81,
-      "defense": 82,
-      "rebounding": 81
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "White roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "S4 assists leader 4.0 APG."
+ },
+ {
+  "name": "Eugene Arthur",
+  "team": "White",
+  "tier": 3,
+  "ovr": 83,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 85,
+   "outside": 79,
+   "playmaking": 81,
+   "defense": 82,
+   "rebounding": 81
   },
-  {
-    "name": "Faraj Chaaban",
-    "team": "Brown",
-    "tier": 3,
-    "ovr": 82,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 78,
-      "outside": 79,
-      "playmaking": 76,
-      "defense": 86,
-      "rebounding": 80
-    },
-    "awards": [
-      "S4 3PM leader"
-    ],
-    "s4_week1": null,
-    "notes": "S4 3PM leader 3.0 per game."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "White roster \u2013 S4."
+ },
+ {
+  "name": "Faraj Chaaban",
+  "team": "Brown",
+  "tier": 1,
+  "ovr": 82,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 78,
+   "outside": 79,
+   "playmaking": 76,
+   "defense": 86,
+   "rebounding": 80
   },
-  {
-    "name": "Owais (OJ) Javed",
-    "team": "Green",
-    "tier": 3,
-    "ovr": 82,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 82,
-      "outside": 81,
-      "playmaking": 76,
-      "defense": 76,
-      "rebounding": 80
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "S4 blocks leader 1.3 BPG."
+  "awards": [
+   "S4 3PM leader"
+  ],
+  "s4_week1": null,
+  "notes": "S4 3PM leader 3.0 per game. Brown captain."
+ },
+ {
+  "name": "Owais (OJ) Javed",
+  "team": "Green",
+  "tier": 3,
+  "ovr": 82,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 82,
+   "outside": 81,
+   "playmaking": 76,
+   "defense": 76,
+   "rebounding": 80
   },
-  {
-    "name": "Hamza Almas",
-    "team": "Purple",
-    "tier": 1,
-    "ovr": 82,
-    "isCaptain": true,
-    "attributes": {
-      "inside": 77,
-      "outside": 81,
-      "playmaking": 87,
-      "defense": 84,
-      "rebounding": 83
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Purple captain."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "S4 blocks leader 1.3 BPG."
+ },
+ {
+  "name": "Hamza Almas",
+  "team": "Purple",
+  "tier": 1,
+  "ovr": 82,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 77,
+   "outside": 81,
+   "playmaking": 87,
+   "defense": 84,
+   "rebounding": 83
   },
-  {
-    "name": "Abdullah Rana",
-    "team": "Blue",
-    "tier": 3,
-    "ovr": 81,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 80,
-      "outside": 87,
-      "playmaking": 80,
-      "defense": 78,
-      "rebounding": 79
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Blue roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Purple captain."
+ },
+ {
+  "name": "Abdullah Rana",
+  "team": "Blue",
+  "tier": 3,
+  "ovr": 81,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 80,
+   "outside": 87,
+   "playmaking": 80,
+   "defense": 78,
+   "rebounding": 79
   },
-  {
-    "name": "Sheryar Akbar",
-    "team": "Grey",
-    "tier": 3,
-    "ovr": 81,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 76,
-      "outside": 90,
-      "playmaking": 81,
-      "defense": 87,
-      "rebounding": 80
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "3.0 APG in S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Blue roster \u2013 S4."
+ },
+ {
+  "name": "Sheryar Akbar",
+  "team": "Grey",
+  "tier": 1,
+  "ovr": 81,
+  "isCaptain": true,
+  "attributes": {
+   "inside": 76,
+   "outside": 90,
+   "playmaking": 81,
+   "defense": 87,
+   "rebounding": 80
   },
-  {
-    "name": "Omair Uddin",
-    "team": "White",
-    "tier": 3,
-    "ovr": 81,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 90,
-      "outside": 87,
-      "playmaking": 74,
-      "defense": 80,
-      "rebounding": 79
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "White roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "3.0 APG in S4. Grey captain."
+ },
+ {
+  "name": "Omair Uddin",
+  "team": "White",
+  "tier": 3,
+  "ovr": 81,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 90,
+   "outside": 87,
+   "playmaking": 74,
+   "defense": 80,
+   "rebounding": 79
   },
-  {
-    "name": "Pali Gill",
-    "team": "Orange",
-    "tier": 3,
-    "ovr": 80,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 80,
-      "outside": 78,
-      "playmaking": 85,
-      "defense": 82,
-      "rebounding": 80
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Orange roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "White roster \u2013 S4."
+ },
+ {
+  "name": "Pali Gill",
+  "team": "Orange",
+  "tier": 3,
+  "ovr": 80,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 80,
+   "outside": 78,
+   "playmaking": 85,
+   "defense": 82,
+   "rebounding": 80
   },
-  {
-    "name": "Nikhil Kamineni",
-    "team": "Red",
-    "tier": 3,
-    "ovr": 80,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 78,
-      "outside": 79,
-      "playmaking": 76,
-      "defense": 76,
-      "rebounding": 80
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Red roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Orange roster \u2013 S4."
+ },
+ {
+  "name": "Nikhil Kamineni",
+  "team": "Red",
+  "tier": 3,
+  "ovr": 80,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 78,
+   "outside": 79,
+   "playmaking": 76,
+   "defense": 76,
+   "rebounding": 80
   },
-  {
-    "name": "Waleed Ershad",
-    "team": "Red",
-    "tier": 3,
-    "ovr": 80,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 74,
-      "outside": 76,
-      "playmaking": 79,
-      "defense": 77,
-      "rebounding": 81
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Red roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Red roster \u2013 S4."
+ },
+ {
+  "name": "Waleed Ershad",
+  "team": "Red",
+  "tier": 3,
+  "ovr": 80,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 74,
+   "outside": 76,
+   "playmaking": 79,
+   "defense": 77,
+   "rebounding": 81
   },
-  {
-    "name": "Yohan Yazdi",
-    "team": "Yellow",
-    "tier": 4,
-    "ovr": 79,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 83,
-      "outside": 80,
-      "playmaking": 74,
-      "defense": 85,
-      "rebounding": 74
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Yellow roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Red roster \u2013 S4."
+ },
+ {
+  "name": "Yohan Yazdi",
+  "team": "Yellow",
+  "tier": 4,
+  "ovr": 79,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 83,
+   "outside": 80,
+   "playmaking": 74,
+   "defense": 85,
+   "rebounding": 74
   },
-  {
-    "name": "Brian Espinal",
-    "team": "Red",
-    "tier": 4,
-    "ovr": 78,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 73,
-      "outside": 82,
-      "playmaking": 82,
-      "defense": 78,
-      "rebounding": 77
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Red roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Yellow roster \u2013 S4."
+ },
+ {
+  "name": "Brian Espinal",
+  "team": "Red",
+  "tier": 4,
+  "ovr": 78,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 73,
+   "outside": 82,
+   "playmaking": 82,
+   "defense": 78,
+   "rebounding": 77
   },
-  {
-    "name": "Amaar Malik",
-    "team": "White",
-    "tier": 4,
-    "ovr": 78,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 79,
-      "outside": 77,
-      "playmaking": 81,
-      "defense": 73,
-      "rebounding": 83
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "White roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Red roster \u2013 S4."
+ },
+ {
+  "name": "Amaar Malik",
+  "team": "White",
+  "tier": 4,
+  "ovr": 78,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 79,
+   "outside": 77,
+   "playmaking": 81,
+   "defense": 73,
+   "rebounding": 83
   },
-  {
-    "name": "Greg Bradford",
-    "team": "Yellow",
-    "tier": 4,
-    "ovr": 78,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 78,
-      "outside": 83,
-      "playmaking": 81,
-      "defense": 77,
-      "rebounding": 79
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Yellow roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "White roster \u2013 S4."
+ },
+ {
+  "name": "Greg Bradford",
+  "team": "Yellow",
+  "tier": 4,
+  "ovr": 78,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 78,
+   "outside": 83,
+   "playmaking": 81,
+   "defense": 77,
+   "rebounding": 79
   },
-  {
-    "name": "Aaron Jawad",
-    "team": "Grey",
-    "tier": 4,
-    "ovr": 77,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 79,
-      "outside": 79,
-      "playmaking": 83,
-      "defense": 72,
-      "rebounding": 71
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Grey roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Yellow roster \u2013 S4."
+ },
+ {
+  "name": "Aaron Jawad",
+  "team": "Grey",
+  "tier": 4,
+  "ovr": 77,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 79,
+   "outside": 79,
+   "playmaking": 83,
+   "defense": 72,
+   "rebounding": 71
   },
-  {
-    "name": "Khizar Khalil",
-    "team": "Orange",
-    "tier": 4,
-    "ovr": 77,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 78,
-      "outside": 78,
-      "playmaking": 82,
-      "defense": 79,
-      "rebounding": 73
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Orange roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Grey roster \u2013 S4."
+ },
+ {
+  "name": "Khizar Khalil",
+  "team": "Orange",
+  "tier": 4,
+  "ovr": 77,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 78,
+   "outside": 78,
+   "playmaking": 82,
+   "defense": 79,
+   "rebounding": 73
   },
-  {
-    "name": "Manveer Johar",
-    "team": "Orange",
-    "tier": 4,
-    "ovr": 77,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 74,
-      "outside": 75,
-      "playmaking": 79,
-      "defense": 83,
-      "rebounding": 79
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Orange roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Orange roster \u2013 S4."
+ },
+ {
+  "name": "Manveer Johar",
+  "team": "Orange",
+  "tier": 4,
+  "ovr": 77,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 74,
+   "outside": 75,
+   "playmaking": 79,
+   "defense": 83,
+   "rebounding": 79
   },
-  {
-    "name": "Khaled Abdulla",
-    "team": "Blue",
-    "tier": 4,
-    "ovr": 76,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 75,
-      "outside": 74,
-      "playmaking": 77,
-      "defense": 73,
-      "rebounding": 79
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Blue roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Orange roster \u2013 S4."
+ },
+ {
+  "name": "Khaled Abdulla",
+  "team": "Blue",
+  "tier": 4,
+  "ovr": 76,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 75,
+   "outside": 74,
+   "playmaking": 77,
+   "defense": 73,
+   "rebounding": 79
   },
-  {
-    "name": "Veshal Gondal",
-    "team": "Blue",
-    "tier": 4,
-    "ovr": 76,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 78,
-      "outside": 79,
-      "playmaking": 72,
-      "defense": 81,
-      "rebounding": 71
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Blue roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Blue roster \u2013 S4."
+ },
+ {
+  "name": "Veshal Gondal",
+  "team": "Blue",
+  "tier": 4,
+  "ovr": 76,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 78,
+   "outside": 79,
+   "playmaking": 72,
+   "defense": 81,
+   "rebounding": 71
   },
-  {
-    "name": "Jawaid Zahory",
-    "team": "Black",
-    "tier": 4,
-    "ovr": 75,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 73,
-      "outside": 80,
-      "playmaking": 70,
-      "defense": 81,
-      "rebounding": 69
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Black roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Blue roster \u2013 S4."
+ },
+ {
+  "name": "Jawaid Zahory",
+  "team": "Black",
+  "tier": 4,
+  "ovr": 75,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 73,
+   "outside": 80,
+   "playmaking": 70,
+   "defense": 81,
+   "rebounding": 69
   },
-  {
-    "name": "Hussein Mualla",
-    "team": "Blue",
-    "tier": 4,
-    "ovr": 75,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 74,
-      "outside": 73,
-      "playmaking": 69,
-      "defense": 69,
-      "rebounding": 74
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Blue roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Black roster \u2013 S4."
+ },
+ {
+  "name": "Hussein Mualla",
+  "team": "Blue",
+  "tier": 4,
+  "ovr": 75,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 74,
+   "outside": 73,
+   "playmaking": 69,
+   "defense": 69,
+   "rebounding": 74
   },
-  {
-    "name": "Mohammed Hasnain",
-    "team": "Black",
-    "tier": 5,
-    "ovr": 74,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 80,
-      "outside": 77,
-      "playmaking": 73,
-      "defense": 72,
-      "rebounding": 69
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Black roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Blue roster \u2013 S4."
+ },
+ {
+  "name": "Mohammed Hasnain",
+  "team": "Black",
+  "tier": 5,
+  "ovr": 74,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 80,
+   "outside": 77,
+   "playmaking": 73,
+   "defense": 72,
+   "rebounding": 69
   },
-  {
-    "name": "Naveed Kolia",
-    "team": "Black",
-    "tier": 5,
-    "ovr": 74,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 75,
-      "outside": 73,
-      "playmaking": 76,
-      "defense": 79,
-      "rebounding": 74
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Black roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Black roster \u2013 S4."
+ },
+ {
+  "name": "Naveed Kolia",
+  "team": "Black",
+  "tier": 5,
+  "ovr": 74,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 75,
+   "outside": 73,
+   "playmaking": 76,
+   "defense": 79,
+   "rebounding": 74
   },
-  {
-    "name": "Adam Khan",
-    "team": "Brown",
-    "tier": 5,
-    "ovr": 74,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 80,
-      "outside": 75,
-      "playmaking": 75,
-      "defense": 74,
-      "rebounding": 73
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Brown roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Black roster \u2013 S4."
+ },
+ {
+  "name": "Adam Khan",
+  "team": "Brown",
+  "tier": 5,
+  "ovr": 74,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 80,
+   "outside": 75,
+   "playmaking": 75,
+   "defense": 74,
+   "rebounding": 73
   },
-  {
-    "name": "Farhan Chughtai",
-    "team": "Green",
-    "tier": 5,
-    "ovr": 74,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 77,
-      "outside": 80,
-      "playmaking": 73,
-      "defense": 75,
-      "rebounding": 69
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Green roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Brown roster \u2013 S4."
+ },
+ {
+  "name": "Farhan Chughtai",
+  "team": "Green",
+  "tier": 5,
+  "ovr": 74,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 77,
+   "outside": 80,
+   "playmaking": 73,
+   "defense": 75,
+   "rebounding": 69
   },
-  {
-    "name": "Shobe Ali",
-    "team": "Yellow",
-    "tier": 5,
-    "ovr": 74,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 71,
-      "outside": 74,
-      "playmaking": 71,
-      "defense": 68,
-      "rebounding": 69
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Yellow roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Green roster \u2013 S4."
+ },
+ {
+  "name": "Shobe Ali",
+  "team": "Yellow",
+  "tier": 5,
+  "ovr": 74,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 71,
+   "outside": 74,
+   "playmaking": 71,
+   "defense": 68,
+   "rebounding": 69
   },
-  {
-    "name": "Jacky Tan",
-    "team": "Brown",
-    "tier": 5,
-    "ovr": 73,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 76,
-      "outside": 77,
-      "playmaking": 78,
-      "defense": 79,
-      "rebounding": 79
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Brown roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Yellow roster \u2013 S4."
+ },
+ {
+  "name": "Jacky Tan",
+  "team": "Brown",
+  "tier": 5,
+  "ovr": 73,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 76,
+   "outside": 77,
+   "playmaking": 78,
+   "defense": 79,
+   "rebounding": 79
   },
-  {
-    "name": "Matt Harrison",
-    "team": "Brown",
-    "tier": 5,
-    "ovr": 73,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 73,
-      "outside": 75,
-      "playmaking": 77,
-      "defense": 76,
-      "rebounding": 74
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Brown roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Brown roster \u2013 S4."
+ },
+ {
+  "name": "Matt Harrison",
+  "team": "Brown",
+  "tier": 5,
+  "ovr": 73,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 73,
+   "outside": 75,
+   "playmaking": 77,
+   "defense": 76,
+   "rebounding": 74
   },
-  {
-    "name": "Bajj Bhattarai",
-    "team": "Grey",
-    "tier": 5,
-    "ovr": 73,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 67,
-      "outside": 70,
-      "playmaking": 79,
-      "defense": 71,
-      "rebounding": 67
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Grey roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Brown roster \u2013 S4."
+ },
+ {
+  "name": "Bajj Bhattarai",
+  "team": "Grey",
+  "tier": 5,
+  "ovr": 73,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 67,
+   "outside": 70,
+   "playmaking": 79,
+   "defense": 71,
+   "rebounding": 67
   },
-  {
-    "name": "Furqan Chaudhry",
-    "team": "Purple",
-    "tier": 5,
-    "ovr": 73,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 70,
-      "outside": 75,
-      "playmaking": 77,
-      "defense": 78,
-      "rebounding": 68
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Purple roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Grey roster \u2013 S4."
+ },
+ {
+  "name": "Furqan Chaudhry",
+  "team": "Purple",
+  "tier": 5,
+  "ovr": 73,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 70,
+   "outside": 75,
+   "playmaking": 77,
+   "defense": 78,
+   "rebounding": 68
   },
-  {
-    "name": "Mashood Chowdhury",
-    "team": "Red",
-    "tier": 5,
-    "ovr": 73,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 79,
-      "outside": 76,
-      "playmaking": 69,
-      "defense": 68,
-      "rebounding": 70
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Red roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Purple roster \u2013 S4."
+ },
+ {
+  "name": "Mashood Chowdhury",
+  "team": "Red",
+  "tier": 5,
+  "ovr": 73,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 79,
+   "outside": 76,
+   "playmaking": 69,
+   "defense": 68,
+   "rebounding": 70
   },
-  {
-    "name": "Ricky Choeung",
-    "team": "Brown",
-    "tier": 5,
-    "ovr": 72,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 75,
-      "outside": 68,
-      "playmaking": 70,
-      "defense": 77,
-      "rebounding": 70
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Brown roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Red roster \u2013 S4."
+ },
+ {
+  "name": "Ricky Choeung",
+  "team": "Brown",
+  "tier": 5,
+  "ovr": 72,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 75,
+   "outside": 68,
+   "playmaking": 70,
+   "defense": 77,
+   "rebounding": 70
   },
-  {
-    "name": "Farhan Amin",
-    "team": "Green",
-    "tier": 5,
-    "ovr": 72,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 67,
-      "outside": 68,
-      "playmaking": 69,
-      "defense": 67,
-      "rebounding": 71
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Green roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Brown roster \u2013 S4."
+ },
+ {
+  "name": "Farhan Amin",
+  "team": "Green",
+  "tier": 5,
+  "ovr": 72,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 67,
+   "outside": 68,
+   "playmaking": 69,
+   "defense": 67,
+   "rebounding": 71
   },
-  {
-    "name": "Sumanth Punuru",
-    "team": "Grey",
-    "tier": 5,
-    "ovr": 72,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 72,
-      "outside": 74,
-      "playmaking": 72,
-      "defense": 66,
-      "rebounding": 74
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Grey roster \u2013 S4."
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Green roster \u2013 S4."
+ },
+ {
+  "name": "Sumanth Punuru",
+  "team": "Grey",
+  "tier": 5,
+  "ovr": 72,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 72,
+   "outside": 74,
+   "playmaking": 72,
+   "defense": 66,
+   "rebounding": 74
   },
-  {
-    "name": "Jesse Kellog",
-    "team": "Purple",
-    "tier": 5,
-    "ovr": 72,
-    "isCaptain": false,
-    "attributes": {
-      "inside": 70,
-      "outside": 73,
-      "playmaking": 75,
-      "defense": 75,
-      "rebounding": 71
-    },
-    "awards": [],
-    "s4_week1": null,
-    "notes": "Purple roster \u2013 S4."
-  }
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Grey roster \u2013 S4."
+ },
+ {
+  "name": "Jesse Kellog",
+  "team": "Purple",
+  "tier": 5,
+  "ovr": 72,
+  "isCaptain": false,
+  "attributes": {
+   "inside": 70,
+   "outside": 73,
+   "playmaking": 75,
+   "defense": 75,
+   "rebounding": 71
+  },
+  "awards": [],
+  "s4_week1": null,
+  "notes": "Purple roster \u2013 S4."
+ }
 ]
