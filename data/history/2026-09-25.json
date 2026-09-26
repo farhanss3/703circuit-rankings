@@ -896,7 +896,10 @@
    "ppg": 21.5,
    "rpg": 2.5,
    "team": "Yellow",
-   "tier": 2
+   "tier": 2,
+   "subbedFor": [
+    "Yellow"
+   ]
   },
   {
    "apg": 0.5,
@@ -916,7 +919,10 @@
    "ppg": 12.0,
    "rpg": 8.0,
    "team": "Blue",
-   "tier": 3
+   "tier": 3,
+   "subbedFor": [
+    "Blue"
+   ]
   },
   {
    "apg": 0.5,
@@ -936,7 +942,10 @@
    "ppg": 10.5,
    "rpg": 1.0,
    "team": "Black",
-   "tier": 3
+   "tier": 3,
+   "subbedFor": [
+    "Black"
+   ]
   },
   {
    "apg": 1.5,
@@ -956,7 +965,10 @@
    "ppg": 10.5,
    "rpg": 8.0,
    "team": "Black",
-   "tier": 3
+   "tier": 3,
+   "subbedFor": [
+    "Black"
+   ]
   },
   {
    "apg": 1.0,
@@ -971,12 +983,16 @@
    "gp": 3,
    "isSub": true,
    "name": "Akash (AK) Malhi",
-   "notes": "7.7 PPG across multiple teams (3 GP). Versatile fill-in, plays anywhere.",
+   "notes": "7.7 PPG subbing for Blue (2 GP) and Red (1 GP). Versatile fill-in, plays anywhere.",
    "ovr": 78,
    "ppg": 7.7,
    "rpg": 1.7,
    "team": "Multiple Teams",
-   "tier": 4
+   "tier": 4,
+   "subbedFor": [
+    "Blue",
+    "Red"
+   ]
   },
   {
    "apg": 0.0,
@@ -996,7 +1012,10 @@
    "ppg": 7.5,
    "rpg": 3.0,
    "team": "Black",
-   "tier": 4
+   "tier": 4,
+   "subbedFor": [
+    "Black"
+   ]
   },
   {
    "apg": 1.0,
@@ -1011,12 +1030,16 @@
    "gp": 3,
    "isSub": true,
    "name": "Christian Tolbert",
-   "notes": "5.7 PPG, 6.3 RPG across multiple teams (3 GP). Rebounding specialist off the bench.",
+   "notes": "5.7 PPG, 6.3 RPG subbing for Red (2 GP) and Black (1 GP). Rebounding specialist off the bench.",
    "ovr": 77,
    "ppg": 5.7,
    "rpg": 6.3,
    "team": "Multiple Teams",
-   "tier": 4
+   "tier": 4,
+   "subbedFor": [
+    "Red",
+    "Black"
+   ]
   },
   {
    "apg": 1.0,
@@ -1031,12 +1054,16 @@
    "gp": 3,
    "isSub": true,
    "name": "Danish Bashir",
-   "notes": "5.7 PPG across multiple teams (3 GP). Steady guard minutes wherever needed.",
+   "notes": "5.7 PPG subbing for Grey (2 GP) and Purple (1 GP). Steady guard minutes wherever needed.",
    "ovr": 76,
    "ppg": 5.7,
    "rpg": 1.3,
    "team": "Multiple Teams",
-   "tier": 4
+   "tier": 4,
+   "subbedFor": [
+    "Grey",
+    "Purple"
+   ]
   },
   {
    "apg": 0.0,
@@ -1056,7 +1083,10 @@
    "ppg": 5.0,
    "rpg": 6.0,
    "team": "Green",
-   "tier": 4
+   "tier": 4,
+   "subbedFor": [
+    "Green"
+   ]
   },
   {
    "apg": 2.0,
@@ -1071,12 +1101,17 @@
    "gp": 4,
    "isSub": true,
    "name": "Usman Ahmad",
-   "notes": "2.3 PPG, 3.0 RPG, 2.0 APG across multiple teams (4 GP). Leads S4 subs in assists.",
+   "notes": "2.3 PPG, 3.0 RPG, 2.0 APG subbing for White (2 GP), Yellow (1 GP) and Orange (1 GP). Leads S4 subs in assists.",
    "ovr": 73,
    "ppg": 2.3,
    "rpg": 3.0,
    "team": "Multiple Teams",
-   "tier": 5
+   "tier": 5,
+   "subbedFor": [
+    "White",
+    "Yellow",
+    "Orange"
+   ]
   },
   {
    "apg": 0.0,
@@ -1096,7 +1131,10 @@
    "ppg": 3.0,
    "rpg": 3.0,
    "team": "Brown",
-   "tier": 5
+   "tier": 5,
+   "subbedFor": [
+    "Brown"
+   ]
   },
   {
    "apg": 0.0,
@@ -1116,7 +1154,10 @@
    "ppg": 3.0,
    "rpg": 1.3,
    "team": "Orange",
-   "tier": 5
+   "tier": 5,
+   "subbedFor": [
+    "Orange"
+   ]
   },
   {
    "apg": 0.5,
@@ -1136,7 +1177,10 @@
    "ppg": 3.0,
    "rpg": 2.5,
    "team": "White",
-   "tier": 5
+   "tier": 5,
+   "subbedFor": [
+    "White"
+   ]
   },
   {
    "apg": 1.0,
@@ -1156,7 +1200,10 @@
    "ppg": 2.0,
    "rpg": 1.0,
    "team": "Purple",
-   "tier": 5
+   "tier": 5,
+   "subbedFor": [
+    "Purple"
+   ]
   },
   {
    "apg": 0.0,
@@ -1176,7 +1223,10 @@
    "ppg": 1.0,
    "rpg": 1.5,
    "team": "Black",
-   "tier": 5
+   "tier": 5,
+   "subbedFor": [
+    "Black"
+   ]
   },
   {
    "apg": 0.0,
@@ -1196,7 +1246,10 @@
    "ppg": 0.0,
    "rpg": 1.0,
    "team": "Yellow",
-   "tier": 5
+   "tier": 5,
+   "subbedFor": [
+    "Yellow"
+   ]
   }
  ]
 }
