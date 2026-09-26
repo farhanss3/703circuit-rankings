@@ -34,6 +34,7 @@ Roster/Subs toggle, search, and team filter apply across views (the Everyone boa
 - `tier`: 1–5, strictly by OVR band — 1 = 90+, 2 = 85–89, 3 = 80–84, 4 = 75–79, 5 = below 75. Captaincy is a badge (`isCaptain`), never a tier.
 - `ovr`: 60–99 (2K-style overall)
 - `attributes`: 60–99 each
+- `subbedFor`: array of team names the sub appeared for (e.g. `["Blue", "Red"]`); shown on sub cards and matched by the team filter. The league site does not track who a sub replaced, so that is not recorded.
 
 ### Weekly snapshots (Movers dashboard)
 
