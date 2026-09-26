@@ -74,8 +74,10 @@ footer a{color:var(--accent)}
 <button class="tab active" data-view="tiers">Tier Board</button>
 <button class="tab" data-view="power">Power Rankings</button>
 <button class="tab" data-view="twok">2K Ratings</button>
+<button class="tab" data-view="movers">Movers 📈</button>
+<button class="tab" data-view="everyone">Everyone 🏀</button>
 </div>
-<div class="tabs">
+<div class="tabs" id="dsTabs">
 <button class="tab active" data-ds="players">Roster</button>
 <button class="tab" data-ds="subs">Subs</button>
 </div>
@@ -88,24 +90,34 @@ footer a{color:var(--accent)}
 
 <footer>
 Milo's Basketball Power Index &bull; Built for the 703Circuit community &bull; Data from <a href="https://703circuit.com">703circuit.com</a><br>
-Tiers 1–5 follow league convention (Tier 1 = Captains) &bull; Sub tiers rank S4 sub production &bull; Ratings are editorial, update <code>data/players.json</code> or <code>data/subs.json</code> to adjust
+Tiers 1–5 are merit-based by OVR (90+ / 85–89 / 80–84 / 75–79 / below 75) &bull; Ratings are editorial, update <code>data/players.json</code> or <code>data/subs.json</code> to adjust
 </footer>
 
 <script>
 let players=[],subs=[],dataset='players';
+let history=[];
+function loadHistory(){
+return fetch('data/history/manifest.json').then(r=>r.json()).then(m=>
+Promise.all(m.snapshots.map(s=>fetch('data/'+s.file).then(r=>r.json()).then(d=>Object.assign({},s,d))))
+).then(snaps=>{history=snaps}).catch(()=>{history=[]})}
 function current(){return dataset==='players'?players:subs}
+function allPlayers(){return players.concat(subs)}
 const app=document.getElementById('app'),legend=document.getElementById('legend');
-const tierNamesP={1:'Tier 1 — Captains 👑',2:'Tier 2 — Elite 🌟',3:'Tier 3 — Starters 🔥',4:'Tier 4 — Rotation 🛡️',5:'Tier 5 — Prospects 🌱'};
+const tierNamesP={1:'Tier 1 — Superstars ⭐',2:'Tier 2 — Elite 🌟',3:'Tier 3 — Starters 🔥',4:'Tier 4 — Rotation 🛡️',5:'Tier 5 — Prospects 🌱'};
 const tierNamesS={1:'Sub Tier 1 — Elite 🌟',2:'Sub Tier 2 — Impact 🔥',3:'Sub Tier 3 — Rotation 🛡️',4:'Sub Tier 4 — Depth 🔧',5:'Sub Tier 5 — Emergency 📋'};
 let tierNames=tierNamesP;
 const tierDescP={
-tiers:'<b>Tier Board:</b> League-style 1–5 system. <b>Tier 1 is reserved for team captains.</b> Tiers weigh all-time resume (MVPs, POTWs, championships) + S4 production.',
+tiers:'<b>Tier Board:</b> League-style 1–5 system, purely merit-based: <b>Tier 1 = 90+ OVR, Tier 2 = 85–89, Tier 3 = 80–84, Tier 4 = 75–79, Tier 5 = below 75.</b> Captaincy is shown as a badge, not a tier. Tiers weigh all-time resume (MVPs, POTWs, championships) + S4 production.',
 power:'<b>Power Rankings:</b> Every ranked player 1–N by overall rating (OVR). Same data as tiers, straight numbered list.',
-twok:'<b>2K Ratings:</b> NBA 2K-style overall + five attributes: INS (inside), OUT (outside), PLY (playmaking), DEF (defense), REB (rebounding). 90+ = elite, 85+ = star, 80+ = starter.'};
+twok:'<b>2K Ratings:</b> NBA 2K-style overall + five attributes: INS (inside), OUT (outside), PLY (playmaking), DEF (defense), REB (rebounding). 90+ = elite, 85+ = star, 80+ = starter.',
+movers:'<b>Weekly Movers:</b> Tier and rating changes since the last refresh, driven by the week\'s game results. ⬆️ tier risers, ⬇️ tier fallers, plus the biggest OVR movers.',
+everyone:'<b>Everyone:</b> All 66 rostered players and subs in one board, ranked 1–66 by overall rating (OVR).'};
 const tierDescS={
-tiers:'<b>Sub Tier Board:</b> S4 substitute players tiered 1–5 by sub production (PPG, efficiency, games played). Tier 1 = elite sub scorers.',
+tiers:'<b>Sub Tier Board:</b> S4 substitute players tiered 1–5 by overall rating: <b>Tier 1 = 90+, Tier 2 = 85–89, Tier 3 = 80–84, Tier 4 = 75–79, Tier 5 = below 75.</b>',
 power:'<b>Sub Power Rankings:</b> Every S4 sub ranked 1–N by overall rating (OVR).',
-twok:'<b>Sub 2K Ratings:</b> NBA 2K-style overall + five attributes for every S4 substitute.'};
+twok:'<b>Sub 2K Ratings:</b> NBA 2K-style overall + five attributes for every S4 substitute.',
+movers:'<b>Sub Weekly Movers:</b> Sub tier and rating changes since the last refresh, driven by the week\'s game results.',
+everyone:'<b>Everyone:</b> All 66 rostered players and subs in one board, ranked 1–66 by overall rating (OVR).'};
 
 function ovrClass(o){return o>=90?'ovr-90':o>=85?'ovr-85':o>=80?'ovr-80':'ovr-low'}
 function matches(p){const q=document.getElementById('search').value.toLowerCase(),t=document.getElementById('teamFilter').value;
@@ -147,18 +159,68 @@ ${[['INS',a.inside],['OUT',a.outside],['PLY',a.playmaking],['DEF',a.defense],['R
 </div><div class="notes">${p.notes||''}</div></div>`});
 app.innerHTML=h+'</div>'}
 
+function renderMovers(){
+if(history.length<2){
+const b=history[0];
+app.innerHTML=`<div class="tier"><div class="tier-head">📈 Weekly Movers</div><div style="padding:1.6rem;color:var(--muted);line-height:1.7">Baseline snapshot set <b>${b?b.label:'—'}</b> (${b?b.date:''}).<br>After the next Friday refresh, this dashboard will show tier risers/fallers and the biggest rating movers from that week's games.</div></div>`;return}
+const prev=history[history.length-2],curr=history[history.length-1];
+const key=dataset==='subs'?'subs':'players';
+const pmap={};prev[key].forEach(p=>pmap[p.name]=p);
+const ups=[],downs=[],ovrUp=[],ovrDown=[],added=[];
+curr[key].forEach(p=>{
+const q=pmap[p.name];
+if(!q){added.push(p);return}
+const dt=q.tier-p.tier,dovr=p.ovr-q.ovr;
+if(dt>0)ups.push({p,from:q.tier,dovr});
+else if(dt<0)downs.push({p,from:q.tier,dovr});
+if(dovr!==0)(dovr>0?ovrUp:ovrDown).push({p,dovr})});
+ovrUp.sort((a,b)=>b.dovr-a.dovr);ovrDown.sort((a,b)=>a.dovr-b.dovr);
+function tierRow(m,arrow){
+const sign=m.dovr>0?'+':'';
+return `<div class="rank-row"><div class="rank-num">${arrow}</div>
+<div class="ovr-badge ${ovrClass(m.p.ovr)}" style="min-width:46px;height:46px;font-size:1.1rem">${m.p.ovr}</div>
+<div class="info"><h3>${m.p.name}</h3><div class="sub">${m.p.team} &bull; Tier ${m.from} → Tier ${m.p.tier}</div></div>
+<span class="tier-tag" style="background:#0f1420;border:1px solid #2a3348;color:var(--muted)">${sign}${m.dovr} OVR</span></div>`}
+function ovrRow(m){
+const sign=m.dovr>0?'+':'',arrow=m.dovr>0?'📈':'📉';
+return `<div class="rank-row"><div class="rank-num">${arrow}</div>
+<div class="ovr-badge ${ovrClass(m.p.ovr)}" style="min-width:46px;height:46px;font-size:1.1rem">${m.p.ovr}</div>
+<div class="info"><h3>${m.p.name}</h3><div class="sub">${m.p.team} &bull; Tier ${m.p.tier}</div></div>
+<span class="tier-tag" style="background:#0f1420;border:1px solid #2a3348;color:${m.dovr>0?'#7CFC98':'#ff8a8a'}">${sign}${m.dovr}</span></div>`}
+let h=`<div class="tier"><div class="tier-head">📈 Weekly Movers <span class="count">${prev.label} → ${curr.label}</span></div></div>`;
+if(ups.length)h+=`<h3 style="margin:1.2rem 0 .6rem">⬆️ Tier Risers</h3><div class="rank-list" style="margin-top:0">`+ups.map(m=>tierRow(m,'⬆️')).join('')+'</div>';
+if(downs.length)h+=`<h3 style="margin:1.2rem 0 .6rem">⬇️ Tier Fallers</h3><div class="rank-list" style="margin-top:0">`+downs.map(m=>tierRow(m,'⬇️')).join('')+'</div>';
+if(ovrUp.length)h+=`<h3 style="margin:1.2rem 0 .6rem">📈 Biggest Rating Risers</h3><div class="rank-list" style="margin-top:0">`+ovrUp.slice(0,5).map(ovrRow).join('')+'</div>';
+if(ovrDown.length)h+=`<h3 style="margin:1.2rem 0 .6rem">📉 Biggest Rating Fallers</h3><div class="rank-list" style="margin-top:0">`+ovrDown.slice(0,5).map(ovrRow).join('')+'</div>';
+if(added.length)h+=`<h3 style="margin:1.2rem 0 .6rem">🆕 New Faces</h3><div class="rank-list" style="margin-top:0">`+added.map(p=>`<div class="rank-row"><div class="rank-num">🆕</div><div class="info"><h3>${p.name}</h3><div class="sub">${p.team} &bull; Tier ${p.tier}</div></div></div>`).join('')+'</div>';
+if(!ups.length&&!downs.length&&!ovrUp.length&&!ovrDown.length&&!added.length)
+h+=`<p style="text-align:center;color:var(--muted);padding:2rem">No movement this week — tiers and ratings held steady.</p>`;
+app.innerHTML=h}
+
+function renderEveryone(){
+const list=allPlayers().filter(matches).sort((a,b)=>b.ovr-a.ovr);
+let h='<div class="rank-list">';
+list.forEach((p,i)=>{h+=`<div class="rank-row"><div class="rank-num">${i+1}</div>
+<div class="ovr-badge ${ovrClass(p.ovr)}" style="min-width:46px;height:46px;font-size:1.1rem">${p.ovr}</div>
+<div class="info"><h3>${p.name}</h3><div class="sub">${p.team}${p.isSub?' &bull; Substitute':''}</div></div>
+${p.isCaptain?'<span class="badge cap">Captain</span>':''}${p.isSub?'<span class="badge">SUB</span>':''}
+<span class="tier-tag" style="background:#0f1420;border:1px solid #2a3348;color:var(--muted)">TIER ${p.tier}</span></div>`});
+app.innerHTML=h+'</div>'}
+
 let view='tiers';
 function render(){legend.innerHTML=(dataset==='subs'?tierDescS:tierDescP)[view];
-if(view==='tiers')renderTiers();else if(view==='power')renderPower();else render2k()}
+if(view==='tiers')renderTiers();else if(view==='power')renderPower();else if(view==='movers')renderMovers();else if(view==='everyone')renderEveryone();else render2k()}
 
 function buildTeamFilter(){const sel=document.getElementById('teamFilter');
 sel.innerHTML='<option value="">All teams</option>';
-const teams=[...new Set(current().map(p=>p.team))].sort();
+const teams=[...new Set((view==='everyone'?allPlayers():current()).map(p=>p.team))].sort();
 teams.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;sel.appendChild(o)})}
 
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{
 document.querySelectorAll('[data-view]').forEach(x=>x.classList.remove('active'));
-b.classList.add('active');view=b.dataset.view;render()}));
+b.classList.add('active');view=b.dataset.view;
+document.getElementById('dsTabs').style.display=view==='everyone'?'none':'';
+buildTeamFilter();render()}));
 document.querySelectorAll('[data-ds]').forEach(b=>b.addEventListener('click',()=>{
 document.querySelectorAll('[data-ds]').forEach(x=>x.classList.remove('active'));
 b.classList.add('active');dataset=b.dataset.ds;tierNames=dataset==='subs'?tierNamesS:tierNamesP;
@@ -166,7 +228,7 @@ buildTeamFilter();render()}));
 document.getElementById('search').addEventListener('input',render);
 document.getElementById('teamFilter').addEventListener('change',render);
 
-Promise.all([fetch('data/players.json').then(r=>r.json()),fetch('data/subs.json').then(r=>r.json())])
+Promise.all([fetch('data/players.json').then(r=>r.json()),fetch('data/subs.json').then(r=>r.json()),loadHistory()])
 .then(([p,s])=>{players=p;subs=s;buildTeamFilter();render()})
 .catch(e=>{app.innerHTML='<p style="text-align:center;padding:2rem">Could not load data files</p>'});
 </script>
