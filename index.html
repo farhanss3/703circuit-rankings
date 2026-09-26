@@ -121,7 +121,8 @@ everyone:'<b>Everyone:</b> All 66 rostered players and subs in one board, ranked
 
 function ovrClass(o){return o>=90?'ovr-90':o>=85?'ovr-85':o>=80?'ovr-80':'ovr-low'}
 function matches(p){const q=document.getElementById('search').value.toLowerCase(),t=document.getElementById('teamFilter').value;
-return(!q||p.name.toLowerCase().includes(q))&&(!t||p.team===t)}
+const teamOk=!t||((p.isSub&&p.subbedFor)?p.subbedFor.includes(t):p.team===t);
+return(!q||p.name.toLowerCase().includes(q))&&teamOk}
 
 function renderTiers(){
 let h='';
@@ -135,7 +136,7 @@ app.innerHTML=h||'<p style="text-align:center;color:var(--muted);padding:2rem">N
 
 function pCard(p){
 return `<div class="pcard"><div class="top"><div class="ovr-badge ${ovrClass(p.ovr)}">${p.ovr}</div>
-<div><h3>${p.name}</h3><div class="team">${p.team} &bull; Tier ${p.tier}</div></div></div>
+<div><h3>${p.name}</h3><div class="team">${(p.isSub&&p.subbedFor)?'Subbed for: '+p.subbedFor.join(', '):p.team} &bull; Tier ${p.tier}</div></div></div>
 <div class="notes">${p.notes||''}</div>
 <div class="meta">${p.isCaptain?'<span class="badge cap">Captain</span>':''}${p.isSub?'<span class="badge">SUB</span>':''}${(p.awards||[]).map(a=>`<span class="badge award">${a}</span>`).join('')}${p.s4_week1?`<span class="badge">S4 W1: ${p.s4_week1}</span>`:''}${p.gp?`<span class="badge">S4 sub: ${p.gp} GP, ${p.ppg} PPG</span>`:''}</div></div>`}
 
@@ -202,7 +203,7 @@ const list=allPlayers().filter(matches).sort((a,b)=>b.ovr-a.ovr);
 let h='<div class="rank-list">';
 list.forEach((p,i)=>{h+=`<div class="rank-row"><div class="rank-num">${i+1}</div>
 <div class="ovr-badge ${ovrClass(p.ovr)}" style="min-width:46px;height:46px;font-size:1.1rem">${p.ovr}</div>
-<div class="info"><h3>${p.name}</h3><div class="sub">${p.team}${p.isSub?' &bull; Substitute':''}</div></div>
+<div class="info"><h3>${p.name}</h3><div class="sub">${p.isSub?('Subbed for: '+p.subbedFor.join(', ')):p.team}</div></div>
 ${p.isCaptain?'<span class="badge cap">Captain</span>':''}${p.isSub?'<span class="badge">SUB</span>':''}
 <span class="tier-tag" style="background:#0f1420;border:1px solid #2a3348;color:var(--muted)">TIER ${p.tier}</span></div>`});
 app.innerHTML=h+'</div>'}
@@ -213,7 +214,8 @@ if(view==='tiers')renderTiers();else if(view==='power')renderPower();else if(vie
 
 function buildTeamFilter(){const sel=document.getElementById('teamFilter');
 sel.innerHTML='<option value="">All teams</option>';
-const teams=[...new Set((view==='everyone'?allPlayers():current()).map(p=>p.team))].sort();
+const pool=view==='everyone'?allPlayers():current();
+const teams=[...new Set(pool.flatMap(p=>((p.isSub&&p.subbedFor)?p.subbedFor:[p.team])))].sort();
 teams.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;sel.appendChild(o)})}
 
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{
