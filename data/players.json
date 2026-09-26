@@ -81,7 +81,7 @@
  {
   "name": "Sofe Fellah",
   "team": "Green",
-  "tier": 1,
+  "tier": 2,
   "ovr": 89,
   "isCaptain": true,
   "attributes": {
@@ -101,7 +101,7 @@
  {
   "name": "Fox Tariq",
   "team": "Red",
-  "tier": 1,
+  "tier": 2,
   "ovr": 89,
   "isCaptain": true,
   "attributes": {
@@ -194,7 +194,7 @@
  {
   "name": "Oaan Rana",
   "team": "Orange",
-  "tier": 1,
+  "tier": 2,
   "ovr": 85,
   "isCaptain": true,
   "attributes": {
@@ -298,7 +298,7 @@
  {
   "name": "Faraj Chaaban",
   "team": "Brown",
-  "tier": 1,
+  "tier": 3,
   "ovr": 82,
   "isCaptain": true,
   "attributes": {
@@ -334,7 +334,7 @@
  {
   "name": "Hamza Almas",
   "team": "Purple",
-  "tier": 1,
+  "tier": 3,
   "ovr": 82,
   "isCaptain": true,
   "attributes": {
@@ -368,7 +368,7 @@
  {
   "name": "Sheryar Akbar",
   "team": "Grey",
-  "tier": 1,
+  "tier": 3,
   "ovr": 81,
   "isCaptain": true,
   "attributes": {
