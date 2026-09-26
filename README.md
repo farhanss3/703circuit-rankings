@@ -1,10 +1,14 @@
-# 703Circuit S4 — Player Tiers & Power Rankings
+# Milo's Basketball Power Index — 703Circuit S4 Player Rankings
 
-A single-page web app showing 703Circuit Season 4 players in three views:
+A single-page web app showing 703Circuit Season 4 players in five views:
 
-- **Tier Board** — League-style 1–5 tiers (Tier 1 reserved for captains)
+- **Tier Board** — League-style 1–5 tiers, purely merit-based by OVR
 - **Power Rankings** — Numbered 1–N list by overall rating
 - **2K Ratings** — NBA 2K-style OVR + attributes (INS / OUT / PLY / DEF / REB)
+- **Movers 📈** — Weekly tier/rating risers and fallers vs. the previous snapshot
+- **Everyone 🏀** — All 66 rostered players + subs in one 1–66 power ranking
+
+Roster/Subs toggle, search, and team filter apply across views (the Everyone board always shows all 66).
 
 ## Data
 
@@ -27,9 +31,14 @@ A single-page web app showing 703Circuit Season 4 players in three views:
 }
 ```
 
-- `tier`: 1–5 (1 = captains only)
+- `tier`: 1–5, strictly by OVR band — 1 = 90+, 2 = 85–89, 3 = 80–84, 4 = 75–79, 5 = below 75. Captaincy is a badge (`isCaptain`), never a tier.
 - `ovr`: 60–99 (2K-style overall)
 - `attributes`: 60–99 each
+
+### Weekly snapshots (Movers dashboard)
+
+- `data/history/YYYY-MM-DD.json` — full `{players, subs}` snapshot per refresh
+- `data/history/manifest.json` — ordered list of snapshots; the Movers tab diffs the latest two
 
 ## Run locally
 
