@@ -1,1 +1,322 @@
-[{"apg":1.0,"attributes":{"defense":65,"inside":88,"outside":86,"playmaking":72,"rebounding":70},"awards":[],"gp":2,"isSub":true,"name":"Mateen Rahim","notes":"21.5 PPG, 2.5 RPG as Yellow sub (2 GP). 62.5% FG, 41.7% 3P. Best sub scorer in S4.","ovr":88,"ppg":21.5,"rpg":2.5,"team":"Yellow","tier":1},{"apg":0.5,"attributes":{"defense":78,"inside":80,"outside":80,"playmaking":68,"rebounding":86},"awards":[],"gp":2,"isSub":true,"name":"Wes Sub","notes":"12.0 PPG, 8.0 RPG as Blue sub (2 GP). 50/50/100 shooting splits. Two-way sub.","ovr":83,"ppg":12.0,"rpg":8.0,"team":"Blue","tier":2},{"apg":0.5,"attributes":{"defense":62,"inside":72,"outside":95,"playmaking":68,"rebounding":64},"awards":[],"gp":2,"isSub":true,"name":"Naufil Baig","notes":"10.5 PPG as Black sub (2 GP). 7/8 from three (87.5%). Elite spot-up shooting.","ovr":82,"ppg":10.5,"rpg":1.0,"team":"Black","tier":2},{"apg":1.5,"attributes":{"defense":66,"inside":82,"outside":70,"playmaking":72,"rebounding":86},"awards":[],"gp":2,"isSub":true,"name":"Sid Paradkar","notes":"10.5 PPG, 8.0 RPG as Black sub (2 GP). Scores inside and hits the glass.","ovr":82,"ppg":10.5,"rpg":8.0,"team":"Black","tier":2},{"apg":1.0,"attributes":{"defense":68,"inside":74,"outside":68,"playmaking":72,"rebounding":68},"awards":[],"gp":3,"isSub":true,"name":"Akash (AK) Malhi","notes":"7.7 PPG across multiple teams (3 GP). Versatile fill-in, plays anywhere.","ovr":78,"ppg":7.7,"rpg":1.7,"team":"Multiple Teams","tier":3},{"apg":0.0,"attributes":{"defense":76,"inside":76,"outside":72,"playmaking":62,"rebounding":72},"awards":[],"gp":2,"isSub":true,"name":"Nayan Patel","notes":"7.5 PPG, 3.0 RPG, 1.0 SPG as Black sub (2 GP). 54.5% FG, active hands.","ovr":78,"ppg":7.5,"rpg":3.0,"team":"Black","tier":3},{"apg":1.0,"attributes":{"defense":76,"inside":68,"outside":55,"playmaking":70,"rebounding":84},"awards":[],"gp":3,"isSub":true,"name":"Christian Tolbert","notes":"5.7 PPG, 6.3 RPG across multiple teams (3 GP). Rebounding specialist off the bench.","ovr":77,"ppg":5.7,"rpg":6.3,"team":"Multiple Teams","tier":3},{"apg":1.0,"attributes":{"defense":68,"inside":66,"outside":68,"playmaking":72,"rebounding":66},"awards":[],"gp":3,"isSub":true,"name":"Danish Bashir","notes":"5.7 PPG across multiple teams (3 GP). Steady guard minutes wherever needed.","ovr":76,"ppg":5.7,"rpg":1.3,"team":"Multiple Teams","tier":3},{"apg":0.0,"attributes":{"defense":64,"inside":80,"outside":55,"playmaking":60,"rebounding":80},"awards":[],"gp":2,"isSub":true,"name":"Aki Arora","notes":"5.0 PPG, 6.0 RPG as Green sub (2 GP). 71.4% FG, efficient interior finisher.","ovr":75,"ppg":5.0,"rpg":6.0,"team":"Green","tier":4},{"apg":2.0,"attributes":{"defense":74,"inside":64,"outside":55,"playmaking":78,"rebounding":72},"awards":[],"gp":4,"isSub":true,"name":"Usman Ahmad","notes":"2.3 PPG, 3.0 RPG, 2.0 APG across multiple teams (4 GP). Leads S4 subs in assists.","ovr":73,"ppg":2.3,"rpg":3.0,"team":"Multiple Teams","tier":4},{"apg":0.0,"attributes":{"defense":70,"inside":64,"outside":74,"playmaking":58,"rebounding":70},"awards":[],"gp":2,"isSub":true,"name":"Prashanth Sub","notes":"3.0 PPG, 3.0 RPG as Brown sub (2 GP). 2/3 from three, 0.5 BPG.","ovr":73,"ppg":3.0,"rpg":3.0,"team":"Brown","tier":4},{"apg":0.0,"attributes":{"defense":66,"inside":60,"outside":68,"playmaking":58,"rebounding":64},"awards":[],"gp":3,"isSub":true,"name":"Bilal G","notes":"3.0 PPG as Orange sub (3 GP). Stretch shooter, 3 threes made.","ovr":72,"ppg":3.0,"rpg":1.3,"team":"Orange","tier":4},{"apg":0.5,"attributes":{"defense":68,"inside":68,"outside":58,"playmaking":64,"rebounding":68},"awards":[],"gp":2,"isSub":true,"name":"Puneet Badwal","notes":"3.0 PPG, 2.5 RPG as White sub (2 GP). Solid two-way depth.","ovr":72,"ppg":3.0,"rpg":2.5,"team":"White","tier":4},{"apg":1.0,"attributes":{"defense":60,"inside":66,"outside":58,"playmaking":64,"rebounding":62},"awards":[],"gp":1,"isSub":true,"name":"Mashood Chowdhury","notes":"2.0 PPG as Purple sub (1 GP). Also on Red's active roster.","ovr":68,"ppg":2.0,"rpg":1.0,"team":"Purple","tier":5},{"apg":0.0,"attributes":{"defense":58,"inside":58,"outside":52,"playmaking":55,"rebounding":62},"awards":[],"gp":2,"isSub":true,"name":"Prakhar Sub","notes":"1.0 PPG as Black sub (2 GP). Depth option.","ovr":65,"ppg":1.0,"rpg":1.5,"team":"Black","tier":5},{"apg":0.0,"attributes":{"defense":58,"inside":55,"outside":52,"playmaking":55,"rebounding":60},"awards":[],"gp":1,"isSub":true,"name":"Hussein Mualla","notes":"Scoreless as Yellow sub (1 GP). Also on Blue's active roster.","ovr":62,"ppg":0.0,"rpg":1.0,"team":"Yellow","tier":5}]
+[
+ {
+  "apg": 1.0,
+  "attributes": {
+   "defense": 65,
+   "inside": 88,
+   "outside": 86,
+   "playmaking": 72,
+   "rebounding": 70
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Mateen Rahim",
+  "notes": "21.5 PPG, 2.5 RPG as Yellow sub (2 GP). 62.5% FG, 41.7% 3P. Best sub scorer in S4.",
+  "ovr": 88,
+  "ppg": 21.5,
+  "rpg": 2.5,
+  "team": "Yellow",
+  "tier": 2
+ },
+ {
+  "apg": 0.5,
+  "attributes": {
+   "defense": 78,
+   "inside": 80,
+   "outside": 80,
+   "playmaking": 68,
+   "rebounding": 86
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Wes Sub",
+  "notes": "12.0 PPG, 8.0 RPG as Blue sub (2 GP). 50/50/100 shooting splits. Two-way sub.",
+  "ovr": 83,
+  "ppg": 12.0,
+  "rpg": 8.0,
+  "team": "Blue",
+  "tier": 3
+ },
+ {
+  "apg": 0.5,
+  "attributes": {
+   "defense": 62,
+   "inside": 72,
+   "outside": 95,
+   "playmaking": 68,
+   "rebounding": 64
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Naufil Baig",
+  "notes": "10.5 PPG as Black sub (2 GP). 7/8 from three (87.5%). Elite spot-up shooting.",
+  "ovr": 82,
+  "ppg": 10.5,
+  "rpg": 1.0,
+  "team": "Black",
+  "tier": 3
+ },
+ {
+  "apg": 1.5,
+  "attributes": {
+   "defense": 66,
+   "inside": 82,
+   "outside": 70,
+   "playmaking": 72,
+   "rebounding": 86
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Sid Paradkar",
+  "notes": "10.5 PPG, 8.0 RPG as Black sub (2 GP). Scores inside and hits the glass.",
+  "ovr": 82,
+  "ppg": 10.5,
+  "rpg": 8.0,
+  "team": "Black",
+  "tier": 3
+ },
+ {
+  "apg": 1.0,
+  "attributes": {
+   "defense": 68,
+   "inside": 74,
+   "outside": 68,
+   "playmaking": 72,
+   "rebounding": 68
+  },
+  "awards": [],
+  "gp": 3,
+  "isSub": true,
+  "name": "Akash (AK) Malhi",
+  "notes": "7.7 PPG across multiple teams (3 GP). Versatile fill-in, plays anywhere.",
+  "ovr": 78,
+  "ppg": 7.7,
+  "rpg": 1.7,
+  "team": "Multiple Teams",
+  "tier": 4
+ },
+ {
+  "apg": 0.0,
+  "attributes": {
+   "defense": 76,
+   "inside": 76,
+   "outside": 72,
+   "playmaking": 62,
+   "rebounding": 72
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Nayan Patel",
+  "notes": "7.5 PPG, 3.0 RPG, 1.0 SPG as Black sub (2 GP). 54.5% FG, active hands.",
+  "ovr": 78,
+  "ppg": 7.5,
+  "rpg": 3.0,
+  "team": "Black",
+  "tier": 4
+ },
+ {
+  "apg": 1.0,
+  "attributes": {
+   "defense": 76,
+   "inside": 68,
+   "outside": 55,
+   "playmaking": 70,
+   "rebounding": 84
+  },
+  "awards": [],
+  "gp": 3,
+  "isSub": true,
+  "name": "Christian Tolbert",
+  "notes": "5.7 PPG, 6.3 RPG across multiple teams (3 GP). Rebounding specialist off the bench.",
+  "ovr": 77,
+  "ppg": 5.7,
+  "rpg": 6.3,
+  "team": "Multiple Teams",
+  "tier": 4
+ },
+ {
+  "apg": 1.0,
+  "attributes": {
+   "defense": 68,
+   "inside": 66,
+   "outside": 68,
+   "playmaking": 72,
+   "rebounding": 66
+  },
+  "awards": [],
+  "gp": 3,
+  "isSub": true,
+  "name": "Danish Bashir",
+  "notes": "5.7 PPG across multiple teams (3 GP). Steady guard minutes wherever needed.",
+  "ovr": 76,
+  "ppg": 5.7,
+  "rpg": 1.3,
+  "team": "Multiple Teams",
+  "tier": 4
+ },
+ {
+  "apg": 0.0,
+  "attributes": {
+   "defense": 64,
+   "inside": 80,
+   "outside": 55,
+   "playmaking": 60,
+   "rebounding": 80
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Aki Arora",
+  "notes": "5.0 PPG, 6.0 RPG as Green sub (2 GP). 71.4% FG, efficient interior finisher.",
+  "ovr": 75,
+  "ppg": 5.0,
+  "rpg": 6.0,
+  "team": "Green",
+  "tier": 4
+ },
+ {
+  "apg": 2.0,
+  "attributes": {
+   "defense": 74,
+   "inside": 64,
+   "outside": 55,
+   "playmaking": 78,
+   "rebounding": 72
+  },
+  "awards": [],
+  "gp": 4,
+  "isSub": true,
+  "name": "Usman Ahmad",
+  "notes": "2.3 PPG, 3.0 RPG, 2.0 APG across multiple teams (4 GP). Leads S4 subs in assists.",
+  "ovr": 73,
+  "ppg": 2.3,
+  "rpg": 3.0,
+  "team": "Multiple Teams",
+  "tier": 5
+ },
+ {
+  "apg": 0.0,
+  "attributes": {
+   "defense": 70,
+   "inside": 64,
+   "outside": 74,
+   "playmaking": 58,
+   "rebounding": 70
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Prashanth Sub",
+  "notes": "3.0 PPG, 3.0 RPG as Brown sub (2 GP). 2/3 from three, 0.5 BPG.",
+  "ovr": 73,
+  "ppg": 3.0,
+  "rpg": 3.0,
+  "team": "Brown",
+  "tier": 5
+ },
+ {
+  "apg": 0.0,
+  "attributes": {
+   "defense": 66,
+   "inside": 60,
+   "outside": 68,
+   "playmaking": 58,
+   "rebounding": 64
+  },
+  "awards": [],
+  "gp": 3,
+  "isSub": true,
+  "name": "Bilal G",
+  "notes": "3.0 PPG as Orange sub (3 GP). Stretch shooter, 3 threes made.",
+  "ovr": 72,
+  "ppg": 3.0,
+  "rpg": 1.3,
+  "team": "Orange",
+  "tier": 5
+ },
+ {
+  "apg": 0.5,
+  "attributes": {
+   "defense": 68,
+   "inside": 68,
+   "outside": 58,
+   "playmaking": 64,
+   "rebounding": 68
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Puneet Badwal",
+  "notes": "3.0 PPG, 2.5 RPG as White sub (2 GP). Solid two-way depth.",
+  "ovr": 72,
+  "ppg": 3.0,
+  "rpg": 2.5,
+  "team": "White",
+  "tier": 5
+ },
+ {
+  "apg": 1.0,
+  "attributes": {
+   "defense": 60,
+   "inside": 66,
+   "outside": 58,
+   "playmaking": 64,
+   "rebounding": 62
+  },
+  "awards": [],
+  "gp": 1,
+  "isSub": true,
+  "name": "Mashood Chowdhury",
+  "notes": "2.0 PPG as Purple sub (1 GP). Also on Red's active roster.",
+  "ovr": 68,
+  "ppg": 2.0,
+  "rpg": 1.0,
+  "team": "Purple",
+  "tier": 5
+ },
+ {
+  "apg": 0.0,
+  "attributes": {
+   "defense": 58,
+   "inside": 58,
+   "outside": 52,
+   "playmaking": 55,
+   "rebounding": 62
+  },
+  "awards": [],
+  "gp": 2,
+  "isSub": true,
+  "name": "Prakhar Sub",
+  "notes": "1.0 PPG as Black sub (2 GP). Depth option.",
+  "ovr": 65,
+  "ppg": 1.0,
+  "rpg": 1.5,
+  "team": "Black",
+  "tier": 5
+ },
+ {
+  "apg": 0.0,
+  "attributes": {
+   "defense": 58,
+   "inside": 55,
+   "outside": 52,
+   "playmaking": 55,
+   "rebounding": 60
+  },
+  "awards": [],
+  "gp": 1,
+  "isSub": true,
+  "name": "Hussein Mualla",
+  "notes": "Scoreless as Yellow sub (1 GP). Also on Blue's active roster.",
+  "ovr": 62,
+  "ppg": 0.0,
+  "rpg": 1.0,
+  "team": "Yellow",
+  "tier": 5
+ }
+]
