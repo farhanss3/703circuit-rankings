@@ -290,17 +290,18 @@
    "rebounding": 68
   },
   "awards": [],
-  "gp": 2,
+  "gp": 4,
   "isSub": true,
   "name": "Puneet Badwal",
-  "notes": "3.0 PPG, 2.5 RPG as White sub (2 GP). Solid two-way depth.",
+  "notes": "3.0 PPG, 3.5 RPG subbing for White (2 GP) and Purple (2 GP). Solid two-way depth.",
   "ovr": 72,
   "ppg": 3.0,
-  "rpg": 2.5,
-  "team": "White",
+  "rpg": 3.5,
+  "team": "Multiple Teams",
   "tier": 5,
   "subbedFor": [
-   "White"
+   "White",
+   "Purple"
   ]
  },
  {
