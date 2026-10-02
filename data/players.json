@@ -36,7 +36,7 @@
    "571 Cup MVP"
   ],
   "s4_week1": null,
-  "notes": "S4 scoring leader 17.0 PPG. 571 Cup MVP. 131 career 3PM."
+  "notes": "13.5 PPG, 5.0 RPG, 44.4% 3P. 571 Cup MVP. 131 career 3PM."
  },
  {
   "name": "Tahseen Almas",
@@ -56,7 +56,7 @@
    "S2 MVP Runner-up"
   ],
   "s4_week1": null,
-  "notes": "S3 MVP. 13.0 PPG, 8.0 RPG in S4. Yellow 4-0 captain."
+  "notes": "17.5 PPG, S4 scoring leader, 40.7% 3P. 6.5 RPG. Yellow 6-0 captain."
  },
  {
   "name": "Mo Rana",
@@ -82,11 +82,11 @@
   "name": "Sofe Fellah",
   "team": "Green",
   "tier": 2,
-  "ovr": 89,
+  "ovr": 88,
   "isCaptain": true,
   "attributes": {
    "inside": 89,
-   "outside": 95,
+   "outside": 92,
    "playmaking": 92,
    "defense": 95,
    "rebounding": 87
@@ -96,7 +96,7 @@
    "S3 W3 POTW"
   ],
   "s4_week1": null,
-  "notes": "3.0 3PG in S4. 124 career 3PM. Green captain."
+  "notes": "League-high 15 threes (2.5 3PG) on 27.8% shooting. Green captain."
  },
  {
   "name": "Fox Tariq",
@@ -133,7 +133,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "13.8 PPG, 69% FG in S4. Green's most efficient scorer."
+  "notes": "12.7 PPG, 63.6% FG in S4. Green's most efficient scorer."
  },
  {
   "name": "Abe Faridi",
@@ -157,8 +157,8 @@
  {
   "name": "Sam Abdi",
   "team": "Black",
-  "tier": 2,
-  "ovr": 86,
+  "tier": 3,
+  "ovr": 84,
   "isCaptain": false,
   "attributes": {
    "inside": 87,
@@ -172,7 +172,7 @@
    "S2 W6 POTW"
   ],
   "s4_week1": null,
-  "notes": "12.3 PPG career best. Veteran wing."
+  "notes": "5.5 PPG on 38.1% FG in S4. Veteran wing."
  },
  {
   "name": "David Amin",
@@ -189,7 +189,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "8.8 RPG career best. Yellow starter on 4-0 team."
+  "notes": "11.5 PPG, 3.3 RPG. Yellow starter on 6-0 team."
  },
  {
   "name": "Oaan Rana",
@@ -259,7 +259,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "S4 rebound leader 10.5 RPG."
+  "notes": "S4 rebound leader 10.3 RPG."
  },
  {
   "name": "Raj Mathialagan",
@@ -276,7 +276,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "S4 assists leader 4.0 APG."
+  "notes": "2.8 APG, 30.4% FG. Playmaker on 3-3 White."
  },
  {
   "name": "Eugene Arthur",
@@ -299,7 +299,7 @@
   "name": "Faraj Chaaban",
   "team": "Brown",
   "tier": 3,
-  "ovr": 82,
+  "ovr": 81,
   "isCaptain": true,
   "attributes": {
    "inside": 78,
@@ -312,13 +312,13 @@
    "S4 3PM leader"
   ],
   "s4_week1": null,
-  "notes": "S4 3PM leader 3.0 per game. Brown captain."
+  "notes": "2.0 3PG, 27.6% 3P in S4. Brown captain."
  },
  {
   "name": "Owais (OJ) Javed",
   "team": "Green",
   "tier": 3,
-  "ovr": 82,
+  "ovr": 80,
   "isCaptain": false,
   "attributes": {
    "inside": 82,
@@ -329,13 +329,13 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "S4 blocks leader 1.3 BPG."
+  "notes": "1.5 PPG on 18.8% FG; 3.7 RPG, 1.0 BPG, co-leads S4 blocks. Struggling to score."
  },
  {
   "name": "Hamza Almas",
   "team": "Purple",
   "tier": 3,
-  "ovr": 82,
+  "ovr": 81,
   "isCaptain": true,
   "attributes": {
    "inside": 77,
@@ -346,7 +346,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Purple captain."
+  "notes": "8.5 PPG, 32.4% FG. Purple captain."
  },
  {
   "name": "Abdullah Rana",
@@ -369,18 +369,18 @@
   "name": "Sheryar Akbar",
   "team": "Grey",
   "tier": 3,
-  "ovr": 81,
+  "ovr": 82,
   "isCaptain": true,
   "attributes": {
    "inside": 76,
    "outside": 90,
-   "playmaking": 81,
+   "playmaking": 84,
    "defense": 87,
    "rebounding": 80
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "3.0 APG in S4. Grey captain."
+  "notes": "S4 assists leader 4.5 APG, 47.1% 3P. Grey captain."
  },
  {
   "name": "Omair Uddin",
@@ -403,7 +403,7 @@
   "name": "Pali Gill",
   "team": "Orange",
   "tier": 3,
-  "ovr": 80,
+  "ovr": 81,
   "isCaptain": false,
   "attributes": {
    "inside": 80,
@@ -414,13 +414,13 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Orange roster \u2013 S4."
+  "notes": "8.7 PPG, 44.8% 3P, 90% FT. Orange starter on 4-2 team."
  },
  {
   "name": "Nikhil Kamineni",
   "team": "Red",
-  "tier": 3,
-  "ovr": 80,
+  "tier": 4,
+  "ovr": 79,
   "isCaptain": false,
   "attributes": {
    "inside": 78,
@@ -431,7 +431,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Red roster \u2013 S4."
+  "notes": "2.8 PPG, 33.3% FG; 6.5 RPG. Red roster - S4."
  },
  {
   "name": "Waleed Ershad",
@@ -505,24 +505,24 @@
   "name": "Greg Bradford",
   "team": "Yellow",
   "tier": 4,
-  "ovr": 78,
+  "ovr": 76,
   "isCaptain": false,
   "attributes": {
-   "inside": 78,
-   "outside": 83,
+   "inside": 74,
+   "outside": 76,
    "playmaking": 81,
    "defense": 77,
    "rebounding": 79
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Yellow roster \u2013 S4."
+  "notes": "0.5 PPG, 11.1% FG; 3.8 RPG, 0.8 BPG, 0.8 SPG. Defense-only role on 6-0 Yellow."
  },
  {
   "name": "Aaron Jawad",
   "team": "Grey",
   "tier": 4,
-  "ovr": 77,
+  "ovr": 79,
   "isCaptain": false,
   "attributes": {
    "inside": 79,
@@ -533,7 +533,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Grey roster \u2013 S4."
+  "notes": "11.0 PPG, 50% 3P in 2 GP. Grey roster - S4."
  },
  {
   "name": "Khizar Khalil",
@@ -590,7 +590,7 @@
   "name": "Veshal Gondal",
   "team": "Blue",
   "tier": 4,
-  "ovr": 76,
+  "ovr": 78,
   "isCaptain": false,
   "attributes": {
    "inside": 78,
@@ -601,7 +601,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Blue roster \u2013 S4."
+  "notes": "9.8 PPG on 50% FG. Blue roster - S4."
  },
  {
   "name": "Jawaid Zahory",
@@ -640,8 +640,8 @@
  {
   "name": "Mohammed Hasnain",
   "team": "Black",
-  "tier": 5,
-  "ovr": 74,
+  "tier": 4,
+  "ovr": 75,
   "isCaptain": false,
   "attributes": {
    "inside": 80,
@@ -652,7 +652,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Black roster \u2013 S4."
+  "notes": "6.5 PPG on 50% FG, 42.9% 3P. Black roster - S4."
  },
  {
   "name": "Naveed Kolia",
@@ -708,8 +708,8 @@
  {
   "name": "Shobe Ali",
   "team": "Yellow",
-  "tier": 5,
-  "ovr": 74,
+  "tier": 4,
+  "ovr": 76,
   "isCaptain": false,
   "attributes": {
    "inside": 71,
@@ -720,7 +720,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Yellow roster \u2013 S4."
+  "notes": "6.8 PPG on 57.9% FG, 45.5% 3P. Yellow roster - S4."
  },
  {
   "name": "Jacky Tan",
@@ -742,8 +742,8 @@
  {
   "name": "Matt Harrison",
   "team": "Brown",
-  "tier": 5,
-  "ovr": 73,
+  "tier": 4,
+  "ovr": 75,
   "isCaptain": false,
   "attributes": {
    "inside": 73,
@@ -754,7 +754,7 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Brown roster \u2013 S4."
+  "notes": "8.5 PPG, 5.0 RPG, 1.5 SPG in 2 GP. Brown roster - S4."
  },
  {
   "name": "Bajj Bhattarai",
@@ -794,18 +794,18 @@
   "name": "Mashood Chowdhury",
   "team": "Red",
   "tier": 5,
-  "ovr": 73,
+  "ovr": 71,
   "isCaptain": false,
   "attributes": {
-   "inside": 79,
-   "outside": 76,
+   "inside": 75,
+   "outside": 71,
    "playmaking": 69,
    "defense": 68,
    "rebounding": 70
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Red roster \u2013 S4."
+  "notes": "1.7 PPG, 9.5% FG. Red roster - S4."
  },
  {
   "name": "Ricky Choeung",
