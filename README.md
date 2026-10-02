@@ -5,6 +5,8 @@ A single-page web app showing 703Circuit Season 4 players in five views:
 - **Tier Board** — League-style 1–5 tiers, purely merit-based by OVR
 - **Power Rankings** — Numbered 1–N list by overall rating
 - **2K Ratings** — NBA 2K-style OVR + attributes (INS / OUT / PLY / DEF / REB)
+- **Offense** — players ranked 1–N by offensive rating (INS + OUT + PLY average)
+- **Defense** — players ranked 1–N by defensive rating (DEF + REB average)
 - **Movers 📈** — Weekly tier/rating risers and fallers vs. the previous snapshot
 - **Everyone 🏀** — All 66 rostered players + subs in one 1–66 power ranking
 
