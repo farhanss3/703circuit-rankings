@@ -13,7 +13,7 @@ header h1{font-size:1.8rem;letter-spacing:.5px}
 header h1 span{color:var(--accent)}
 header p{color:var(--muted);margin-top:.5rem;font-size:.95rem}
 .controls{max-width:1100px;margin:1.2rem auto;padding:0 1rem;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;justify-content:center}
-.tabs{display:flex;gap:.4rem;background:var(--card);padding:.3rem;border-radius:12px}
+.tabs{display:flex;flex-wrap:wrap;gap:.4rem;background:var(--card);padding:.3rem;border-radius:12px;justify-content:center;max-width:100%}
 .tab{border:none;background:transparent;color:var(--muted);padding:.6rem 1.1rem;border-radius:9px;font-weight:700;cursor:pointer;font-size:.9rem}
 .tab.active{background:var(--accent);color:#111}
 .search{background:var(--card);border:1px solid #2a3348;color:var(--text);padding:.6rem 1rem;border-radius:10px;font-size:.9rem;min-width:200px}
@@ -60,7 +60,22 @@ main{max-width:1100px;margin:0 auto;padding:0 1rem 3rem}
 footer{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.8rem;border-top:1px solid #1d2434}
 footer a{color:var(--accent)}
 .hidden{display:none!important}
-@media(max-width:600px){header h1{font-size:1.35rem}.player-grid{grid-template-columns:1fr}}
+@media(max-width:600px){
+header{padding:1.4rem .8rem}
+header h1{font-size:1.35rem}
+header p{font-size:.82rem}
+.player-grid{grid-template-columns:1fr}
+.tab{padding:.5rem .75rem;font-size:.82rem}
+.search{min-width:0;flex:1 1 180px}
+.rank-row{gap:.55rem;padding:.65rem .75rem}
+.rank-num{font-size:1.1rem;min-width:32px}
+.rank-row .info{min-width:0}
+.rank-row .info h3{font-size:.92rem}
+.rank-row .tier-tag{font-size:.62rem;padding:.22rem .5rem;white-space:nowrap}
+.rank-row .attrs{grid-template-columns:1fr;max-width:none}
+.badge{font-size:.62rem}
+.legend{font-size:.78rem}
+}
 </style>
 </head>
 <body>
