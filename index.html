@@ -115,8 +115,8 @@ Tiers 1–5 are merit-based by OVR (90+ / 85–89 / 80–84 / 75–79 / below 75
 let players=[],subs=[],dataset='players';
 let history=[];
 function loadHistory(){
-return fetch('data/history/manifest.json').then(r=>r.json()).then(m=>
-Promise.all(m.snapshots.map(s=>fetch('data/'+s.file).then(r=>r.json()).then(d=>Object.assign({},s,d))))
+return fetch('data/history/manifest.json',{cache:'no-store'}).then(r=>r.json()).then(m=>
+Promise.all(m.snapshots.map(s=>fetch('data/'+s.file,{cache:'no-store'}).then(r=>r.json()).then(d=>Object.assign({},s,d))))
 ).then(snaps=>{history=snaps}).catch(()=>{history=[]})}
 function current(){return dataset==='players'?players:subs}
 function allPlayers(){return players.concat(subs)}
@@ -305,7 +305,7 @@ buildTeamFilter();render()}));
 document.getElementById('search').addEventListener('input',render);
 document.getElementById('teamFilter').addEventListener('change',render);
 
-Promise.all([fetch('data/players.json').then(r=>r.json()),fetch('data/subs.json').then(r=>r.json()),loadHistory()])
+Promise.all([fetch('data/players.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/subs.json',{cache:'no-store'}).then(r=>r.json()),loadHistory()])
 .then(([p,s])=>{players=p;subs=s;
 players.concat(subs).forEach(p=>{const a=p.attributes;p.off=Math.round((a.inside+a.outside+a.playmaking)/3);p.def=Math.round((a.defense+a.rebounding)/2)});
 buildTeamFilter();render()})
