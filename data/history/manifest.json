@@ -9,6 +9,11 @@
    "date": "2026-10-02",
    "label": "Oct 2",
    "file": "history/2026-10-02.json"
+  },
+  {
+   "date": "2026-10-08",
+   "label": "Oct 8",
+   "file": "history/2026-10-08.json"
   }
  ]
 }
