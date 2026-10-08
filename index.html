@@ -81,7 +81,7 @@ header p{font-size:.82rem}
 <body>
 <header>
 <h1>Milo's <span>Basketball Power Index</span></h1>
-<p>Player Tier Board &bull; Power Rankings &bull; NBA 2K-Style Ratings &bull; Offense &bull; Defense<br><small>703Circuit Season 4 &bull; Data: 703circuit.com &bull; 50 players + 16 subs &bull; S1–S3 + 571 Cup history</small></p>
+<p>Player Tier Board &bull; Power Rankings &bull; NBA 2K-Style Ratings &bull; Offense &bull; Defense &bull; Abe's Opinion<br><small>703Circuit Season 4 &bull; Data: 703circuit.com &bull; 50 players + 16 subs &bull; S1–S3 + 571 Cup history</small></p>
 </header>
 
 <div class="controls">
@@ -91,6 +91,7 @@ header p{font-size:.82rem}
 <button class="tab" data-view="twok">2K Ratings</button>
 <button class="tab" data-view="offense">Offense ⚔️</button>
 <button class="tab" data-view="defense">Defense 🛡️</button>
+<button class="tab" data-view="abe">Abe's Opinion 🧠</button>
 <button class="tab" data-view="movers">Movers 📈</button>
 <button class="tab" data-view="everyone">Everyone 🏀</button>
 </div>
@@ -129,6 +130,7 @@ power:'<b>Power Rankings:</b> Every ranked player 1–N by overall rating (OVR).
 twok:'<b>2K Ratings:</b> NBA 2K-style overall + five attributes: INS (inside), OUT (outside), PLY (playmaking), DEF (defense), REB (rebounding). 90+ = elite, 85+ = star, 80+ = starter.',
 offense:'<b>Offense Rankings:</b> Every ranked player 1–N by offensive rating — the average of INS (inside scoring), OUT (outside shooting) and PLY (playmaking).',
 defense:'<b>Defense Rankings:</b> Every ranked player 1–N by defensive rating — the average of DEF (defense) and REB (rebounding).',
+abe:'<b>Abe\'s Opinion:</b> Weighted power ranking by Abe\'s formula — <b>Scoring 25% · Shooting efficiency (eFG%) 20% · Rebounding 15% · Playmaking 15% · Defense (STL+BLK) 10% · Team winning % 10% · Consistency (games played) 5%.</b> Each category is scaled 0–100 across the dataset; score shown is the weighted composite. Computed live from each player\'s <code>stats</code> block in the data files.',
 movers:'<b>Weekly Movers:</b> Tier and rating changes since the last refresh, driven by the week\'s game results. ⬆️ tier risers, ⬇️ tier fallers, plus the biggest OVR movers.',
 everyone:'<b>Everyone:</b> All 66 rostered players and subs in one board, ranked 1–66 by overall rating (OVR).'};
 const tierDescS={
@@ -137,6 +139,7 @@ power:'<b>Sub Power Rankings:</b> Every S4 sub ranked 1–N by overall rating (O
 twok:'<b>Sub 2K Ratings:</b> NBA 2K-style overall + five attributes for every S4 substitute.',
 offense:'<b>Sub Offense Rankings:</b> Every S4 sub ranked 1–N by offensive rating (INS + OUT + PLY average).',
 defense:'<b>Sub Defense Rankings:</b> Every S4 sub ranked 1–N by defensive rating (DEF + REB average).',
+abe:'<b>Abe\'s Sub Opinion:</b> Weighted power ranking by Abe\'s formula — <b>Scoring 25% · Shooting efficiency (eFG%) 20% · Rebounding 15% · Playmaking 15% · Defense (STL+BLK) 10% · Team winning % 10% · Consistency (games played) 5%.</b> Each category is scaled 0–100 across the subs dataset.',
 movers:'<b>Sub Weekly Movers:</b> Sub tier and rating changes since the last refresh, driven by the week\'s game results.',
 everyone:'<b>Everyone:</b> All 66 rostered players and subs in one board, ranked 1–66 by overall rating (OVR).'};
 
@@ -235,6 +238,41 @@ ${p.isCaptain?'<span class="badge cap">Captain</span>':''}${p.isSub?'<span class
 <span class="tier-tag" style="background:#0f1420;border:1px solid #2a3348;color:var(--muted)">OVR ${p.ovr}</span></div>`});
 app.innerHTML=h+'</div>'}
 
+const WINPCT={Yellow:1,Orange:4/6,Blue:0.75,White:0.5,Black:0.5,Green:2/6,Grey:0.25,Red:0.25,Brown:0.25,Purple:0.25};
+function abeRows(){
+const list=current().filter(matches);
+const rows=list.map(p=>{const s=p.stats||{gp:0,ppg:0,fgm:0,fga:0,tpm:0,rpg:0,apg:0,spg:0,bpg:0};
+const efg=s.fga>0?(s.fgm+0.5*s.tpm)/s.fga:null;
+const teams=(p.isSub&&p.subbedFor&&p.subbedFor.length)?p.subbedFor:[p.team];
+const win=teams.reduce((a,t)=>a+(WINPCT[t]!==undefined?WINPCT[t]:0),0)/teams.length;
+return {p,ppg:s.ppg,efg,rpg:s.rpg,apg:s.apg,defs:s.spg+s.bpg,gp:s.gp,win}});
+const withEfg=rows.filter(r=>r.efg!==null);
+const minEfg=withEfg.length?Math.min.apply(null,withEfg.map(r=>r.efg)):0;
+rows.forEach(r=>{if(r.efg===null)r.efg=minEfg});
+function norm(key){const vs=rows.map(r=>r[key]),a=Math.min.apply(null,vs),b=Math.max.apply(null,vs);
+const m={};rows.forEach(r=>{m[r.p.name]=b>a?(r[key]-a)/(b-a)*100:50});return m}
+const N={ppg:norm('ppg'),efg:norm('efg'),rpg:norm('rpg'),apg:norm('apg'),defs:norm('defs')};
+const maxGp=Math.max.apply(null,rows.map(r=>r.gp).concat([1]));
+rows.forEach(r=>{const n=r.p.name;
+const comp={pts:0.25*N.ppg[n],eff:0.20*N.efg[n],reb:0.15*N.rpg[n],ply:0.15*N.apg[n],def:0.10*N.defs[n],win:0.10*r.win*100,gp:0.05*(r.gp/maxGp)*100};
+r.score=comp.pts+comp.eff+comp.reb+comp.ply+comp.def+comp.win+comp.gp;
+r.p.abe=Math.round(r.score*10)/10;
+r.detail=comp});
+return rows.sort((a,b)=>b.score-a.score)}
+
+function renderAbe(){
+const rows=abeRows();
+let h='<div class="rank-list">';
+rows.forEach((r,i)=>{const p=r.p,d=r.detail;
+const tip=`Scoring ${d.pts.toFixed(1)} · Efficiency ${d.eff.toFixed(1)} · Rebounding ${d.reb.toFixed(1)} · Playmaking ${d.ply.toFixed(1)} · Defense ${d.def.toFixed(1)} · Winning ${d.win.toFixed(1)} · Consistency ${d.gp.toFixed(1)}`;
+h+=`<div class="rank-row"><div class="rank-num">${i+1}</div>
+<div class="ovr-badge ${ovrClass(p.ovr)}" style="min-width:46px;height:46px;font-size:1rem" title="${tip}">${p.abe}</div>
+<div class="info"><h3>${p.name}</h3>
+<div class="sub">${(p.isSub&&p.subbedFor)?('Subbed for: '+p.subbedFor.join(', ')):p.team} &bull; ${r.gp} GP &bull; ${r.ppg} PPG &bull; ${(r.efg*100).toFixed(1)}% eFG &bull; ${r.rpg} RPG &bull; ${r.apg} APG</div></div>
+${p.isCaptain?'<span class="badge cap">Captain</span>':''}${p.isSub?'<span class="badge">SUB</span>':''}
+<span class="tier-tag" style="background:#0f1420;border:1px solid #2a3348;color:var(--muted)">TIER ${p.tier}</span></div>`});
+app.innerHTML=h+'</div>'}
+
 function renderEveryone(){
 const list=allPlayers().filter(matches).sort((a,b)=>b.ovr-a.ovr);
 let h='<div class="rank-list">';
@@ -247,7 +285,7 @@ app.innerHTML=h+'</div>'}
 
 let view='tiers';
 function render(){legend.innerHTML=(dataset==='subs'?tierDescS:tierDescP)[view];
-if(view==='tiers')renderTiers();else if(view==='power')renderPower();else if(view==='movers')renderMovers();else if(view==='everyone')renderEveryone();else if(view==='offense')renderOffDef('off');else if(view==='defense')renderOffDef('def');else render2k()}
+if(view==='tiers')renderTiers();else if(view==='power')renderPower();else if(view==='movers')renderMovers();else if(view==='everyone')renderEveryone();else if(view==='offense')renderOffDef('off');else if(view==='defense')renderOffDef('def');else if(view==='abe')renderAbe();else render2k()}
 
 function buildTeamFilter(){const sel=document.getElementById('teamFilter');
 sel.innerHTML='<option value="">All teams</option>';
