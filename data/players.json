@@ -17,17 +17,17 @@
    "S2 MVP"
   ],
   "s4_week1": null,
-  "notes": "Career PTS leader (1122). S1 & S2 MVP. Blue captain. Back in S4: 16.5 PPG, 63.2% FG, 55.6% 3P in 2 GP.",
+  "notes": "Career PTS leader (1122). S1 & S2 MVP. Blue captain. Back in S4: 15.5 PPG, 67.6% FG, 50.0% 3P in 4 GP.",
   "stats": {
-   "gp": 2,
-   "ppg": 16.5,
-   "fgm": 12,
-   "fga": 19,
-   "tpm": 5,
-   "rpg": 1.0,
-   "apg": 3.0,
-   "spg": 3,
-   "bpg": 0
+   "gp": 4,
+   "ppg": 15.5,
+   "fgm": 23,
+   "fga": 34,
+   "tpm": 6,
+   "rpg": 2.0,
+   "apg": 2.0,
+   "spg": 1.3,
+   "bpg": 0.0
   }
  },
  {
@@ -56,8 +56,8 @@
    "tpm": 12,
    "rpg": 5.0,
    "apg": 1.5,
-   "spg": 3,
-   "bpg": 6
+   "spg": 0.5,
+   "bpg": 1.0
   }
  },
  {
@@ -78,17 +78,17 @@
    "S2 MVP Runner-up"
   ],
   "s4_week1": null,
-  "notes": "S3 MVP. 17.5 PPG, S4 scoring leader, 40.7% 3P. 6.5 RPG. Yellow 6-0 captain.",
+  "notes": "S3 MVP. 16.2 PPG, S4 scoring leader, 38.9% 3P. 6.0 RPG. Yellow 7-1 captain.",
   "stats": {
-   "gp": 4,
-   "ppg": 17.5,
-   "fgm": 24,
-   "fga": 50,
-   "tpm": 11,
-   "rpg": 6.5,
-   "apg": 1.8,
-   "spg": 1,
-   "bpg": 1
+   "gp": 6,
+   "ppg": 16.2,
+   "fgm": 34,
+   "fga": 71,
+   "tpm": 14,
+   "rpg": 6.0,
+   "apg": 1.5,
+   "spg": 0.3,
+   "bpg": 0.2
   }
  },
  {
@@ -118,8 +118,8 @@
    "tpm": 6,
    "rpg": 4.8,
    "apg": 3.3,
-   "spg": 9,
-   "bpg": 1
+   "spg": 2.3,
+   "bpg": 0.3
   }
  },
  {
@@ -140,17 +140,17 @@
    "S3 W3 POTW"
   ],
   "s4_week1": null,
-  "notes": "League-high 15 threes (2.5 3PG) on 27.8% shooting. Green captain.",
+  "notes": "League-high 21 threes (2.6 3PG) on 30.0% shooting. Green captain.",
   "stats": {
-   "gp": 6,
-   "ppg": 10.5,
-   "fgm": 22,
-   "fga": 73,
-   "tpm": 15,
-   "rpg": 3.2,
-   "apg": 1.8,
-   "spg": 1,
-   "bpg": 4
+   "gp": 8,
+   "ppg": 11.0,
+   "fgm": 30,
+   "fga": 94,
+   "tpm": 21,
+   "rpg": 3.3,
+   "apg": 1.5,
+   "spg": 0.1,
+   "bpg": 0.5
   }
  },
  {
@@ -180,8 +180,8 @@
    "tpm": 5,
    "rpg": 3.5,
    "apg": 0.0,
-   "spg": 0,
-   "bpg": 1
+   "spg": 0.0,
+   "bpg": 0.5
   }
  },
  {
@@ -199,24 +199,24 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "12.7 PPG, 63.6% FG in S4. Green's most efficient scorer.",
+  "notes": "13.3 PPG, 63.9% FG in S4. Green's most efficient scorer.",
   "stats": {
-   "gp": 6,
-   "ppg": 12.7,
-   "fgm": 28,
-   "fga": 44,
-   "tpm": 7,
-   "rpg": 4.8,
-   "apg": 1.7,
-   "spg": 6,
-   "bpg": 4
+   "gp": 8,
+   "ppg": 13.3,
+   "fgm": 39,
+   "fga": 61,
+   "tpm": 8,
+   "rpg": 5.4,
+   "apg": 1.5,
+   "spg": 1.4,
+   "bpg": 1.0
   }
  },
  {
   "name": "Abe Faridi",
   "team": "Grey",
   "tier": 2,
-  "ovr": 87,
+  "ovr": 86,
   "isCaptain": false,
   "attributes": {
    "inside": 89,
@@ -229,17 +229,17 @@
    "S2 W3 POTW"
   ],
   "s4_week1": null,
-  "notes": "11.3 PPG, 51.4% FG, 1.8 SPG in S4.",
+  "notes": "9.0 PPG, 47.4% FG, 1.4 SPG in S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 11.3,
+   "gp": 5,
+   "ppg": 9.0,
    "fgm": 18,
-   "fga": 35,
+   "fga": 38,
    "tpm": 4,
-   "rpg": 3.3,
-   "apg": 1.0,
-   "spg": 7,
-   "bpg": 0
+   "rpg": 2.8,
+   "apg": 0.8,
+   "spg": 1.4,
+   "bpg": 0.0
   }
  },
  {
@@ -269,8 +269,8 @@
    "tpm": 4,
    "rpg": 1.8,
    "apg": 1.3,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.3,
+   "bpg": 0.0
   }
  },
  {
@@ -288,17 +288,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "11.5 PPG, 3.3 RPG. Yellow starter on 6-0 team.",
+  "notes": "11.8 PPG, 3.8 RPG. Yellow starter on 7-1 team.",
   "stats": {
-   "gp": 6,
-   "ppg": 11.5,
-   "fgm": 26,
-   "fga": 61,
-   "tpm": 7,
-   "rpg": 3.3,
-   "apg": 2.0,
-   "spg": 5,
-   "bpg": 0
+   "gp": 8,
+   "ppg": 11.8,
+   "fgm": 34,
+   "fga": 85,
+   "tpm": 11,
+   "rpg": 3.8,
+   "apg": 1.9,
+   "spg": 0.8,
+   "bpg": 0.0
   }
  },
  {
@@ -325,8 +325,8 @@
    "tpm": 1,
    "rpg": 7.3,
    "apg": 1.5,
-   "spg": 4,
-   "bpg": 5
+   "spg": 0.7,
+   "bpg": 0.8
   }
  },
  {
@@ -348,15 +348,15 @@
   "s4_week1": null,
   "notes": "Purple roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 8.5,
-   "fgm": 11,
-   "fga": 25,
-   "tpm": 3,
-   "rpg": 2.0,
-   "apg": 3.0,
-   "spg": 6,
-   "bpg": 0
+   "gp": 6,
+   "ppg": 8.0,
+   "fgm": 16,
+   "fga": 39,
+   "tpm": 5,
+   "rpg": 2.3,
+   "apg": 3.3,
+   "spg": 1.0,
+   "bpg": 0.0
   }
  },
  {
@@ -383,8 +383,8 @@
    "tpm": 3,
    "rpg": 4.2,
    "apg": 1.0,
-   "spg": 3,
-   "bpg": 0
+   "spg": 0.5,
+   "bpg": 0.0
   }
  },
  {
@@ -402,17 +402,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "S4 rebound leader 10.3 RPG.",
+  "notes": "S4 rebound leader 10.0 RPG.",
   "stats": {
-   "gp": 4,
-   "ppg": 6.3,
-   "fgm": 10,
-   "fga": 24,
+   "gp": 6,
+   "ppg": 7.0,
+   "fgm": 16,
+   "fga": 37,
    "tpm": 0,
-   "rpg": 10.3,
-   "apg": 0.5,
-   "spg": 1,
-   "bpg": 0
+   "rpg": 10.0,
+   "apg": 1.0,
+   "spg": 0.3,
+   "bpg": 0.2
   }
  },
  {
@@ -430,17 +430,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "2.8 APG, 30.4% FG. Playmaker on 3-3 White.",
+  "notes": "2.3 APG, 37.8% FG. Playmaker on 4-4 White.",
   "stats": {
-   "gp": 4,
-   "ppg": 5.3,
-   "fgm": 7,
-   "fga": 23,
-   "tpm": 4,
-   "rpg": 1.5,
-   "apg": 2.8,
-   "spg": 4,
-   "bpg": 1
+   "gp": 6,
+   "ppg": 7.2,
+   "fgm": 14,
+   "fga": 37,
+   "tpm": 10,
+   "rpg": 2.7,
+   "apg": 2.3,
+   "spg": 0.8,
+   "bpg": 0.2
   }
  },
  {
@@ -460,15 +460,15 @@
   "s4_week1": null,
   "notes": "White roster \u2013 S4.",
   "stats": {
-   "gp": 6,
-   "ppg": 8.3,
-   "fgm": 20,
-   "fga": 47,
-   "tpm": 6,
-   "rpg": 2.3,
-   "apg": 0.8,
-   "spg": 4,
-   "bpg": 0
+   "gp": 8,
+   "ppg": 7.8,
+   "fgm": 25,
+   "fga": 63,
+   "tpm": 7,
+   "rpg": 2.9,
+   "apg": 1.1,
+   "spg": 0.8,
+   "bpg": 0.0
   }
  },
  {
@@ -488,17 +488,17 @@
    "S4 3PM leader"
   ],
   "s4_week1": null,
-  "notes": "2.0 3PG, 27.6% 3P in S4. Brown captain.",
+  "notes": "1.3 3PG, 25.0% 3P in S4. Brown captain.",
   "stats": {
-   "gp": 4,
-   "ppg": 9.3,
-   "fgm": 13,
-   "fga": 45,
+   "gp": 6,
+   "ppg": 8.7,
+   "fgm": 18,
+   "fga": 55,
    "tpm": 8,
-   "rpg": 5.8,
-   "apg": 1.5,
-   "spg": 6,
-   "bpg": 0
+   "rpg": 5.2,
+   "apg": 1.7,
+   "spg": 1.5,
+   "bpg": 0.2
   }
  },
  {
@@ -516,24 +516,24 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "1.5 PPG on 18.8% FG; 3.7 RPG, 1.0 BPG, co-leads S4 blocks. Struggling to score.",
+  "notes": "1.6 PPG on 19.0% FG; 3.8 RPG, 0.9 BPG (2nd in S4).",
   "stats": {
-   "gp": 6,
-   "ppg": 1.5,
-   "fgm": 3,
-   "fga": 16,
+   "gp": 8,
+   "ppg": 1.6,
+   "fgm": 4,
+   "fga": 21,
    "tpm": 1,
-   "rpg": 3.7,
-   "apg": 1.3,
-   "spg": 1,
-   "bpg": 6
+   "rpg": 3.8,
+   "apg": 1.0,
+   "spg": 0.3,
+   "bpg": 0.9
   }
  },
  {
   "name": "Hamza Almas",
   "team": "Purple",
   "tier": 3,
-  "ovr": 81,
+  "ovr": 80,
   "isCaptain": true,
   "attributes": {
    "inside": 77,
@@ -544,24 +544,24 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "8.5 PPG, 32.4% FG. Purple captain.",
+  "notes": "6.8 PPG, 29.4% FG. Purple captain.",
   "stats": {
-   "gp": 4,
-   "ppg": 8.5,
-   "fgm": 12,
-   "fga": 37,
+   "gp": 6,
+   "ppg": 6.8,
+   "fgm": 15,
+   "fga": 51,
    "tpm": 4,
-   "rpg": 3.8,
-   "apg": 1.3,
-   "spg": 3,
-   "bpg": 1
+   "rpg": 4.2,
+   "apg": 1.2,
+   "spg": 0.5,
+   "bpg": 0.2
   }
  },
  {
   "name": "Abdullah Rana",
   "team": "Blue",
   "tier": 3,
-  "ovr": 81,
+  "ovr": 80,
   "isCaptain": false,
   "attributes": {
    "inside": 80,
@@ -572,17 +572,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "10.5 PPG, 5.0 RPG in 2 GP. Blue roster - S4.",
+  "notes": "6.8 PPG, 3.5 RPG, 2.0 SPG in 4 GP.",
   "stats": {
-   "gp": 2,
-   "ppg": 10.5,
-   "fgm": 8,
-   "fga": 24,
+   "gp": 4,
+   "ppg": 6.8,
+   "fgm": 11,
+   "fga": 42,
    "tpm": 3,
-   "rpg": 5.0,
+   "rpg": 3.5,
    "apg": 1.0,
-   "spg": 6,
-   "bpg": 0
+   "spg": 2.0,
+   "bpg": 0.0
   }
  },
  {
@@ -600,17 +600,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "S4 assists leader 4.5 APG, 47.1% 3P. Grey captain.",
+  "notes": "S4 assists leader 3.8 APG, 38.5% 3P. Grey captain.",
   "stats": {
-   "gp": 4,
-   "ppg": 8.0,
-   "fgm": 12,
-   "fga": 24,
-   "tpm": 8,
-   "rpg": 2.5,
-   "apg": 4.5,
-   "spg": 3,
-   "bpg": 1
+   "gp": 6,
+   "ppg": 7.3,
+   "fgm": 15,
+   "fga": 37,
+   "tpm": 10,
+   "rpg": 2.8,
+   "apg": 3.8,
+   "spg": 0.8,
+   "bpg": 0.3
   }
  },
  {
@@ -630,15 +630,15 @@
   "s4_week1": null,
   "notes": "White roster \u2013 S4.",
   "stats": {
-   "gp": 6,
-   "ppg": 5.7,
-   "fgm": 16,
-   "fga": 27,
-   "tpm": 2,
-   "rpg": 5.8,
-   "apg": 1.2,
-   "spg": 6,
-   "bpg": 1
+   "gp": 8,
+   "ppg": 4.6,
+   "fgm": 17,
+   "fga": 33,
+   "tpm": 3,
+   "rpg": 6.9,
+   "apg": 1.3,
+   "spg": 0.8,
+   "bpg": 0.5
   }
  },
  {
@@ -665,8 +665,8 @@
    "tpm": 13,
    "rpg": 2.0,
    "apg": 2.2,
-   "spg": 2,
-   "bpg": 1
+   "spg": 0.3,
+   "bpg": 0.2
   }
  },
  {
@@ -693,8 +693,8 @@
    "tpm": 2,
    "rpg": 6.5,
    "apg": 1.3,
-   "spg": 1,
-   "bpg": 4
+   "spg": 0.3,
+   "bpg": 1.0
   }
  },
  {
@@ -721,8 +721,8 @@
    "tpm": 1,
    "rpg": 4.0,
    "apg": 1.0,
-   "spg": 2,
-   "bpg": 0
+   "spg": 0.5,
+   "bpg": 0.0
   }
  },
  {
@@ -742,15 +742,15 @@
   "s4_week1": null,
   "notes": "Yellow roster \u2013 S4.",
   "stats": {
-   "gp": 6,
-   "ppg": 3.8,
+   "gp": 8,
+   "ppg": 3.1,
    "fgm": 9,
-   "fga": 21,
+   "fga": 27,
    "tpm": 3,
    "rpg": 2.8,
-   "apg": 0.5,
-   "spg": 3,
-   "bpg": 2
+   "apg": 0.6,
+   "spg": 0.4,
+   "bpg": 0.3
   }
  },
  {
@@ -798,15 +798,15 @@
   "s4_week1": null,
   "notes": "White roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 5.5,
-   "fgm": 10,
-   "fga": 29,
+   "gp": 6,
+   "ppg": 6.8,
+   "fgm": 18,
+   "fga": 45,
    "tpm": 1,
-   "rpg": 3.0,
+   "rpg": 2.8,
    "apg": 0.5,
-   "spg": 4,
-   "bpg": 0
+   "spg": 1.2,
+   "bpg": 0.0
   }
  },
  {
@@ -824,17 +824,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "0.5 PPG, 11.1% FG; 3.8 RPG, 0.8 BPG, 0.8 SPG. Defense-only role on 6-0 Yellow.",
+  "notes": "0.4 PPG, 9.1% FG; 3.4 RPG, 0.9 BPG, 0.6 SPG. Defense-only role on 7-1 Yellow.",
   "stats": {
-   "gp": 6,
-   "ppg": 0.5,
+   "gp": 8,
+   "ppg": 0.4,
    "fgm": 1,
-   "fga": 9,
+   "fga": 11,
    "tpm": 0,
-   "rpg": 3.8,
-   "apg": 0.8,
-   "spg": 5,
-   "bpg": 5
+   "rpg": 3.4,
+   "apg": 0.9,
+   "spg": 0.6,
+   "bpg": 0.9
   }
  },
  {
@@ -852,17 +852,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "11.0 PPG, 50% 3P in 2 GP. Grey roster - S4.",
+  "notes": "10.3 PPG, 31.3% 3P in 4 GP.",
   "stats": {
-   "gp": 2,
-   "ppg": 11.0,
-   "fgm": 9,
-   "fga": 16,
-   "tpm": 3,
-   "rpg": 3.0,
-   "apg": 2.0,
-   "spg": 1,
-   "bpg": 0
+   "gp": 4,
+   "ppg": 10.3,
+   "fgm": 17,
+   "fga": 39,
+   "tpm": 5,
+   "rpg": 2.8,
+   "apg": 1.3,
+   "spg": 0.8,
+   "bpg": 0.0
   }
  },
  {
@@ -889,8 +889,8 @@
    "tpm": 1,
    "rpg": 3.0,
    "apg": 0.5,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.5,
+   "bpg": 0.0
   }
  },
  {
@@ -917,15 +917,15 @@
    "tpm": 2,
    "rpg": 1.0,
    "apg": 0.8,
-   "spg": 2,
-   "bpg": 0
+   "spg": 0.3,
+   "bpg": 0.0
   }
  },
  {
   "name": "Khaled Abdulla",
   "team": "Blue",
   "tier": 4,
-  "ovr": 76,
+  "ovr": 77,
   "isCaptain": false,
   "attributes": {
    "inside": 75,
@@ -936,17 +936,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Blue roster \u2013 S4.",
+  "notes": "6.7 RPG, 1.0 BPG \u2014 S4 blocks leader.",
   "stats": {
-   "gp": 4,
+   "gp": 6,
    "ppg": 1.8,
-   "fgm": 2,
-   "fga": 6,
+   "fgm": 4,
+   "fga": 10,
    "tpm": 1,
-   "rpg": 6.5,
-   "apg": 0.5,
-   "spg": 3,
-   "bpg": 4
+   "rpg": 6.7,
+   "apg": 0.8,
+   "spg": 0.7,
+   "bpg": 1.0
   }
  },
  {
@@ -964,17 +964,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "9.8 PPG on 50% FG. Blue roster - S4.",
+  "notes": "9.7 PPG on 51.1% FG.",
   "stats": {
-   "gp": 4,
-   "ppg": 9.8,
-   "fgm": 16,
-   "fga": 32,
-   "tpm": 1,
-   "rpg": 3.5,
-   "apg": 1.0,
-   "spg": 3,
-   "bpg": 0
+   "gp": 6,
+   "ppg": 9.7,
+   "fgm": 24,
+   "fga": 47,
+   "tpm": 2,
+   "rpg": 3.7,
+   "apg": 1.3,
+   "spg": 0.7,
+   "bpg": 0.2
   }
  },
  {
@@ -1022,15 +1022,15 @@
   "s4_week1": null,
   "notes": "Blue roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 4.0,
-   "fgm": 6,
-   "fga": 18,
-   "tpm": 4,
-   "rpg": 2.3,
-   "apg": 0.3,
-   "spg": 2,
-   "bpg": 0
+   "gp": 6,
+   "ppg": 4.2,
+   "fgm": 9,
+   "fga": 25,
+   "tpm": 6,
+   "rpg": 2.5,
+   "apg": 0.5,
+   "spg": 0.5,
+   "bpg": 0.2
   }
  },
  {
@@ -1057,8 +1057,8 @@
    "tpm": 3,
    "rpg": 3.0,
    "apg": 0.5,
-   "spg": 0,
-   "bpg": 1
+   "spg": 0.0,
+   "bpg": 0.5
   }
  },
  {
@@ -1076,17 +1076,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "Black roster \u2013 S4.",
+  "notes": "3.0 PPG in 2 GP.",
   "stats": {
-   "gp": 0,
-   "ppg": 0.0,
-   "fgm": 0,
-   "fga": 0,
-   "tpm": 0,
-   "rpg": 0.0,
-   "apg": 0.0,
-   "spg": 0,
-   "bpg": 0
+   "gp": 2,
+   "ppg": 3.0,
+   "fgm": 2,
+   "fga": 6,
+   "tpm": 1,
+   "rpg": 1.5,
+   "apg": 1.5,
+   "spg": 0.0,
+   "bpg": 0.0
   }
  },
  {
@@ -1106,15 +1106,15 @@
   "s4_week1": null,
   "notes": "Brown roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 4.3,
-   "fgm": 6,
-   "fga": 20,
+   "gp": 6,
+   "ppg": 3.8,
+   "fgm": 9,
+   "fga": 27,
    "tpm": 1,
-   "rpg": 5.8,
-   "apg": 0.0,
-   "spg": 3,
-   "bpg": 0
+   "rpg": 4.8,
+   "apg": 0.2,
+   "spg": 0.5,
+   "bpg": 0.0
   }
  },
  {
@@ -1134,15 +1134,15 @@
   "s4_week1": null,
   "notes": "Green roster \u2013 S4.",
   "stats": {
-   "gp": 6,
-   "ppg": 3.5,
+   "gp": 8,
+   "ppg": 2.6,
    "fgm": 7,
-   "fga": 24,
+   "fga": 28,
    "tpm": 7,
-   "rpg": 0.8,
+   "rpg": 0.6,
    "apg": 0.3,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.3,
+   "bpg": 0.0
   }
  },
  {
@@ -1160,17 +1160,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "6.8 PPG on 57.9% FG, 45.5% 3P. Yellow roster - S4.",
+  "notes": "5.2 PPG on 44.8% FG, 31.3% 3P.",
   "stats": {
-   "gp": 4,
-   "ppg": 6.8,
-   "fgm": 11,
-   "fga": 19,
+   "gp": 6,
+   "ppg": 5.2,
+   "fgm": 13,
+   "fga": 29,
    "tpm": 5,
-   "rpg": 1.5,
+   "rpg": 1.7,
    "apg": 0.5,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.5,
+   "bpg": 0.2
   }
  },
  {
@@ -1190,15 +1190,15 @@
   "s4_week1": null,
   "notes": "Brown roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 5.5,
-   "fgm": 10,
-   "fga": 22,
+   "gp": 6,
+   "ppg": 6.0,
+   "fgm": 16,
+   "fga": 33,
    "tpm": 2,
-   "rpg": 4.5,
-   "apg": 1.8,
-   "spg": 3,
-   "bpg": 0
+   "rpg": 4.2,
+   "apg": 1.5,
+   "spg": 0.8,
+   "bpg": 0.0
   }
  },
  {
@@ -1216,17 +1216,17 @@
   },
   "awards": [],
   "s4_week1": null,
-  "notes": "8.5 PPG, 5.0 RPG, 1.5 SPG in 2 GP. Brown roster - S4.",
+  "notes": "7.8 PPG, 4.8 RPG, 0.8 SPG in 4 GP.",
   "stats": {
-   "gp": 2,
-   "ppg": 8.5,
-   "fgm": 8,
-   "fga": 19,
-   "tpm": 1,
-   "rpg": 5.0,
-   "apg": 1.0,
-   "spg": 3,
-   "bpg": 2
+   "gp": 4,
+   "ppg": 7.8,
+   "fgm": 13,
+   "fga": 39,
+   "tpm": 5,
+   "rpg": 4.8,
+   "apg": 0.8,
+   "spg": 0.8,
+   "bpg": 0.5
   }
  },
  {
@@ -1246,15 +1246,15 @@
   "s4_week1": null,
   "notes": "Grey roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 3.5,
-   "fgm": 7,
-   "fga": 11,
-   "tpm": 0,
-   "rpg": 4.0,
-   "apg": 1.0,
-   "spg": 1,
-   "bpg": 0
+   "gp": 6,
+   "ppg": 3.0,
+   "fgm": 8,
+   "fga": 17,
+   "tpm": 1,
+   "rpg": 4.2,
+   "apg": 1.2,
+   "spg": 0.3,
+   "bpg": 0.0
   }
  },
  {
@@ -1274,15 +1274,15 @@
   "s4_week1": null,
   "notes": "Purple roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 4.3,
-   "fgm": 6,
-   "fga": 14,
-   "tpm": 5,
-   "rpg": 2.5,
-   "apg": 0.3,
-   "spg": 0,
-   "bpg": 0
+   "gp": 6,
+   "ppg": 4.8,
+   "fgm": 10,
+   "fga": 22,
+   "tpm": 9,
+   "rpg": 2.3,
+   "apg": 0.5,
+   "spg": 0.2,
+   "bpg": 0.0
   }
  },
  {
@@ -1309,8 +1309,8 @@
    "tpm": 1,
    "rpg": 0.7,
    "apg": 1.0,
-   "spg": 2,
-   "bpg": 0
+   "spg": 0.7,
+   "bpg": 0.0
   }
  },
  {
@@ -1330,15 +1330,15 @@
   "s4_week1": null,
   "notes": "Brown roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 6.0,
-   "fgm": 7,
-   "fga": 20,
-   "tpm": 5,
-   "rpg": 1.8,
-   "apg": 0.8,
-   "spg": 0,
-   "bpg": 0
+   "gp": 6,
+   "ppg": 6.3,
+   "fgm": 12,
+   "fga": 30,
+   "tpm": 7,
+   "rpg": 2.2,
+   "apg": 0.7,
+   "spg": 0.0,
+   "bpg": 0.0
   }
  },
  {
@@ -1358,15 +1358,15 @@
   "s4_week1": null,
   "notes": "Green roster \u2013 S4.",
   "stats": {
-   "gp": 4,
+   "gp": 6,
    "ppg": 5.3,
-   "fgm": 9,
-   "fga": 20,
-   "tpm": 3,
+   "fgm": 13,
+   "fga": 28,
+   "tpm": 6,
    "rpg": 1.5,
-   "apg": 0.3,
-   "spg": 0,
-   "bpg": 1
+   "apg": 0.2,
+   "spg": 0.2,
+   "bpg": 0.2
   }
  },
  {
@@ -1386,15 +1386,15 @@
   "s4_week1": null,
   "notes": "Grey roster \u2013 S4.",
   "stats": {
-   "gp": 4,
-   "ppg": 5.5,
-   "fgm": 10,
-   "fga": 19,
-   "tpm": 1,
-   "rpg": 3.3,
-   "apg": 0.3,
-   "spg": 4,
-   "bpg": 0
+   "gp": 6,
+   "ppg": 4.8,
+   "fgm": 13,
+   "fga": 28,
+   "tpm": 2,
+   "rpg": 3.8,
+   "apg": 0.5,
+   "spg": 0.7,
+   "bpg": 0.0
   }
  },
  {
@@ -1419,10 +1419,10 @@
    "fgm": 0,
    "fga": 0,
    "tpm": 0,
-   "rpg": 1.0,
-   "apg": 0.0,
-   "spg": 1,
-   "bpg": 0
+   "rpg": 2.0,
+   "apg": 1.0,
+   "spg": 0.0,
+   "bpg": 0.0
   }
  }
 ]
