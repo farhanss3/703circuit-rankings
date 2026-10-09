@@ -63,12 +63,12 @@
    "tpm": 4,
    "rpg": 8.0,
    "apg": 0.5,
-   "spg": 1,
-   "bpg": 1
+   "spg": 0.5,
+   "bpg": 0.5
   }
  },
  {
-  "apg": 0.5,
+  "apg": 1.0,
   "attributes": {
    "defense": 62,
    "inside": 72,
@@ -77,28 +77,28 @@
    "rebounding": 64
   },
   "awards": [],
-  "gp": 2,
+  "gp": 4,
   "isSub": true,
   "name": "Naufil Baig",
-  "notes": "10.5 PPG as Black sub (2 GP). 7/8 from three (87.5%). Elite spot-up shooting.",
-  "ovr": 82,
-  "ppg": 10.5,
-  "rpg": 1.0,
+  "notes": "6.5 PPG as Black sub (4 GP). 8 threes on 44.4% shooting.",
+  "ovr": 80,
+  "ppg": 6.5,
+  "rpg": 1.3,
   "team": "Black",
   "tier": 3,
   "subbedFor": [
    "Black"
   ],
   "stats": {
-   "gp": 2,
-   "ppg": 10.5,
-   "fgm": 7,
-   "fga": 11,
-   "tpm": 7,
-   "rpg": 1.0,
-   "apg": 0.5,
-   "spg": 0,
-   "bpg": 0
+   "gp": 4,
+   "ppg": 6.5,
+   "fgm": 9,
+   "fga": 25,
+   "tpm": 8,
+   "rpg": 1.3,
+   "apg": 1.0,
+   "spg": 0.0,
+   "bpg": 0.0
   }
  },
  {
@@ -166,8 +166,8 @@
    "tpm": 4,
    "rpg": 1.7,
    "apg": 1.0,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.3,
+   "bpg": 0.0
   }
  },
  {
@@ -200,8 +200,8 @@
    "tpm": 2,
    "rpg": 3.0,
    "apg": 0.0,
-   "spg": 2,
-   "bpg": 0
+   "spg": 1.0,
+   "bpg": 0.0
   }
  },
  {
@@ -235,8 +235,8 @@
    "tpm": 0,
    "rpg": 6.3,
    "apg": 1.0,
-   "spg": 2,
-   "bpg": 1
+   "spg": 0.7,
+   "bpg": 0.3
   }
  },
  {
@@ -270,8 +270,8 @@
    "tpm": 4,
    "rpg": 1.3,
    "apg": 1.0,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.3,
+   "bpg": 0.0
   }
  },
  {
@@ -340,8 +340,8 @@
    "tpm": 0,
    "rpg": 3.0,
    "apg": 2.0,
-   "spg": 3,
-   "bpg": 0
+   "spg": 0.8,
+   "bpg": 0.0
   }
  },
  {
@@ -374,8 +374,8 @@
    "tpm": 2,
    "rpg": 3.0,
    "apg": 0.0,
-   "spg": 0,
-   "bpg": 1
+   "spg": 0.0,
+   "bpg": 0.5
   }
  },
  {
@@ -408,8 +408,8 @@
    "tpm": 3,
    "rpg": 1.3,
    "apg": 0.0,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.3,
+   "bpg": 0.0
   }
  },
  {
@@ -422,13 +422,13 @@
    "rebounding": 68
   },
   "awards": [],
-  "gp": 4,
+  "gp": 6,
   "isSub": true,
   "name": "Puneet Badwal",
-  "notes": "3.0 PPG, 3.5 RPG subbing for White (2 GP) and Purple (2 GP). Solid two-way depth.",
+  "notes": "3.5 PPG, 3.3 RPG across 6 GP as a multi-team sub. Solid two-way depth.",
   "ovr": 72,
-  "ppg": 3.0,
-  "rpg": 3.5,
+  "ppg": 3.5,
+  "rpg": 3.3,
   "team": "Multiple Teams",
   "tier": 5,
   "subbedFor": [
@@ -436,15 +436,15 @@
    "Purple"
   ],
   "stats": {
-   "gp": 4,
-   "ppg": 3.0,
-   "fgm": 5,
-   "fga": 19,
-   "tpm": 0,
-   "rpg": 3.5,
+   "gp": 6,
+   "ppg": 3.5,
+   "fgm": 9,
+   "fga": 26,
+   "tpm": 1,
+   "rpg": 3.3,
    "apg": 0.5,
-   "spg": 1,
-   "bpg": 0
+   "spg": 0.3,
+   "bpg": 0.3
   }
  },
  {
@@ -547,6 +547,210 @@
    "apg": 0.0,
    "spg": 0,
    "bpg": 0
+  }
+ },
+ {
+  "name": "Ahmed (AK) Khan",
+  "team": "Black",
+  "tier": 4,
+  "ovr": 80,
+  "isSub": true,
+  "attributes": {
+   "inside": 78,
+   "outside": 70,
+   "playmaking": 64,
+   "defense": 66,
+   "rebounding": 70
+  },
+  "awards": [],
+  "gp": 2,
+  "ppg": 8.5,
+  "rpg": 4.5,
+  "apg": 0.5,
+  "notes": "8.5 PPG, 4.5 RPG as Black sub (2 GP).",
+  "subbedFor": [
+   "Black"
+  ],
+  "stats": {
+   "gp": 2,
+   "ppg": 8.5,
+   "fgm": 8,
+   "fga": 22,
+   "tpm": 0,
+   "rpg": 4.5,
+   "apg": 0.5,
+   "spg": 1.0,
+   "bpg": 0.0
+  }
+ },
+ {
+  "name": "Zuko Sub",
+  "team": "White",
+  "tier": 4,
+  "ovr": 76,
+  "isSub": true,
+  "attributes": {
+   "inside": 70,
+   "outside": 72,
+   "playmaking": 72,
+   "defense": 64,
+   "rebounding": 62
+  },
+  "awards": [],
+  "gp": 2,
+  "ppg": 6.0,
+  "rpg": 2.5,
+  "apg": 3.0,
+  "notes": "6.0 PPG, 3.0 APG as White sub (2 GP).",
+  "subbedFor": [
+   "White"
+  ],
+  "stats": {
+   "gp": 2,
+   "ppg": 6.0,
+   "fgm": 4,
+   "fga": 9,
+   "tpm": 2,
+   "rpg": 2.5,
+   "apg": 3.0,
+   "spg": 0.0,
+   "bpg": 0.0
+  }
+ },
+ {
+  "name": "Hassan Sub",
+  "team": "Black",
+  "tier": 4,
+  "ovr": 77,
+  "isSub": true,
+  "attributes": {
+   "inside": 74,
+   "outside": 62,
+   "playmaking": 60,
+   "defense": 68,
+   "rebounding": 76
+  },
+  "awards": [],
+  "gp": 2,
+  "ppg": 6.0,
+  "rpg": 6.0,
+  "apg": 0.0,
+  "notes": "6.0 PPG, 6.0 RPG as Black sub (2 GP).",
+  "subbedFor": [
+   "Black"
+  ],
+  "stats": {
+   "gp": 2,
+   "ppg": 6.0,
+   "fgm": 5,
+   "fga": 9,
+   "tpm": 0,
+   "rpg": 6.0,
+   "apg": 0.0,
+   "spg": 1.0,
+   "bpg": 0.5
+  }
+ },
+ {
+  "name": "Phil Sub",
+  "team": "Black",
+  "tier": 4,
+  "ovr": 76,
+  "isSub": true,
+  "attributes": {
+   "inside": 76,
+   "outside": 58,
+   "playmaking": 58,
+   "defense": 66,
+   "rebounding": 78
+  },
+  "awards": [],
+  "gp": 2,
+  "ppg": 4.0,
+  "rpg": 8.0,
+  "apg": 0.5,
+  "notes": "4.0 PPG, 8.0 RPG, 80% FG as Black sub (2 GP).",
+  "subbedFor": [
+   "Black"
+  ],
+  "stats": {
+   "gp": 2,
+   "ppg": 4.0,
+   "fgm": 4,
+   "fga": 5,
+   "tpm": 0,
+   "rpg": 8.0,
+   "apg": 0.5,
+   "spg": 0.0,
+   "bpg": 0.5
+  }
+ },
+ {
+  "name": "Brian Espinal",
+  "team": "Grey",
+  "tier": 4,
+  "ovr": 75,
+  "isSub": true,
+  "attributes": {
+   "inside": 70,
+   "outside": 68,
+   "playmaking": 62,
+   "defense": 64,
+   "rebounding": 60
+  },
+  "awards": [],
+  "gp": 2,
+  "ppg": 3.5,
+  "rpg": 0.5,
+  "apg": 0.5,
+  "notes": "3.5 PPG as Grey sub (2 GP). Also on Red's active roster.",
+  "subbedFor": [
+   "Grey"
+  ],
+  "stats": {
+   "gp": 2,
+   "ppg": 3.5,
+   "fgm": 2,
+   "fga": 7,
+   "tpm": 2,
+   "rpg": 0.5,
+   "apg": 0.5,
+   "spg": 0.0,
+   "bpg": 0.0
+  }
+ },
+ {
+  "name": "Dan Sub",
+  "team": "Black",
+  "tier": 5,
+  "ovr": 70,
+  "isSub": true,
+  "attributes": {
+   "inside": 65,
+   "outside": 65,
+   "playmaking": 65,
+   "defense": 65,
+   "rebounding": 65
+  },
+  "awards": [],
+  "gp": 0,
+  "ppg": 0.0,
+  "rpg": 0.0,
+  "apg": 0.0,
+  "notes": "Yet to appear.",
+  "subbedFor": [
+   "Black"
+  ],
+  "stats": {
+   "gp": 0,
+   "ppg": 0.0,
+   "fgm": 0,
+   "fga": 0,
+   "tpm": 0,
+   "rpg": 0.0,
+   "apg": 0.0,
+   "spg": 0.0,
+   "bpg": 0.0
   }
  }
 ]
