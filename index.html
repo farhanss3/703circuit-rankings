@@ -326,7 +326,8 @@ ${p.isCaptain?'<span class="badge cap">Captain</span>':''}${p.isSub?'<span class
 app.innerHTML=h+'</div>'}
 
 function hbar(label,val,max,color,extra){
-return `<div class="hbar"><div class="lab"><span>${label}</span><span><b style="color:var(--text)">${val}</b>${extra||''}</span></div><div class="track"><div class="fill" style="width:${(val/max*100).toFixed(1)}%;background:${color}"></div></div></div>`}
+const p=Math.max(0,Math.min(100,parseFloat(val)/max*100));
+return `<div class="hbar"><div class="lab"><span>${label}</span><span><b style="color:var(--text)">${val}</b>${extra||''}</span></div><div class="track"><div class="fill" style="width:${p.toFixed(1)}%;background:${color}"></div></div></div>`}
 
 function fillLineup(A){
 const L=A.lineup;if(!L)return;
