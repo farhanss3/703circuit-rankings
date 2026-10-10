@@ -328,6 +328,33 @@ app.innerHTML=h+'</div>'}
 function hbar(label,val,max,color,extra){
 return `<div class="hbar"><div class="lab"><span>${label}</span><span><b style="color:var(--text)">${val}</b>${extra||''}</span></div><div class="track"><div class="fill" style="width:${(val/max*100).toFixed(1)}%;background:${color}"></div></div></div>`}
 
+function fillSubs(A){
+const S=A.subs;if(!S)return;
+const pc=(w,l)=>({pct:(w/(w+l)*100).toFixed(1)+'%',rec:`${w}-${l} (n=${w+l})`});
+const wv=pc(S.withVsWithout.with[0],S.withVsWithout.with[1]);
+const wo=pc(S.withVsWithout.without[0],S.withVsWithout.without[1]);
+document.getElementById('subWithPct').textContent=wv.pct;
+document.getElementById('subWithRec').textContent=wv.rec;
+document.getElementById('subWoPct').textContent=wo.pct;
+document.getElementById('subWoRec').textContent=wo.rec;
+const o=pc(S.bySubCount.one[0],S.bySubCount.one[1]),t=pc(S.bySubCount.twoPlus[0],S.bySubCount.twoPlus[1]);
+document.getElementById('subCountChips').innerHTML=
+`<span class="chip">Exactly 1 sub: <b>${o.pct}</b> <span style="color:var(--muted)">${o.rec}</span></span>
+<span class="chip">2+ subs: <b>${t.pct}</b> <span style="color:var(--muted)">${t.rec}</span></span>`;
+document.getElementById('subReliance').innerHTML=S.reliance.map(r=>
+hbar(`${r.team} <span style="color:var(--muted)">(${r.withSubs}/${r.games})</span>`,r.appearances,18,'linear-gradient(90deg,var(--accent),#b97a1a)')).join('');
+document.getElementById('subStars').innerHTML=
+'<div class="lab" style="font-size:.78rem;color:var(--muted);margin:.4rem 0 .3rem">Best outings</div>'+
+S.bestOutings.slice(0,5).map(b=>hbar(`${b.sub} <span style="color:var(--muted)">(${b.gp} gp)</span>`,b.pts+' pts',24,'linear-gradient(90deg,#7CFC98,#3fae5c)')).join('')+
+'<div class="lab" style="font-size:.78rem;color:var(--muted);margin:.7rem 0 .3rem">Most used</div>'+
+S.mostUsed.slice(0,5).map(b=>`<div class="hbar"><div class="lab"><span>${b.sub} <span style="color:var(--muted)">(${b.teams})</span></span><span><b style="color:var(--text)">${b.apps} apps</b> · ${b.ppg} ppg · team ${b.w}-${b.l}</span></div></div>`).join('');
+document.getElementById('subTiming').innerHTML=
+'<div class="lab" style="font-size:.78rem;color:var(--muted);margin:.4rem 0 .3rem">S4 appearances by week</div>'+
+S.byWeek.map(w=>hbar('Week '+w.week,w.appearances+' apps',26,'linear-gradient(90deg,var(--accent2),#7cc7f0)',` <span style="color:var(--muted)">(${w.subs} subs)</span>`)).join('')+
+'<div class="lab" style="font-size:.78rem;color:var(--muted);margin:.7rem 0 .3rem">Sub games by season</div>'+
+S.history.map(h=>hbar(h.season+(h.season==='S4*'?' (so far)':''),h.gp+' sub-GP',135,'linear-gradient(90deg,var(--accent),#b97a1a)',` <span style="color:var(--muted)">(${h.subs} subs)</span>`)).join('');
+}
+
 function renderAnalytics(){
 if(!analytics){app.innerHTML='<p style="text-align:center;color:var(--muted);padding:2rem">Analytics data not loaded.</p>';return}
 const A=analytics,m=A.meta;
@@ -402,8 +429,36 @@ ${hbar('Blowout — game 1',(A.competitiveness.blowoutG1[0]/A.competitiveness.bl
 ${hbar('Blowout — game 2',(A.competitiveness.blowoutG2[0]/A.competitiveness.blowoutG2[1]*100).toFixed(1)+'%',40,'linear-gradient(90deg,#ff8a8a,#c0392b)')}
 <div class="ana-note">~30% of games come down to one possession. Second games skew slightly less blowout-y.</div>
 </div>
+<div class="ana-card wide">
+<h3>🔄 Subs: do they help?</h3>
+<div class="sub">S4 through Week 4 · 52 sub appearances by 21 subs across 64 team-games · subs avg 5.8 PPG per appearance.</div>
+<div class="vs">
+<div class="side"><div class="t">Team-games WITH subs</div><div class="pct" style="color:#ff8a8a" id="subWithPct"></div><div class="rowline" id="subWithRec"></div></div>
+<div class="side"><div class="t">Team-games WITHOUT subs</div><div class="pct" style="color:#7CFC98" id="subWoPct"></div><div class="rowline" id="subWoRec"></div></div>
 </div>
-<p style="color:var(--muted);font-size:.78rem;margin-top:1.2rem;text-align:center">Through ${m.through} · recomputed ${m.computed} · methodology: every completed game on 703circuit.com, all seasons</p>`}
+<div class="chips" id="subCountChips"></div>
+<div class="ana-note"><b>Correlation, not causation:</b> teams call subs when roster players are missing — the sub is usually a symptom of a short-handed night, not the cause of the loss. Note the split below: one lone fill-in disrupts (.318), but a 2+ sub rotation holds its own (.583).</div>
+</div>
+<div class="ana-card">
+<h3>📊 Who leans on subs?</h3>
+<div class="sub">Sub appearances per team, S4.</div>
+<div id="subReliance"></div>
+<div class="ana-note">Black is in a league of its own — subs in all 6 games (4 subs a night in Week 4). Purple uses exactly one sub every game.</div>
+</div>
+<div class="ana-card">
+<h3>🌟 Sub standouts</h3>
+<div class="sub">Best single-game outings & most-used subs, S4.</div>
+<div id="subStars"></div>
+</div>
+<div class="ana-card">
+<h3>📅 Sub timing & history</h3>
+<div class="sub">Appearances by week (S4) and sub usage by season.</div>
+<div id="subTiming"></div>
+<div class="ana-note">Week 1 is always chaos — 24 appearances. S4 is on pace for ~130 sub-games, in line with S2's 131.</div>
+</div>
+</div>
+<p style="color:var(--muted);font-size:.78rem;margin-top:1.2rem;text-align:center">Through ${m.through} · recomputed ${m.computed} · methodology: every completed game on 703circuit.com, all seasons</p>`;
+fillSubs(A)}
 
 let view='tiers';
 function render(){legend.innerHTML=(dataset==='subs'?tierDescS:tierDescP)[view];
