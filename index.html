@@ -328,6 +328,35 @@ app.innerHTML=h+'</div>'}
 function hbar(label,val,max,color,extra){
 return `<div class="hbar"><div class="lab"><span>${label}</span><span><b style="color:var(--text)">${val}</b>${extra||''}</span></div><div class="track"><div class="fill" style="width:${(val/max*100).toFixed(1)}%;background:${color}"></div></div></div>`}
 
+function fillLineup(A){
+const L=A.lineup;if(!L)return;
+const pc=(w,l)=>({pct:(w/(w+l)*100).toFixed(1)+'%',rec:`${w}-${l} (n=${w+l})`});
+const t1=pc(L.starPower.t1.with[0],L.starPower.t1.with[1]);
+const t1n=pc(L.starPower.t1.without[0],L.starPower.t1.without[1]);
+document.getElementById('lineT1Pct').textContent=t1.pct;
+document.getElementById('lineT1Rec').textContent=t1.rec;
+document.getElementById('lineT1nPct').textContent=t1n.pct;
+document.getElementById('lineT1nRec').textContent=t1n.rec;
+const a=pc(L.starPower.t1t2.with[0],L.starPower.t1t2.with[1]);
+const b=pc(L.starPower.t1t2.without[0],L.starPower.t1t2.without[1]);
+document.getElementById('lineChips').innerHTML=
+`<span class="chip">Has Tier-1/2: <b>${a.pct}</b> <span style="color:var(--muted)">${a.rec}</span></span>
+<span class="chip">No Tier-1/2: <b>${b.pct}</b> <span style="color:var(--muted)">${b.rec}</span></span>`;
+document.getElementById('lineT1Players').innerHTML=L.t1ByPlayer.map(p=>
+hbar(`${p.name}`,p.w+'-'+p.l,p.w+p.l,'linear-gradient(90deg,#7CFC98,#3fae5c)')).join('');
+const cw=pc(L.captain.with[0],L.captain.with[1]),cn=pc(L.captain.without[0],L.captain.without[1]);
+document.getElementById('lineCap').innerHTML=
+hbar('Captain suited up',cw.pct,70,'linear-gradient(90deg,var(--accent2),#7cc7f0)',` <span style="color:var(--muted)">${cw.rec}</span>`)+
+hbar('Captain absent',cn.pct,70,'linear-gradient(90deg,var(--accent),#b97a1a)',` <span style="color:var(--muted)">${cn.rec}</span>`);
+const uo=L.unitOvr;
+document.getElementById('lineOvr').innerHTML=
+`<div class="ana-stat" style="margin-bottom:.8rem"><div class="big">${(uo.higherWon/uo.games*100).toFixed(1)}%</div><div class="lbl">higher-avg-OVR unit won<br>${uo.higherWon}-${uo.games-uo.higherWon} over ${uo.games} games</div></div>`+
+hbar('Big mismatch (OVR gap 5+) — favorite won',(uo.mismatch[0]/uo.mismatch[1]*100).toFixed(1)+'%',100,'linear-gradient(90deg,#7CFC98,#3fae5c)',` <span style="color:var(--muted)">${uo.mismatch[0]}-${uo.mismatch[1]-uo.mismatch[0]}</span>`);
+document.getElementById('lineCombos').innerHTML=L.combos.map(c=>{
+const p=pc(c.w,c.l);
+return `<div class="hbar"><div class="lab"><span>${c.desc}</span><span><b style="color:var(--text)">${p.pct}</b> <span style="color:var(--muted)">${p.rec}</span></span></div></div>`}).join('');
+}
+
 function fillSubs(A){
 const S=A.subs;if(!S)return;
 const pc=(w,l)=>({pct:(w/(w+l)*100).toFixed(1)+'%',rec:`${w}-${l} (n=${w+l})`});
@@ -456,9 +485,42 @@ ${hbar('Blowout — game 2',(A.competitiveness.blowoutG2[0]/A.competitiveness.bl
 <div id="subTiming"></div>
 <div class="ana-note">Week 1 is always chaos — 24 appearances. S4 is on pace for ~130 sub-games, in line with S2's 131.</div>
 </div>
+<div class="ana-card wide">
+<h3>🧪 Lineup Lab: does the mix matter?</h3>
+<div class="sub">S4 through Week 4 · per-game box scores (who actually played) · 64 team-games. One W1 game excluded from quality reads (10 Week-1-only players, no rating).</div>
+<div class="vs">
+<div class="side"><div class="t">Lineup HAS a Tier-1 player</div><div class="pct" style="color:#7CFC98" id="lineT1Pct"></div><div class="rowline" id="lineT1Rec"></div></div>
+<div class="side"><div class="t">Lineup has NO Tier-1</div><div class="pct" style="color:#ff8a8a" id="lineT1nPct"></div><div class="rowline" id="lineT1nRec"></div></div>
+</div>
+<div class="chips" id="lineChips"></div>
+<div class="ana-note"><b>Star power is the strongest signal in the data:</b> all four Tier-1s are .500 or better with their teams — it's not one player carrying the number.</div>
+</div>
+<div class="ana-card">
+<h3>🌟 Tier-1 record by player</h3>
+<div class="sub">Team W-L in games they played.</div>
+<div id="lineT1Players"></div>
+</div>
+<div class="ana-card">
+<h3>🧢 Does the captain matter?</h3>
+<div class="sub">Captain in the lineup vs absent.</div>
+<div id="lineCap"></div>
+<div class="ana-note">No captain effect. Fun fact: Yellow won <b>both</b> Week 1 games without Tahseen Almas.</div>
+</div>
+<div class="ana-card">
+<h3>📊 Unit quality</h3>
+<div class="sub">Avg OVR of the five who played.</div>
+<div id="lineOvr"></div>
+<div class="ana-note">Talent wins, but only clearly when the gap is big.</div>
+</div>
+<div class="ana-card">
+<h3>🧬 Common lineup combos</h3>
+<div class="sub">Most frequent tier mixes (min 3 games).</div>
+<div id="lineCombos"></div>
+<div class="ana-note">Small samples — combos are descriptive, not predictive. Yet.</div>
+</div>
 </div>
 <p style="color:var(--muted);font-size:.78rem;margin-top:1.2rem;text-align:center">Through ${m.through} · recomputed ${m.computed} · methodology: every completed game on 703circuit.com, all seasons</p>`;
-fillSubs(A)}
+fillSubs(A);fillLineup(A)}
 
 let view='tiers';
 function render(){legend.innerHTML=(dataset==='subs'?tierDescS:tierDescP)[view];
