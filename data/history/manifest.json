@@ -1,24 +1,29 @@
 {
- "snapshots": [
-  {
-   "date": "2026-09-25",
-   "label": "Sep 25 baseline",
-   "file": "history/2026-09-25.json"
-  },
-  {
-   "date": "2026-10-02",
-   "label": "Oct 2",
-   "file": "history/2026-10-02.json"
-  },
-  {
-   "date": "2026-10-08",
-   "label": "Oct 8",
-   "file": "history/2026-10-08.json"
-  },
-  {
-   "date": "2026-10-09",
-   "label": "Oct 9",
-   "file": "history/2026-10-09.json"
-  }
- ]
+  "snapshots": [
+    {
+      "date": "2026-09-25",
+      "label": "Sep 25 baseline",
+      "file": "history/2026-09-25.json"
+    },
+    {
+      "date": "2026-10-02",
+      "label": "Oct 2",
+      "file": "history/2026-10-02.json"
+    },
+    {
+      "date": "2026-10-08",
+      "label": "Oct 8",
+      "file": "history/2026-10-08.json"
+    },
+    {
+      "date": "2026-10-09",
+      "label": "Oct 9",
+      "file": "history/2026-10-09.json"
+    },
+    {
+      "date": "2026-10-16",
+      "label": "Oct 16",
+      "file": "history/2026-10-16.json"
+    }
+  ]
 }
