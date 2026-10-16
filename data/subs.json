@@ -171,7 +171,7 @@
   }
  },
  {
-  "apg": 0.0,
+  "apg": 0.2,
   "attributes": {
    "defense": 76,
    "inside": 76,
@@ -180,27 +180,28 @@
    "rebounding": 72
   },
   "awards": [],
-  "gp": 2,
+  "gp": 4,
   "isSub": true,
   "name": "Nayan Patel",
   "notes": "7.5 PPG, 3.0 RPG, 1.0 SPG as Black sub (2 GP). 54.5% FG, active hands.",
   "ovr": 78,
-  "ppg": 7.5,
-  "rpg": 3.0,
+  "ppg": 5.2,
+  "rpg": 3.2,
   "team": "Black",
   "tier": 4,
   "subbedFor": [
-   "Black"
+   "Black",
+   "Purple"
   ],
   "stats": {
-   "gp": 2,
-   "ppg": 7.5,
-   "fgm": 6,
-   "fga": 11,
-   "tpm": 2,
-   "rpg": 3.0,
-   "apg": 0.0,
-   "spg": 1.0,
+   "gp": 4,
+   "ppg": 5.2,
+   "fgm": 10,
+   "fga": 23,
+   "tpm": 3,
+   "rpg": 3.2,
+   "apg": 0.2,
+   "spg": 0.8,
    "bpg": 0.0
   }
  },
@@ -240,7 +241,7 @@
   }
  },
  {
-  "apg": 1.0,
+  "apg": 1.2,
   "attributes": {
    "defense": 68,
    "inside": 66,
@@ -249,13 +250,13 @@
    "rebounding": 66
   },
   "awards": [],
-  "gp": 3,
+  "gp": 5,
   "isSub": true,
   "name": "Danish Bashir",
   "notes": "5.7 PPG subbing for Grey (2 GP) and Purple (1 GP). Steady guard minutes wherever needed.",
   "ovr": 76,
-  "ppg": 5.7,
-  "rpg": 1.3,
+  "ppg": 7.0,
+  "rpg": 1.6,
   "team": "Multiple Teams",
   "tier": 4,
   "subbedFor": [
@@ -263,14 +264,14 @@
    "Purple"
   ],
   "stats": {
-   "gp": 3,
-   "ppg": 5.7,
-   "fgm": 5,
-   "fga": 20,
-   "tpm": 4,
-   "rpg": 1.3,
-   "apg": 1.0,
-   "spg": 0.3,
+   "gp": 5,
+   "ppg": 7.0,
+   "fgm": 11,
+   "fga": 42,
+   "tpm": 9,
+   "rpg": 1.6,
+   "apg": 1.2,
+   "spg": 0.4,
    "bpg": 0.0
   }
  },
@@ -309,7 +310,7 @@
   }
  },
  {
-  "apg": 2.0,
+  "apg": 1.5,
   "attributes": {
    "defense": 74,
    "inside": 64,
@@ -318,13 +319,13 @@
    "rebounding": 72
   },
   "awards": [],
-  "gp": 4,
+  "gp": 6,
   "isSub": true,
   "name": "Usman Ahmad",
   "notes": "2.3 PPG, 3.0 RPG, 2.0 APG subbing for White (2 GP), Yellow (1 GP) and Orange (1 GP). Leads S4 subs in assists.",
   "ovr": 73,
-  "ppg": 2.3,
-  "rpg": 3.0,
+  "ppg": 3.8,
+  "rpg": 2.8,
   "team": "Multiple Teams",
   "tier": 5,
   "subbedFor": [
@@ -333,13 +334,13 @@
    "Orange"
   ],
   "stats": {
-   "gp": 4,
-   "ppg": 2.3,
-   "fgm": 4,
-   "fga": 13,
-   "tpm": 0,
-   "rpg": 3.0,
-   "apg": 2.0,
+   "gp": 6,
+   "ppg": 3.8,
+   "fgm": 11,
+   "fga": 21,
+   "tpm": 2,
+   "rpg": 2.8,
+   "apg": 1.5,
    "spg": 0.8,
    "bpg": 0.0
   }
@@ -413,7 +414,7 @@
   }
  },
  {
-  "apg": 0.5,
+  "apg": 0.7,
   "attributes": {
    "defense": 68,
    "inside": 68,
@@ -422,13 +423,13 @@
    "rebounding": 68
   },
   "awards": [],
-  "gp": 6,
+  "gp": 8,
   "isSub": true,
   "name": "Puneet Badwal",
   "notes": "3.5 PPG, 3.3 RPG across 6 GP as a multi-team sub. Solid two-way depth.",
   "ovr": 72,
-  "ppg": 3.5,
-  "rpg": 3.3,
+  "ppg": 4.5,
+  "rpg": 3.2,
   "team": "Multiple Teams",
   "tier": 5,
   "subbedFor": [
@@ -436,14 +437,14 @@
    "Purple"
   ],
   "stats": {
-   "gp": 6,
-   "ppg": 3.5,
-   "fgm": 9,
-   "fga": 26,
-   "tpm": 1,
-   "rpg": 3.3,
-   "apg": 0.5,
-   "spg": 0.3,
+   "gp": 8,
+   "ppg": 4.5,
+   "fgm": 16,
+   "fga": 39,
+   "tpm": 2,
+   "rpg": 3.2,
+   "apg": 0.7,
+   "spg": 0.8,
    "bpg": 0.3
   }
  },
@@ -618,7 +619,7 @@
   }
  },
  {
-  "name": "Hassan Sub",
+  "name": "Hassan Syed",
   "team": "Black",
   "tier": 4,
   "ovr": 77,
@@ -631,24 +632,24 @@
    "rebounding": 76
   },
   "awards": [],
-  "gp": 2,
+  "gp": 4,
   "ppg": 6.0,
-  "rpg": 6.0,
-  "apg": 0.0,
+  "rpg": 4.8,
+  "apg": 0.2,
   "notes": "6.0 PPG, 6.0 RPG as Black sub (2 GP).",
   "subbedFor": [
    "Black"
   ],
   "stats": {
-   "gp": 2,
+   "gp": 4,
    "ppg": 6.0,
-   "fgm": 5,
-   "fga": 9,
-   "tpm": 0,
-   "rpg": 6.0,
-   "apg": 0.0,
-   "spg": 1.0,
-   "bpg": 0.5
+   "fgm": 10,
+   "fga": 22,
+   "tpm": 2,
+   "rpg": 4.8,
+   "apg": 0.2,
+   "spg": 0.8,
+   "bpg": 0.2
   }
  },
  {
@@ -749,6 +750,40 @@
    "tpm": 0,
    "rpg": 0.0,
    "apg": 0.0,
+   "spg": 0.0,
+   "bpg": 0.0
+  }
+ },
+ {
+  "name": "Sully",
+  "team": "Black",
+  "isSub": true,
+  "gp": 2,
+  "ppg": 3.0,
+  "rpg": 0.5,
+  "apg": 0.5,
+  "tier": 5,
+  "ovr": 70,
+  "attributes": {
+   "inside": 70,
+   "outside": 70,
+   "playmaking": 65,
+   "defense": 65,
+   "rebounding": 65
+  },
+  "awards": [],
+  "notes": "Black sub. Week 5 debut.",
+  "subbedFor": [
+   "Black"
+  ],
+  "stats": {
+   "gp": 2,
+   "ppg": 3.0,
+   "fgm": 2,
+   "fga": 5,
+   "tpm": 2,
+   "rpg": 0.5,
+   "apg": 0.5,
    "spg": 0.0,
    "bpg": 0.0
   }
