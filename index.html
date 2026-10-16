@@ -172,8 +172,8 @@ offense:'<b>Offense Rankings:</b> Every ranked player 1–N by offensive rating 
 defense:'<b>Defense Rankings:</b> Every ranked player 1–N by defensive rating — the average of DEF (defense) and REB (rebounding).',
 abe:'<b>Abe\'s Opinion:</b> Weighted power ranking by Abe\'s formula — <b>Scoring 25% · Shooting efficiency (eFG%) 20% · Rebounding 15% · Playmaking 15% · Defense (STL+BLK) 10% · Team winning % 10% · Consistency (games played) 5%.</b> Each category is scaled 0–100 across the dataset; score shown is the weighted composite. Computed live from each player\'s <code>stats</code> block in the data files.',
 movers:'<b>Weekly Movers:</b> Tier and rating changes since the last refresh, driven by the week\'s game results. ⬆️ tier risers, ⬇️ tier fallers, plus the biggest OVR movers.',
-everyone:'<b>Everyone:</b> All 66 rostered players and subs in one board, ranked 1–66 by overall rating (OVR).',
-analytics:'<b>League Analytics:</b> Infographic breakdowns from <b>304 completed games (S1–S4)</b> — back-to-back fatigue, time-slot edges, court differences, home-court (in)advantage, momentum and competitiveness. Recomputed every Friday refresh.'};
+everyone:'<b>Everyone:</b> All 73 rostered players and subs in one board, ranked 1–73 by overall rating (OVR).',
+analytics:'<b>League Analytics:</b> Infographic breakdowns from <b>312 completed games (S1–S4)</b> — back-to-back fatigue, time-slot edges, court differences, home-court (in)advantage, momentum and competitiveness. Recomputed every Friday refresh.'};
 const tierDescS={
 tiers:'<b>Sub Tier Board:</b> S4 substitute players tiered 1–5 by overall rating: <b>Tier 1 = 90+, Tier 2 = 85–89, Tier 3 = 80–84, Tier 4 = 75–79, Tier 5 = below 75.</b>',
 power:'<b>Sub Power Rankings:</b> Every S4 sub ranked 1–N by overall rating (OVR).',
@@ -182,8 +182,8 @@ offense:'<b>Sub Offense Rankings:</b> Every S4 sub ranked 1–N by offensive rat
 defense:'<b>Sub Defense Rankings:</b> Every S4 sub ranked 1–N by defensive rating (DEF + REB average).',
 abe:'<b>Abe\'s Sub Opinion:</b> Weighted power ranking by Abe\'s formula — <b>Scoring 25% · Shooting efficiency (eFG%) 20% · Rebounding 15% · Playmaking 15% · Defense (STL+BLK) 10% · Team winning % 10% · Consistency (games played) 5%.</b> Each category is scaled 0–100 across the subs dataset.',
 movers:'<b>Sub Weekly Movers:</b> Sub tier and rating changes since the last refresh, driven by the week\'s game results.',
-everyone:'<b>Everyone:</b> All 66 rostered players and subs in one board, ranked 1–66 by overall rating (OVR).',
-analytics:'<b>League Analytics:</b> Infographic breakdowns from <b>304 completed games (S1–S4)</b> — back-to-back fatigue, time-slot edges, court differences, home-court (in)advantage, momentum and competitiveness. Recomputed every Friday refresh.'};
+everyone:'<b>Everyone:</b> All 73 rostered players and subs in one board, ranked 1–73 by overall rating (OVR).',
+analytics:'<b>League Analytics:</b> Infographic breakdowns from <b>312 completed games (S1–S4)</b> — back-to-back fatigue, time-slot edges, court differences, home-court (in)advantage, momentum and competitiveness. Recomputed every Friday refresh.'};
 
 function ovrClass(o){return o>=90?'ovr-90':o>=85?'ovr-85':o>=80?'ovr-80':'ovr-low'}
 function matches(p){const q=document.getElementById('search').value.toLowerCase(),t=document.getElementById('teamFilter').value;
