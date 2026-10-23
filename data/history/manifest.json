@@ -24,6 +24,11 @@
       "date": "2026-10-16",
       "label": "Oct 16",
       "file": "history/2026-10-16.json"
+    },
+    {
+      "date": "2026-10-23",
+      "label": "Oct 23",
+      "file": "history/2026-10-23.json"
     }
   ]
 }
