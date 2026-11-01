@@ -19,14 +19,14 @@
     "s4_week1": null,
     "notes": "Career PTS leader (1122). S1 & S2 MVP. Blue captain. 11.4 PPG, 55.2% FG, 1.4 SPG in 8 GP.",
     "stats": {
-      "gp": 8,
-      "ppg": 11.4,
-      "fgm": 32,
-      "fga": 58,
-      "tpm": 11,
-      "rpg": 2.0,
-      "apg": 2.4,
-      "spg": 1.4,
+      "gp": 10,
+      "ppg": 11.1,
+      "fgm": 41,
+      "fga": 79,
+      "tpm": 13,
+      "rpg": 1.9,
+      "apg": 2.5,
+      "spg": 1.3,
       "bpg": 0.0
     }
   },
@@ -111,14 +111,14 @@
     "s4_week1": null,
     "notes": "1022 career PTS. 10.4 PPG, 2.6 APG, 1.4 SPG in S4. Black captain.",
     "stats": {
-      "gp": 8,
-      "ppg": 10.4,
-      "fgm": 25,
-      "fga": 54,
-      "tpm": 8,
-      "rpg": 4.0,
-      "apg": 2.6,
-      "spg": 1.4,
+      "gp": 10,
+      "ppg": 10.9,
+      "fgm": 31,
+      "fga": 67,
+      "tpm": 10,
+      "rpg": 4.3,
+      "apg": 2.8,
+      "spg": 1.2,
       "bpg": 0.1
     }
   },
@@ -142,15 +142,15 @@
     "s4_week1": null,
     "notes": "League-high 23 threes. 10.5 PPG. Green captain.",
     "stats": {
-      "gp": 10,
-      "ppg": 10.5,
-      "fgm": 35,
-      "fga": 114,
-      "tpm": 23,
-      "rpg": 3.0,
-      "apg": 1.2,
-      "spg": 0.3,
-      "bpg": 0.5
+      "gp": 12,
+      "ppg": 10.8,
+      "fgm": 46,
+      "fga": 140,
+      "tpm": 26,
+      "rpg": 2.9,
+      "apg": 1.3,
+      "spg": 0.5,
+      "bpg": 0.4
     }
   },
   {
@@ -173,15 +173,15 @@
     "s4_week1": null,
     "notes": "9.5 PPG in S4. Multi-time POTW (S2/S3). Red captain.",
     "stats": {
-      "gp": 6,
-      "ppg": 9.5,
-      "fgm": 19,
-      "fga": 45,
-      "tpm": 7,
-      "rpg": 6.2,
-      "apg": 1.8,
-      "spg": 0.3,
-      "bpg": 0.7
+      "gp": 8,
+      "ppg": 10.1,
+      "fgm": 26,
+      "fga": 68,
+      "tpm": 10,
+      "rpg": 5.4,
+      "apg": 1.6,
+      "spg": 0.4,
+      "bpg": 0.5
     }
   },
   {
@@ -201,15 +201,15 @@
     "s4_week1": null,
     "notes": "13.1 PPG, 63.8% FG in S4. Green's most efficient scorer.",
     "stats": {
-      "gp": 10,
-      "ppg": 13.1,
-      "fgm": 44,
-      "fga": 69,
-      "tpm": 10,
-      "rpg": 4.9,
+      "gp": 12,
+      "ppg": 12.7,
+      "fgm": 51,
+      "fga": 82,
+      "tpm": 11,
+      "rpg": 5.6,
       "apg": 1.5,
       "spg": 1.3,
-      "bpg": 1.0
+      "bpg": 1.1
     }
   },
   {
@@ -231,15 +231,15 @@
     "s4_week1": null,
     "notes": "11.4 PPG, 50.8% FG, 1.0 SPG in S4.",
     "stats": {
-      "gp": 7,
-      "ppg": 11.4,
-      "fgm": 30,
-      "fga": 59,
+      "gp": 9,
+      "ppg": 11.2,
+      "fgm": 38,
+      "fga": 75,
       "tpm": 7,
-      "rpg": 2.1,
-      "apg": 1.3,
-      "spg": 1.0,
-      "bpg": 0.0
+      "rpg": 2.6,
+      "apg": 1.8,
+      "spg": 1.1,
+      "bpg": 0.1
     }
   },
   {
@@ -262,13 +262,13 @@
     "s4_week1": null,
     "notes": "5.5 PPG on 38.1% FG in S4. Veteran wing.",
     "stats": {
-      "gp": 4,
-      "ppg": 5.5,
-      "fgm": 8,
-      "fga": 21,
-      "tpm": 4,
-      "rpg": 1.8,
-      "apg": 1.3,
+      "gp": 6,
+      "ppg": 7.2,
+      "fgm": 16,
+      "fga": 37,
+      "tpm": 9,
+      "rpg": 2.2,
+      "apg": 1.2,
       "spg": 0.3,
       "bpg": 0.0
     }
@@ -318,15 +318,15 @@
     "s4_week1": null,
     "notes": "7.0 RPG, 0.6 BPG. Orange frontcourt anchor. Orange 5-3 captain.",
     "stats": {
-      "gp": 8,
-      "ppg": 7.8,
-      "fgm": 27,
-      "fga": 56,
+      "gp": 10,
+      "ppg": 8.6,
+      "fgm": 38,
+      "fga": 73,
       "tpm": 1,
       "rpg": 7.0,
       "apg": 1.5,
-      "spg": 0.6,
-      "bpg": 0.6
+      "spg": 0.5,
+      "bpg": 0.7
     }
   },
   {
@@ -348,13 +348,13 @@
     "s4_week1": null,
     "notes": "9.9 PPG, 3.8 APG. Purple starter on 4-6 team.",
     "stats": {
-      "gp": 10,
-      "ppg": 9.9,
-      "fgm": 32,
-      "fga": 68,
-      "tpm": 16,
-      "rpg": 2.7,
-      "apg": 3.8,
+      "gp": 12,
+      "ppg": 9.4,
+      "fgm": 37,
+      "fga": 84,
+      "tpm": 18,
+      "rpg": 2.8,
+      "apg": 4.0,
       "spg": 1.3,
       "bpg": 0.0
     }
@@ -376,14 +376,14 @@
     "s4_week1": null,
     "notes": "9.1 PPG, 5.1 RPG. Orange starter, 5-3 team.",
     "stats": {
-      "gp": 8,
-      "ppg": 9.1,
-      "fgm": 24,
-      "fga": 55,
-      "tpm": 5,
-      "rpg": 5.1,
-      "apg": 0.9,
-      "spg": 0.5,
+      "gp": 10,
+      "ppg": 9.6,
+      "fgm": 31,
+      "fga": 67,
+      "tpm": 7,
+      "rpg": 4.6,
+      "apg": 0.8,
+      "spg": 0.7,
       "bpg": 0.0
     }
   },
@@ -404,13 +404,13 @@
     "s4_week1": null,
     "notes": "S4 rebound leader 9.0 RPG. Traded to Grey.",
     "stats": {
-      "gp": 10,
-      "ppg": 6.3,
-      "fgm": 23,
-      "fga": 50,
+      "gp": 12,
+      "ppg": 5.8,
+      "fgm": 26,
+      "fga": 56,
       "tpm": 2,
-      "rpg": 9.0,
-      "apg": 0.9,
+      "rpg": 8.3,
+      "apg": 0.8,
       "spg": 0.3,
       "bpg": 0.1
     }
@@ -490,15 +490,15 @@
     "s4_week1": null,
     "notes": "8.3 PPG, 1.1 3PG, 1.5 SPG. Brown captain, 4-4 team.",
     "stats": {
-      "gp": 8,
-      "ppg": 8.3,
-      "fgm": 24,
-      "fga": 69,
-      "tpm": 9,
-      "rpg": 4.6,
+      "gp": 10,
+      "ppg": 7.5,
+      "fgm": 27,
+      "fga": 85,
+      "tpm": 10,
+      "rpg": 4.3,
       "apg": 1.3,
-      "spg": 1.5,
-      "bpg": 0.1
+      "spg": 1.2,
+      "bpg": 0.2
     }
   },
   {
@@ -518,14 +518,14 @@
     "s4_week1": null,
     "notes": "2.8 PPG on 29.6% FG; 4.0 RPG, 0.8 BPG. 13-pt breakout in Week 6.",
     "stats": {
-      "gp": 10,
-      "ppg": 2.8,
-      "fgm": 8,
-      "fga": 27,
-      "tpm": 3,
+      "gp": 12,
+      "ppg": 3.3,
+      "fgm": 13,
+      "fga": 34,
+      "tpm": 5,
       "rpg": 4.0,
-      "apg": 0.9,
-      "spg": 0.4,
+      "apg": 1.0,
+      "spg": 0.3,
       "bpg": 0.8
     }
   },
@@ -546,20 +546,20 @@
     "s4_week1": null,
     "notes": "6.0 PPG, 30.4% FG. Purple captain.",
     "stats": {
-      "gp": 10,
-      "ppg": 6.0,
-      "fgm": 21,
-      "fga": 69,
+      "gp": 12,
+      "ppg": 6.4,
+      "fgm": 27,
+      "fga": 86,
       "tpm": 6,
       "rpg": 4.7,
-      "apg": 0.9,
-      "spg": 0.4,
+      "apg": 0.8,
+      "spg": 0.6,
       "bpg": 0.4
     }
   },
   {
     "name": "Abdullah Rana",
-    "team": "Blue",
+    "team": "Orange",
     "tier": 3,
     "ovr": 80,
     "isCaptain": false,
@@ -572,17 +572,17 @@
     },
     "awards": [],
     "s4_week1": null,
-    "notes": "8.6 PPG, 2.9 RPG, 2.0 SPG in 8 GP.",
+    "notes": "8.6 PPG, 2.9 RPG, 2.0 SPG in 8 GP. Traded to Orange.",
     "stats": {
-      "gp": 8,
-      "ppg": 8.6,
-      "fgm": 28,
-      "fga": 80,
-      "tpm": 8,
-      "rpg": 2.9,
-      "apg": 0.8,
-      "spg": 2.0,
-      "bpg": 0.3
+      "gp": 10,
+      "ppg": 8.2,
+      "fgm": 32,
+      "fga": 91,
+      "tpm": 11,
+      "rpg": 2.8,
+      "apg": 0.6,
+      "spg": 1.8,
+      "bpg": 0.2
     }
   },
   {
@@ -602,15 +602,15 @@
     "s4_week1": null,
     "notes": "S4 assists leader 3.3 APG. Grey captain, 2-8 team.",
     "stats": {
-      "gp": 10,
-      "ppg": 6.3,
-      "fgm": 21,
-      "fga": 60,
-      "tpm": 15,
-      "rpg": 2.7,
-      "apg": 3.3,
+      "gp": 12,
+      "ppg": 6.7,
+      "fgm": 25,
+      "fga": 70,
+      "tpm": 17,
+      "rpg": 2.6,
+      "apg": 3.0,
       "spg": 0.6,
-      "bpg": 0.4
+      "bpg": 0.3
     }
   },
   {
@@ -643,7 +643,7 @@
   },
   {
     "name": "Pali Gill",
-    "team": "Orange",
+    "team": "Yellow",
     "tier": 3,
     "ovr": 81,
     "isCaptain": false,
@@ -656,7 +656,7 @@
     },
     "awards": [],
     "s4_week1": null,
-    "notes": "8.6 PPG. Orange starter on 5-3 team.",
+    "notes": "8.6 PPG. Traded to Yellow.",
     "stats": {
       "gp": 8,
       "ppg": 8.6,
@@ -686,15 +686,15 @@
     "s4_week1": null,
     "notes": "2.7 PPG on 37.5% FG; 5.7 RPG, 0.8 BPG. Red 2-6.",
     "stats": {
-      "gp": 6,
-      "ppg": 2.7,
-      "fgm": 6,
-      "fga": 16,
-      "tpm": 3,
-      "rpg": 5.7,
-      "apg": 0.8,
-      "spg": 0.5,
-      "bpg": 0.8
+      "gp": 8,
+      "ppg": 2.4,
+      "fgm": 7,
+      "fga": 20,
+      "tpm": 4,
+      "rpg": 5.4,
+      "apg": 0.6,
+      "spg": 0.4,
+      "bpg": 0.6
     }
   },
   {
@@ -714,20 +714,20 @@
     "s4_week1": null,
     "notes": "9.5 PPG, 5.4 RPG. Red starter.",
     "stats": {
-      "gp": 8,
-      "ppg": 9.5,
-      "fgm": 31,
-      "fga": 67,
-      "tpm": 3,
-      "rpg": 5.4,
-      "apg": 0.8,
+      "gp": 10,
+      "ppg": 9.9,
+      "fgm": 39,
+      "fga": 85,
+      "tpm": 4,
+      "rpg": 5.3,
+      "apg": 0.9,
       "spg": 0.4,
-      "bpg": 0.3
+      "bpg": 0.2
     }
   },
   {
     "name": "Yohan Yazdi",
-    "team": "Yellow",
+    "team": "Blue",
     "tier": 4,
     "ovr": 79,
     "isCaptain": false,
@@ -740,16 +740,16 @@
     },
     "awards": [],
     "s4_week1": null,
-    "notes": "2.6 PPG, 2.6 RPG. Yellow 8-4.",
+    "notes": "2.6 PPG, 2.6 RPG. Traded to Blue.",
     "stats": {
-      "gp": 12,
-      "ppg": 2.6,
-      "fgm": 11,
-      "fga": 41,
-      "tpm": 5,
-      "rpg": 2.6,
-      "apg": 0.7,
-      "spg": 0.6,
+      "gp": 14,
+      "ppg": 2.7,
+      "fgm": 14,
+      "fga": 51,
+      "tpm": 6,
+      "rpg": 2.4,
+      "apg": 0.6,
+      "spg": 0.5,
       "bpg": 0.3
     }
   },
@@ -854,14 +854,14 @@
     "s4_week1": null,
     "notes": "8.3 PPG in 6 GP. Traded to Brown.",
     "stats": {
-      "gp": 6,
-      "ppg": 8.3,
-      "fgm": 21,
-      "fga": 53,
-      "tpm": 6,
-      "rpg": 3.5,
-      "apg": 0.8,
-      "spg": 0.8,
+      "gp": 8,
+      "ppg": 8.1,
+      "fgm": 27,
+      "fga": 71,
+      "tpm": 9,
+      "rpg": 3.3,
+      "apg": 0.9,
+      "spg": 0.6,
       "bpg": 0.0
     }
   },
@@ -882,14 +882,14 @@
     "s4_week1": null,
     "notes": "0.8 PPG on 10.0% FG in 4 GP. Orange roster - S4.",
     "stats": {
-      "gp": 4,
-      "ppg": 0.8,
-      "fgm": 1,
-      "fga": 10,
-      "tpm": 1,
-      "rpg": 1.8,
+      "gp": 6,
+      "ppg": 2.2,
+      "fgm": 5,
+      "fga": 17,
+      "tpm": 3,
+      "rpg": 2.3,
       "apg": 0.5,
-      "spg": 0.3,
+      "spg": 0.2,
       "bpg": 0.0
     }
   },
@@ -910,14 +910,14 @@
     "s4_week1": null,
     "notes": "3.4 PPG. Orange 5-3.",
     "stats": {
-      "gp": 8,
-      "ppg": 3.4,
-      "fgm": 12,
-      "fga": 32,
-      "tpm": 3,
-      "rpg": 0.9,
+      "gp": 10,
+      "ppg": 3.8,
+      "fgm": 17,
+      "fga": 39,
+      "tpm": 4,
+      "rpg": 1.0,
       "apg": 0.8,
-      "spg": 0.3,
+      "spg": 0.4,
       "bpg": 0.0
     }
   },
@@ -942,7 +942,7 @@
       "ppg": 2.5,
       "fgm": 10,
       "fga": 18,
-      "tpm": 3,
+      "tpm": 1,
       "rpg": 6.7,
       "apg": 1.3,
       "spg": 0.4,
@@ -966,15 +966,15 @@
     "s4_week1": null,
     "notes": "9.8 PPG on 52.0% FG. Blue starter.",
     "stats": {
-      "gp": 10,
-      "ppg": 9.8,
-      "fgm": 39,
-      "fga": 75,
+      "gp": 12,
+      "ppg": 9.7,
+      "fgm": 46,
+      "fga": 90,
       "tpm": 5,
-      "rpg": 3.9,
-      "apg": 1.1,
-      "spg": 0.6,
-      "bpg": 0.1
+      "rpg": 3.7,
+      "apg": 1.0,
+      "spg": 0.7,
+      "bpg": 0.3
     }
   },
   {
@@ -994,15 +994,15 @@
     "s4_week1": null,
     "notes": "7.0 PPG in 3 GP. 17-pt Week 6 return.",
     "stats": {
-      "gp": 3,
-      "ppg": 7.0,
-      "fgm": 7,
-      "fga": 17,
-      "tpm": 0,
-      "rpg": 4.3,
-      "apg": 2.0,
-      "spg": 1.0,
-      "bpg": 0.3
+      "gp": 5,
+      "ppg": 7.6,
+      "fgm": 15,
+      "fga": 34,
+      "tpm": 1,
+      "rpg": 4.0,
+      "apg": 2.4,
+      "spg": 0.8,
+      "bpg": 0.2
     }
   },
   {
@@ -1022,13 +1022,13 @@
     "s4_week1": null,
     "notes": "4.2 PPG, 2.9 RPG. Blue 8-2.",
     "stats": {
-      "gp": 10,
-      "ppg": 4.2,
-      "fgm": 16,
-      "fga": 46,
+      "gp": 12,
+      "ppg": 4.0,
+      "fgm": 19,
+      "fga": 56,
       "tpm": 8,
-      "rpg": 2.9,
-      "apg": 0.7,
+      "rpg": 2.8,
+      "apg": 0.6,
       "spg": 0.4,
       "bpg": 0.1
     }
@@ -1078,15 +1078,15 @@
     "s4_week1": null,
     "notes": "3.5 PPG in 6 GP.",
     "stats": {
-      "gp": 6,
-      "ppg": 3.5,
-      "fgm": 8,
-      "fga": 22,
+      "gp": 8,
+      "ppg": 3.1,
+      "fgm": 10,
+      "fga": 26,
       "tpm": 3,
-      "rpg": 3.0,
-      "apg": 0.7,
-      "spg": 0.2,
-      "bpg": 0.0
+      "rpg": 2.8,
+      "apg": 0.8,
+      "spg": 0.1,
+      "bpg": 0.1
     }
   },
   {
@@ -1106,15 +1106,15 @@
     "s4_week1": null,
     "notes": "4.9 PPG, 4.5 RPG. Brown 4-4.",
     "stats": {
-      "gp": 8,
-      "ppg": 4.9,
-      "fgm": 17,
-      "fga": 39,
-      "tpm": 1,
-      "rpg": 4.5,
+      "gp": 10,
+      "ppg": 6.0,
+      "fgm": 25,
+      "fga": 54,
+      "tpm": 2,
+      "rpg": 4.0,
       "apg": 0.5,
-      "spg": 0.8,
-      "bpg": 0.1
+      "spg": 0.7,
+      "bpg": 0.2
     }
   },
   {
@@ -1134,14 +1134,14 @@
     "s4_week1": null,
     "notes": "2.6 PPG. Green 6-4.",
     "stats": {
-      "gp": 8,
-      "ppg": 2.6,
-      "fgm": 7,
-      "fga": 28,
-      "tpm": 7,
-      "rpg": 0.6,
-      "apg": 0.3,
-      "spg": 0.3,
+      "gp": 10,
+      "ppg": 3.3,
+      "fgm": 11,
+      "fga": 39,
+      "tpm": 11,
+      "rpg": 0.7,
+      "apg": 0.4,
+      "spg": 0.2,
       "bpg": 0.0
     }
   },
@@ -1218,15 +1218,15 @@
     "s4_week1": null,
     "notes": "7.0 PPG, 6.4 RPG, 0.9 SPG in 8 GP. Traded to Purple.",
     "stats": {
-      "gp": 8,
-      "ppg": 7.0,
-      "fgm": 23,
-      "fga": 78,
+      "gp": 10,
+      "ppg": 6.6,
+      "fgm": 27,
+      "fga": 94,
       "tpm": 6,
-      "rpg": 6.4,
-      "apg": 1.8,
-      "spg": 0.9,
-      "bpg": 0.3
+      "rpg": 6.5,
+      "apg": 1.4,
+      "spg": 0.8,
+      "bpg": 0.2
     }
   },
   {
@@ -1246,15 +1246,15 @@
     "s4_week1": null,
     "notes": "4.1 PPG, 4.7 RPG. Traded to Red.",
     "stats": {
-      "gp": 10,
-      "ppg": 4.1,
-      "fgm": 19,
-      "fga": 33,
+      "gp": 12,
+      "ppg": 4.0,
+      "fgm": 22,
+      "fga": 37,
       "tpm": 2,
-      "rpg": 4.7,
-      "apg": 1.0,
+      "rpg": 4.3,
+      "apg": 1.1,
       "spg": 0.8,
-      "bpg": 0.0
+      "bpg": 0.1
     }
   },
   {
@@ -1274,14 +1274,14 @@
     "s4_week1": null,
     "notes": "4.4 PPG, 2.0 RPG. Purple 4-6.",
     "stats": {
-      "gp": 8,
-      "ppg": 4.4,
-      "fgm": 12,
-      "fga": 29,
-      "tpm": 11,
-      "rpg": 2.0,
-      "apg": 0.5,
-      "spg": 0.3,
+      "gp": 10,
+      "ppg": 4.1,
+      "fgm": 14,
+      "fga": 34,
+      "tpm": 13,
+      "rpg": 2.1,
+      "apg": 0.4,
+      "spg": 0.2,
       "bpg": 0.0
     }
   },
@@ -1302,14 +1302,14 @@
     "s4_week1": null,
     "notes": "5.6 PPG on 31.3% FG. Traded to Grey.",
     "stats": {
-      "gp": 7,
-      "ppg": 5.6,
-      "fgm": 15,
-      "fga": 48,
-      "tpm": 5,
-      "rpg": 1.0,
+      "gp": 9,
+      "ppg": 5.2,
+      "fgm": 18,
+      "fga": 58,
+      "tpm": 7,
+      "rpg": 1.1,
       "apg": 1.0,
-      "spg": 0.6,
+      "spg": 0.4,
       "bpg": 0.0
     }
   },
@@ -1358,14 +1358,14 @@
     "s4_week1": null,
     "notes": "4.9 PPG. Green 6-4.",
     "stats": {
-      "gp": 8,
-      "ppg": 4.9,
-      "fgm": 15,
-      "fga": 35,
-      "tpm": 8,
-      "rpg": 1.5,
-      "apg": 0.3,
-      "spg": 0.6,
+      "gp": 10,
+      "ppg": 5.2,
+      "fgm": 20,
+      "fga": 43,
+      "tpm": 11,
+      "rpg": 1.7,
+      "apg": 0.2,
+      "spg": 0.5,
       "bpg": 0.1
     }
   },
@@ -1398,31 +1398,31 @@
     }
   },
   {
-    "name": "Jesse Kellog",
+    "name": "Puneet Badwal",
     "team": "Purple",
     "tier": 5,
     "ovr": 72,
     "isCaptain": false,
     "attributes": {
-      "inside": 70,
-      "outside": 73,
-      "playmaking": 75,
-      "defense": 75,
-      "rebounding": 71
+      "defense": 68,
+      "inside": 68,
+      "outside": 58,
+      "playmaking": 64,
+      "rebounding": 68
     },
     "awards": [],
     "s4_week1": null,
-    "notes": "1 GP. Purple 4-6.",
+    "notes": "Permanent replacement for Jesse Kellog on Purple (Oct 29). Week 7: 9.0 PPG, 3.5 RPG in 2 GP as Purple roster player; prior sub history remains in subs list.",
     "stats": {
-      "gp": 1,
-      "ppg": 0.0,
-      "fgm": 0,
-      "fga": 2,
-      "tpm": 0,
-      "rpg": 1.0,
+      "gp": 2,
+      "ppg": 9.0,
+      "fgm": 6,
+      "fga": 11,
+      "tpm": 4,
+      "rpg": 3.5,
       "apg": 0.0,
-      "spg": 1.0,
-      "bpg": 0.0
+      "spg": 2.0,
+      "bpg": 0.5
     }
   }
 ]
