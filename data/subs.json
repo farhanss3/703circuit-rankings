@@ -180,27 +180,27 @@
       "rebounding": 72
     },
     "awards": [],
-    "gp": 4,
+    "gp": 6,
     "isSub": true,
     "name": "Nayan Patel",
     "notes": "5.3 PPG, 3.0 RPG as Purple sub (4 GP). 36.4% FG, active hands.",
     "ovr": 78,
-    "ppg": 5.3,
-    "rpg": 3.0,
+    "ppg": 7.2,
+    "rpg": 2.5,
     "team": "Multiple Teams",
     "tier": 4,
     "subbedFor": [
       "Purple"
     ],
     "stats": {
-      "gp": 4,
-      "ppg": 5.3,
-      "fgm": 8,
-      "fga": 22,
-      "tpm": 4,
-      "rpg": 3.0,
+      "gp": 6,
+      "ppg": 7.2,
+      "fgm": 15,
+      "fga": 34,
+      "tpm": 8,
+      "rpg": 2.5,
       "apg": 0.0,
-      "spg": 0.5,
+      "spg": 0.3,
       "bpg": 0.0
     }
   },
@@ -375,7 +375,7 @@
     }
   },
   {
-    "apg": 0.3,
+    "apg": 0.4,
     "attributes": {
       "defense": 66,
       "inside": 60,
@@ -384,13 +384,13 @@
       "rebounding": 64
     },
     "awards": [],
-    "gp": 6,
+    "gp": 8,
     "isSub": true,
     "name": "Bilal G",
     "notes": "2.7 PPG as Yellow/Red sub (6 GP). Stretch shooter, 5 threes made. Also appeared for Orange in Week 1.",
     "ovr": 72,
-    "ppg": 2.7,
-    "rpg": 1.5,
+    "ppg": 2.0,
+    "rpg": 1.8,
     "team": "Multiple Teams",
     "tier": 5,
     "subbedFor": [
@@ -398,14 +398,14 @@
       "Red"
     ],
     "stats": {
-      "gp": 6,
-      "ppg": 2.7,
+      "gp": 8,
+      "ppg": 2.0,
       "fgm": 5,
-      "fga": 21,
+      "fga": 23,
       "tpm": 5,
-      "rpg": 1.5,
-      "apg": 0.3,
-      "spg": 0.2,
+      "rpg": 1.8,
+      "apg": 0.4,
+      "spg": 0.1,
       "bpg": 0.0
     }
   },
@@ -881,6 +881,142 @@
       "apg": 1.0,
       "spg": 0.0,
       "bpg": 1.0
+    }
+  },
+  {
+    "apg": 0.5,
+    "attributes": {
+      "defense": 70,
+      "inside": 70,
+      "outside": 70,
+      "playmaking": 70,
+      "rebounding": 70
+    },
+    "awards": [],
+    "gp": 2,
+    "isSub": true,
+    "name": "Mohammad Saad",
+    "notes": "Week 7 sub (Oct 29): 1.5 PPG in 2 GP. Placeholder OVR 70 / Tier 5 \u2014 rating not yet set by Farhan.",
+    "ovr": 70,
+    "ppg": 1.5,
+    "rpg": 2.0,
+    "team": "Black",
+    "tier": 5,
+    "subbedFor": [
+      "Black"
+    ],
+    "stats": {
+      "gp": 2,
+      "ppg": 1.5,
+      "fgm": 1,
+      "fga": 6,
+      "tpm": 1,
+      "rpg": 2.0,
+      "apg": 0.5,
+      "spg": 0.0,
+      "bpg": 0.0
+    }
+  },
+  {
+    "apg": 0.0,
+    "attributes": {
+      "defense": 70,
+      "inside": 70,
+      "outside": 70,
+      "playmaking": 70,
+      "rebounding": 70
+    },
+    "awards": [],
+    "gp": 2,
+    "isSub": true,
+    "name": "Saif",
+    "notes": "Week 7 sub (Oct 29): 6.0 PPG in 2 GP. Placeholder OVR 70 / Tier 5 \u2014 rating not yet set by Farhan.",
+    "ovr": 70,
+    "ppg": 6.0,
+    "rpg": 4.0,
+    "team": "Blue",
+    "tier": 5,
+    "subbedFor": [
+      "Blue"
+    ],
+    "stats": {
+      "gp": 2,
+      "ppg": 6.0,
+      "fgm": 5,
+      "fga": 7,
+      "tpm": 1,
+      "rpg": 4.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.5
+    }
+  },
+  {
+    "apg": 2.0,
+    "attributes": {
+      "defense": 70,
+      "inside": 70,
+      "outside": 70,
+      "playmaking": 70,
+      "rebounding": 70
+    },
+    "awards": [],
+    "gp": 2,
+    "isSub": true,
+    "name": "Uzi",
+    "notes": "Week 7 sub (Oct 29): 3.0 PPG in 2 GP. Placeholder OVR 70 / Tier 5 \u2014 rating not yet set by Farhan.",
+    "ovr": 70,
+    "ppg": 3.0,
+    "rpg": 2.0,
+    "team": "Red",
+    "tier": 5,
+    "subbedFor": [
+      "Red"
+    ],
+    "stats": {
+      "gp": 2,
+      "ppg": 3.0,
+      "fgm": 2,
+      "fga": 9,
+      "tpm": 2,
+      "rpg": 2.0,
+      "apg": 2.0,
+      "spg": 0.0,
+      "bpg": 0.0
+    }
+  },
+  {
+    "apg": 1.5,
+    "attributes": {
+      "defense": 70,
+      "inside": 70,
+      "outside": 70,
+      "playmaking": 70,
+      "rebounding": 70
+    },
+    "awards": [],
+    "gp": 2,
+    "isSub": true,
+    "name": "Hassan B",
+    "notes": "Week 7 sub (Oct 29): 10.0 PPG in 2 GP. Placeholder OVR 70 / Tier 5 \u2014 rating not yet set by Farhan.",
+    "ovr": 70,
+    "ppg": 10.0,
+    "rpg": 3.0,
+    "team": "Brown",
+    "tier": 5,
+    "subbedFor": [
+      "Brown"
+    ],
+    "stats": {
+      "gp": 2,
+      "ppg": 10.0,
+      "fgm": 8,
+      "fga": 12,
+      "tpm": 2,
+      "rpg": 3.0,
+      "apg": 1.5,
+      "spg": 1.5,
+      "bpg": 0.0
     }
   }
 ]
