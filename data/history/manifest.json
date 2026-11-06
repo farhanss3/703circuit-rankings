@@ -39,6 +39,11 @@
       "date": "2026-10-31",
       "label": "Oct 31 \u2014 Week 7",
       "file": "history/2026-10-31.json"
+    },
+    {
+      "date": "2026-11-06",
+      "label": "Nov 6 \u2014 Week 8",
+      "file": "history/2026-11-06.json"
     }
   ]
 }
