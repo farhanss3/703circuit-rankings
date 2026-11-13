@@ -68,7 +68,7 @@
     }
   },
   {
-    "apg": 1.0,
+    "apg": 0.8,
     "attributes": {
       "defense": 62,
       "inside": 72,
@@ -77,13 +77,13 @@
       "rebounding": 64
     },
     "awards": [],
-    "gp": 8,
+    "gp": 10,
     "isSub": true,
     "name": "Naufil Baig",
-    "notes": "5.4 PPG as a multi-team sub (8 GP). 13 threes on 43.3% shooting.",
+    "notes": "4.5 PPG as a multi-team sub (10 GP). 13 threes made.",
     "ovr": 80,
-    "ppg": 5.4,
-    "rpg": 0.9,
+    "ppg": 4.5,
+    "rpg": 0.7,
     "team": "Multiple Teams",
     "tier": 3,
     "subbedFor": [
@@ -92,14 +92,14 @@
       "Orange"
     ],
     "stats": {
-      "gp": 8,
-      "ppg": 5.4,
-      "fgm": 15,
-      "fga": 38,
+      "gp": 10,
+      "ppg": 4.5,
+      "fgm": 16,
+      "fga": 43,
       "tpm": 13,
-      "rpg": 0.9,
-      "apg": 1.0,
-      "spg": 0.1,
+      "rpg": 0.7,
+      "apg": 0.8,
+      "spg": 0.2,
       "bpg": 0.0
     }
   },
@@ -222,9 +222,9 @@
     "gp": 8,
     "isSub": true,
     "name": "Christian Tolbert",
-    "notes": "5.5 PPG, 5.9 RPG as a multi-team sub (8 GP). Rebounding specialist off the bench.",
+    "notes": "5.3 PPG, 5.9 RPG as a multi-team sub (8 GP). Rebounding specialist off the bench.",
     "ovr": 77,
-    "ppg": 5.5,
+    "ppg": 5.3,
     "rpg": 5.9,
     "team": "Multiple Teams",
     "tier": 4,
@@ -235,8 +235,8 @@
     ],
     "stats": {
       "gp": 8,
-      "ppg": 5.5,
-      "fgm": 18,
+      "ppg": 5.3,
+      "fgm": 17,
       "fga": 50,
       "tpm": 0,
       "rpg": 5.9,
@@ -433,13 +433,13 @@
       "rebounding": 68
     },
     "awards": [],
-    "gp": 12,
+    "gp": 14,
     "isSub": true,
     "name": "Puneet Badwal",
-    "notes": "5.6 PPG, 3.5 RPG across 12 GP as a multi-team sub. Dropped from Purple's roster Nov 6; now sub-only.",
+    "notes": "5.4 PPG, 3.1 RPG across 14 GP as a multi-team sub. Permanent Purple roster replacement for Jesse Kellog (Oct 29; re-confirmed Nov 12) \u2014 roster production shown separately in players list.",
     "ovr": 72,
-    "ppg": 5.6,
-    "rpg": 3.5,
+    "ppg": 5.4,
+    "rpg": 3.1,
     "team": "Multiple Teams",
     "tier": 5,
     "subbedFor": [
@@ -447,15 +447,15 @@
       "White"
     ],
     "stats": {
-      "gp": 12,
-      "ppg": 5.6,
-      "fgm": 26,
-      "fga": 61,
-      "tpm": 7,
-      "rpg": 3.5,
+      "gp": 14,
+      "ppg": 5.4,
+      "fgm": 30,
+      "fga": 68,
+      "tpm": 8,
+      "rpg": 3.1,
       "apg": 0.4,
-      "spg": 0.8,
-      "bpg": 0.3
+      "spg": 0.9,
+      "bpg": 0.4
     }
   },
   {
@@ -562,7 +562,7 @@
   },
   {
     "name": "Ahmed (AK) Khan",
-    "team": "Black",
+    "team": "Multiple Teams",
     "tier": 3,
     "ovr": 80,
     "isSub": true,
@@ -574,23 +574,24 @@
       "rebounding": 70
     },
     "awards": [],
-    "gp": 2,
-    "ppg": 8.5,
-    "rpg": 4.5,
-    "apg": 0.5,
-    "notes": "8.5 PPG, 4.5 RPG as Black sub (2 GP).",
+    "gp": 4,
+    "ppg": 8.0,
+    "rpg": 3.5,
+    "apg": 0.8,
+    "notes": "8.0 PPG, 3.5 RPG as a multi-team sub (4 GP). Subbed for Black and Brown.",
     "subbedFor": [
-      "Black"
+      "Black",
+      "Brown"
     ],
     "stats": {
-      "gp": 2,
-      "ppg": 8.5,
-      "fgm": 8,
-      "fga": 22,
-      "tpm": 0,
-      "rpg": 4.5,
-      "apg": 0.5,
-      "spg": 1.0,
+      "gp": 4,
+      "ppg": 8.0,
+      "fgm": 14,
+      "fga": 38,
+      "tpm": 3,
+      "rpg": 3.5,
+      "apg": 0.8,
+      "spg": 0.5,
       "bpg": 0.0
     }
   },
@@ -844,30 +845,30 @@
       "rebounding": 78
     },
     "awards": [],
-    "gp": 7,
-    "ppg": 7.7,
-    "rpg": 4.4,
-    "apg": 1.1,
+    "gp": 9,
+    "ppg": 7.6,
+    "rpg": 4.3,
+    "apg": 1.4,
     "subbedFor": [
       "Black",
       "Brown"
     ],
-    "notes": "7.7 PPG, 4.4 RPG as a multi-team sub (7 GP). Week 7 games were listed as 'Hassan B' on the league stats page; now merged here. Listed separately from Hassan Syed \u2014 identity unconfirmed.",
+    "notes": "7.6 PPG, 4.3 RPG as a multi-team sub (9 GP). Week 7 games were listed as 'Hassan B' on the league stats page; now merged here. Listed separately from Hassan Syed \u2014 identity unconfirmed.",
     "stats": {
-      "gp": 7,
-      "ppg": 7.7,
-      "fgm": 22,
-      "fga": 36,
-      "tpm": 5,
-      "rpg": 4.4,
-      "apg": 1.1,
-      "spg": 1.1,
+      "gp": 9,
+      "ppg": 7.6,
+      "fgm": 27,
+      "fga": 45,
+      "tpm": 8,
+      "rpg": 4.3,
+      "apg": 1.4,
+      "spg": 1.0,
       "bpg": 0.3
     }
   },
   {
     "name": "Omer Shahab",
-    "team": "Green",
+    "team": "Multiple Teams",
     "tier": 5,
     "ovr": 65,
     "isSub": true,
@@ -879,24 +880,25 @@
       "rebounding": 64
     },
     "awards": [],
-    "gp": 2,
-    "ppg": 0.0,
+    "gp": 4,
+    "ppg": 0.3,
     "rpg": 1.5,
-    "apg": 1.0,
+    "apg": 0.8,
     "subbedFor": [
-      "Green"
+      "Green",
+      "Orange"
     ],
-    "notes": "Scoreless in 2 GP as Green sub. 1.0 BPG, 1.5 RPG in limited minutes.",
+    "notes": "0.3 PPG in 4 GP as a multi-team sub (Green, Orange). 0.5 BPG, 1.5 RPG in limited minutes.",
     "stats": {
-      "gp": 2,
-      "ppg": 0.0,
+      "gp": 4,
+      "ppg": 0.3,
       "fgm": 0,
-      "fga": 5,
+      "fga": 7,
       "tpm": 0,
       "rpg": 1.5,
-      "apg": 1.0,
+      "apg": 0.8,
       "spg": 0.0,
-      "bpg": 1.0
+      "bpg": 0.5
     }
   },
   {
