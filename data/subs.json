@@ -34,7 +34,7 @@
     }
   },
   {
-    "apg": 0.5,
+    "apg": 1.0,
     "attributes": {
       "defense": 78,
       "inside": 80,
@@ -43,26 +43,27 @@
       "rebounding": 86
     },
     "awards": [],
-    "gp": 2,
+    "gp": 4,
     "isSub": true,
     "name": "Wes Sub",
-    "notes": "12.0 PPG, 8.0 RPG as Blue sub (2 GP). 50/50/100 shooting splits. Two-way sub.",
+    "notes": "9.5 PPG, 5.5 RPG as a multi-team sub (4 GP). Two-way sub.",
     "ovr": 83,
-    "ppg": 12.0,
-    "rpg": 8.0,
-    "team": "Blue",
+    "ppg": 9.5,
+    "rpg": 5.5,
+    "team": "Multiple Teams",
     "tier": 3,
     "subbedFor": [
-      "Blue"
+      "Blue",
+      "Brown"
     ],
     "stats": {
-      "gp": 2,
-      "ppg": 12.0,
-      "fgm": 9,
-      "fga": 18,
+      "gp": 4,
+      "ppg": 9.5,
+      "fgm": 14,
+      "fga": 36,
       "tpm": 4,
-      "rpg": 8.0,
-      "apg": 0.5,
+      "rpg": 5.5,
+      "apg": 1.0,
       "spg": 0.5,
       "bpg": 0.5
     }
@@ -104,7 +105,7 @@
     }
   },
   {
-    "apg": 1.8,
+    "apg": 1.5,
     "attributes": {
       "defense": 66,
       "inside": 82,
@@ -113,13 +114,13 @@
       "rebounding": 86
     },
     "awards": [],
-    "gp": 4,
+    "gp": 6,
     "isSub": true,
     "name": "Sid Paradkar",
-    "notes": "7.5 PPG, 6.3 RPG as a multi-team sub (4 GP). Scores inside and hits the glass.",
+    "notes": "7.5 PPG, 6.0 RPG as a multi-team sub (6 GP). Scores inside and hits the glass.",
     "ovr": 82,
     "ppg": 7.5,
-    "rpg": 6.3,
+    "rpg": 6.0,
     "team": "Multiple Teams",
     "tier": 3,
     "subbedFor": [
@@ -127,14 +128,14 @@
       "Grey"
     ],
     "stats": {
-      "gp": 4,
+      "gp": 6,
       "ppg": 7.5,
-      "fgm": 13,
-      "fga": 32,
-      "tpm": 3,
-      "rpg": 6.3,
-      "apg": 1.8,
-      "spg": 0.0,
+      "fgm": 19,
+      "fga": 50,
+      "tpm": 6,
+      "rpg": 6.0,
+      "apg": 1.5,
+      "spg": 0.2,
       "bpg": 0.0
     }
   },
@@ -210,7 +211,7 @@
     }
   },
   {
-    "apg": 2.1,
+    "apg": 2.2,
     "attributes": {
       "defense": 76,
       "inside": 68,
@@ -219,12 +220,12 @@
       "rebounding": 84
     },
     "awards": [],
-    "gp": 8,
+    "gp": 9,
     "isSub": true,
     "name": "Christian Tolbert",
-    "notes": "5.3 PPG, 5.9 RPG as a multi-team sub (8 GP). Rebounding specialist off the bench.",
+    "notes": "6.4 PPG, 5.9 RPG as a multi-team sub (9 GP). Rebounding specialist off the bench.",
     "ovr": 77,
-    "ppg": 5.3,
+    "ppg": 6.4,
     "rpg": 5.9,
     "team": "Multiple Teams",
     "tier": 4,
@@ -234,15 +235,15 @@
       "Red"
     ],
     "stats": {
-      "gp": 8,
-      "ppg": 5.3,
-      "fgm": 17,
-      "fga": 50,
-      "tpm": 0,
+      "gp": 9,
+      "ppg": 6.4,
+      "fgm": 22,
+      "fga": 60,
+      "tpm": 1,
       "rpg": 5.9,
-      "apg": 2.1,
-      "spg": 0.5,
-      "bpg": 0.5
+      "apg": 2.2,
+      "spg": 0.6,
+      "bpg": 0.6
     }
   },
   {
@@ -315,7 +316,7 @@
     }
   },
   {
-    "apg": 1.6,
+    "apg": 1.5,
     "attributes": {
       "defense": 74,
       "inside": 64,
@@ -324,30 +325,31 @@
       "rebounding": 72
     },
     "awards": [],
-    "gp": 11,
+    "gp": 13,
     "isSub": true,
     "name": "Usman Ahmad",
-    "notes": "3.0 PPG, 2.6 RPG, 1.6 APG as a multi-team sub (11 GP). Leads S4 subs in assists.",
+    "notes": "3.2 PPG, 2.4 RPG, 1.5 APG as a multi-team sub (13 GP). Leads S4 subs in assists.",
     "ovr": 73,
-    "ppg": 3.0,
-    "rpg": 2.6,
+    "ppg": 3.2,
+    "rpg": 2.4,
     "team": "Multiple Teams",
     "tier": 5,
     "subbedFor": [
       "White",
       "Green",
       "Orange",
-      "Yellow"
+      "Yellow",
+      "Red"
     ],
     "stats": {
-      "gp": 11,
-      "ppg": 3.0,
-      "fgm": 14,
-      "fga": 39,
-      "tpm": 4,
-      "rpg": 2.6,
-      "apg": 1.6,
-      "spg": 0.6,
+      "gp": 13,
+      "ppg": 3.2,
+      "fgm": 18,
+      "fga": 47,
+      "tpm": 5,
+      "rpg": 2.4,
+      "apg": 1.5,
+      "spg": 0.5,
       "bpg": 0.0
     }
   },
@@ -395,13 +397,13 @@
       "rebounding": 64
     },
     "awards": [],
-    "gp": 9,
+    "gp": 11,
     "isSub": true,
     "name": "Bilal G",
-    "notes": "1.8 PPG as a multi-team sub (9 GP). Stretch shooter, 5 threes made.",
+    "notes": "2.0 PPG as a multi-team sub (11 GP). Stretch shooter, 7 threes made.",
     "ovr": 72,
-    "ppg": 1.8,
-    "rpg": 1.9,
+    "ppg": 2.0,
+    "rpg": 1.8,
     "team": "Multiple Teams",
     "tier": 5,
     "subbedFor": [
@@ -409,22 +411,23 @@
       "Red",
       "Green",
       "Orange",
-      "Brown"
+      "Brown",
+      "Purple"
     ],
     "stats": {
-      "gp": 9,
-      "ppg": 1.8,
-      "fgm": 5,
-      "fga": 23,
-      "tpm": 5,
-      "rpg": 1.9,
+      "gp": 11,
+      "ppg": 2.0,
+      "fgm": 7,
+      "fga": 28,
+      "tpm": 7,
+      "rpg": 1.8,
       "apg": 0.3,
       "spg": 0.1,
       "bpg": 0.0
     }
   },
   {
-    "apg": 0.4,
+    "apg": 0.5,
     "attributes": {
       "defense": 68,
       "inside": 68,
@@ -433,13 +436,13 @@
       "rebounding": 68
     },
     "awards": [],
-    "gp": 14,
+    "gp": 16,
     "isSub": true,
     "name": "Puneet Badwal",
-    "notes": "5.4 PPG, 3.1 RPG across 14 GP as a multi-team sub. Permanent Purple roster replacement for Jesse Kellog (Oct 29; re-confirmed Nov 12) \u2014 roster production shown separately in players list.",
+    "notes": "6.2 PPG, 3.3 RPG across 16 GP as a multi-team sub. Permanent Purple roster replacement for Jesse Kellog (Oct 29; re-confirmed Nov 12) \u2014 roster production shown separately in players list.",
     "ovr": 72,
-    "ppg": 5.4,
-    "rpg": 3.1,
+    "ppg": 6.2,
+    "rpg": 3.3,
     "team": "Multiple Teams",
     "tier": 5,
     "subbedFor": [
@@ -447,14 +450,14 @@
       "White"
     ],
     "stats": {
-      "gp": 14,
-      "ppg": 5.4,
-      "fgm": 30,
-      "fga": 68,
-      "tpm": 8,
-      "rpg": 3.1,
-      "apg": 0.4,
-      "spg": 0.9,
+      "gp": 16,
+      "ppg": 6.2,
+      "fgm": 39,
+      "fga": 85,
+      "tpm": 11,
+      "rpg": 3.3,
+      "apg": 0.5,
+      "spg": 0.8,
       "bpg": 0.4
     }
   },
@@ -665,7 +668,7 @@
   },
   {
     "name": "Phil Sub",
-    "team": "Black",
+    "team": "Multiple Teams",
     "tier": 4,
     "ovr": 76,
     "isSub": true,
@@ -677,24 +680,25 @@
       "rebounding": 78
     },
     "awards": [],
-    "gp": 2,
-    "ppg": 4.0,
-    "rpg": 8.0,
+    "gp": 4,
+    "ppg": 3.8,
+    "rpg": 6.3,
     "apg": 0.5,
-    "notes": "4.0 PPG, 8.0 RPG, 80% FG as Black sub (2 GP).",
+    "notes": "3.8 PPG, 6.3 RPG as a multi-team sub (4 GP).",
     "subbedFor": [
-      "Black"
+      "Black",
+      "Brown"
     ],
     "stats": {
-      "gp": 2,
-      "ppg": 4.0,
-      "fgm": 4,
-      "fga": 5,
+      "gp": 4,
+      "ppg": 3.8,
+      "fgm": 6,
+      "fga": 9,
       "tpm": 0,
-      "rpg": 8.0,
+      "rpg": 6.3,
       "apg": 0.5,
       "spg": 0.0,
-      "bpg": 0.5
+      "bpg": 1.3
     }
   },
   {
@@ -845,24 +849,25 @@
       "rebounding": 78
     },
     "awards": [],
-    "gp": 9,
-    "ppg": 7.6,
-    "rpg": 4.3,
-    "apg": 1.4,
+    "gp": 12,
+    "ppg": 7.4,
+    "rpg": 4.6,
+    "apg": 1.3,
     "subbedFor": [
       "Black",
-      "Brown"
+      "Brown",
+      "Red"
     ],
-    "notes": "7.6 PPG, 4.3 RPG as a multi-team sub (9 GP). Week 7 games were listed as 'Hassan B' on the league stats page; now merged here. Listed separately from Hassan Syed \u2014 identity unconfirmed.",
+    "notes": "7.4 PPG, 4.6 RPG as a multi-team sub (12 GP). Week 7 games were listed as 'Hassan B' on the league stats page; now merged here. Listed separately from Hassan Syed \u2014 identity unconfirmed.",
     "stats": {
-      "gp": 9,
-      "ppg": 7.6,
-      "fgm": 27,
-      "fga": 45,
-      "tpm": 8,
-      "rpg": 4.3,
-      "apg": 1.4,
-      "spg": 1.0,
+      "gp": 12,
+      "ppg": 7.4,
+      "fgm": 36,
+      "fga": 60,
+      "tpm": 11,
+      "rpg": 4.6,
+      "apg": 1.3,
+      "spg": 0.9,
       "bpg": 0.3
     }
   },
@@ -1036,6 +1041,74 @@
       "apg": 3.0,
       "spg": 2.0,
       "bpg": 0.0
+    }
+  },
+  {
+    "name": "Chris Ladner",
+    "team": "Purple",
+    "tier": 5,
+    "ovr": 70,
+    "isSub": true,
+    "attributes": {
+      "inside": 70,
+      "outside": 70,
+      "playmaking": 70,
+      "defense": 70,
+      "rebounding": 70
+    },
+    "awards": [],
+    "gp": 2,
+    "ppg": 6.5,
+    "rpg": 4.5,
+    "apg": 0.5,
+    "notes": "Week 10 sub (Nov 19): 6.5 PPG, 4.5 RPG in 2 GP for Purple. Placeholder OVR 70 / Tier 5 \u2014 rating not yet set by Farhan.",
+    "subbedFor": [
+      "Purple"
+    ],
+    "stats": {
+      "gp": 2,
+      "ppg": 6.5,
+      "fgm": 6,
+      "fga": 9,
+      "tpm": 0,
+      "rpg": 4.5,
+      "apg": 0.5,
+      "spg": 0.5,
+      "bpg": 0.0
+    }
+  },
+  {
+    "name": "Chris Martin",
+    "team": "Grey",
+    "tier": 5,
+    "ovr": 70,
+    "isSub": true,
+    "attributes": {
+      "inside": 70,
+      "outside": 70,
+      "playmaking": 70,
+      "defense": 70,
+      "rebounding": 70
+    },
+    "awards": [],
+    "gp": 2,
+    "ppg": 6.5,
+    "rpg": 1.0,
+    "apg": 4.0,
+    "notes": "Week 10 sub (Nov 19): 6.5 PPG, 4.0 APG in 2 GP for Grey. Placeholder OVR 70 / Tier 5 \u2014 rating not yet set by Farhan.",
+    "subbedFor": [
+      "Grey"
+    ],
+    "stats": {
+      "gp": 2,
+      "ppg": 6.5,
+      "fgm": 6,
+      "fga": 15,
+      "tpm": 0,
+      "rpg": 1.0,
+      "apg": 4.0,
+      "spg": 2.5,
+      "bpg": 1.0
     }
   }
 ]
