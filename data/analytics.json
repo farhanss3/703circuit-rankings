@@ -1,83 +1,83 @@
 {
   "backToBack": {
     "game1": {
-      "n": 344,
-      "w": 172,
-      "l": 172,
+      "n": 352,
+      "w": 176,
+      "l": 176,
       "margin": 0.0,
       "pf": 31.9,
       "pa": 31.9
     },
     "game2": {
-      "n": 344,
-      "w": 172,
-      "l": 172,
+      "n": 352,
+      "w": 176,
+      "l": 176,
       "margin": 0.0,
       "pf": 32.5,
       "pa": 32.5
     },
     "freshVsTiredGames": 2,
-    "tiredVsTiredGames": 342,
+    "tiredVsTiredGames": 350,
     "anomaly": "S3 Week 8 (May 21, 2026), Court 2: Green played 9:05pm then 9:40pm with zero rest; Red played 10:15pm then 10:50pm with zero rest. Only fresh-vs-tired games in league history."
   },
   "momentum": {
     "nights": {
-      "twoOh": 89,
-      "split": 166,
-      "ohTwo": 89
+      "twoOh": 91,
+      "split": 170,
+      "ohTwo": 91
     },
     "pWinG2AfterWin": 0.517,
     "pWinG2AfterLoss": 0.483
   },
   "slots": {
     "startSlot1": {
-      "n": 172,
-      "w": 86,
-      "l": 86,
+      "n": 176,
+      "w": 88,
+      "l": 88,
       "margin": 0.0
     },
     "startSlot2": {
-      "n": 171,
-      "w": 86,
-      "l": 85,
-      "margin": 0.04
+      "n": 175,
+      "w": 88,
+      "l": 87,
+      "margin": 0.03
     },
     "endSlot3": {
-      "n": 171,
-      "w": 86,
-      "l": 85,
-      "margin": 0.04
+      "n": 175,
+      "w": 88,
+      "l": 87,
+      "margin": 0.03
     },
     "endSlot4": {
-      "n": 172,
-      "w": 86,
-      "l": 86,
+      "n": 176,
+      "w": 88,
+      "l": 88,
       "margin": 0.0
     },
     "avgTotal": {
-      "1": 64.3,
-      "2": 63.2,
-      "3": 65.2,
-      "4": 64.9
+      "1": 64.2,
+      "2": 63.4,
+      "3": 65.4,
+      "4": 64.8
     }
   },
   "courts": {
     "1": {
-      "n": 172,
-      "homeW": 86,
-      "homeL": 86,
-      "avgTotal": 65.3
+      "n": 176,
+      "homeW": 89,
+      "homeL": 87,
+      "avgTotal": 65.5
     },
     "2": {
-      "n": 172,
-      "homeW": 98,
-      "homeL": 74,
-      "avgTotal": 63.5
+      "n": 176,
+      "homeW": 99,
+      "homeL": 77,
+      "avgTotal": 63.4
     }
   },
   "homeAway": {
-    "homeW": 184,
-    "homeL": 160,
+    "homeW": 188,
+    "homeL": 164,
     "bySeason": {
       "S1": [
         44,
@@ -96,72 +96,78 @@
         35
       ],
       "S4": [
-        41,
-        31
+        45,
+        35
       ]
     }
   },
   "competitiveness": {
     "closeG1": [
-      112,
-      344
+      114,
+      352
     ],
     "blowoutG1": [
       58,
-      344
+      352
     ],
     "closeG2": [
-      98,
-      344
+      102,
+      352
     ],
     "blowoutG2": [
-      46,
-      344
+      48,
+      352
     ]
   },
   "subs": {
     "meta": {
       "season": "S4",
-      "through": "S4 Week 9 (Nov 12, 2026)",
-      "appearances": 116,
-      "subsUsed": 29,
-      "teamGames": 144,
-      "overallPpg": 5.2
+      "through": "S4 Week 10 (Nov 19, 2026)",
+      "appearances": 136,
+      "subsUsed": 31,
+      "teamGames": 160,
+      "overallPpg": 5.5
     },
     "reliance": [
       {
         "team": "Black",
-        "games": 14,
+        "games": 16,
         "withSubs": 14,
         "appearances": 27
       },
       {
         "team": "Brown",
-        "games": 14,
-        "withSubs": 8,
-        "appearances": 14
+        "games": 16,
+        "withSubs": 10,
+        "appearances": 20
       },
       {
         "team": "Purple",
-        "games": 14,
-        "withSubs": 12,
-        "appearances": 14
+        "games": 16,
+        "withSubs": 14,
+        "appearances": 20
       },
       {
         "team": "Grey",
-        "games": 14,
-        "withSubs": 10,
-        "appearances": 12
+        "games": 16,
+        "withSubs": 12,
+        "appearances": 16
+      },
+      {
+        "team": "Red",
+        "games": 16,
+        "withSubs": 8,
+        "appearances": 11
       },
       {
         "team": "Orange",
-        "games": 14,
+        "games": 16,
         "withSubs": 8,
         "appearances": 10
       },
       {
         "team": "White",
-        "games": 14,
+        "games": 16,
         "withSubs": 8,
         "appearances": 10
       },
@@ -172,14 +178,8 @@
         "appearances": 10
       },
       {
-        "team": "Red",
-        "games": 14,
-        "withSubs": 6,
-        "appearances": 7
-      },
-      {
         "team": "Blue",
-        "games": 14,
+        "games": 16,
         "withSubs": 4,
         "appearances": 6
       },
@@ -192,12 +192,12 @@
     ],
     "withVsWithout": {
       "with": [
-        35,
-        47
+        39,
+        51
       ],
       "without": [
-        36,
-        26
+        40,
+        30
       ]
     },
     "bySubCount": {
@@ -206,8 +206,8 @@
         33
       ],
       "twoPlus": [
-        14,
-        14
+        18,
+        18
       ]
     },
     "perTeam": {
@@ -217,7 +217,7 @@
           9
         ],
         "without": [
-          0,
+          2,
           0
         ]
       },
@@ -227,14 +227,14 @@
           3
         ],
         "without": [
-          9,
-          1
+          10,
+          2
         ]
       },
       "Brown": {
         "with": [
-          2,
-          6
+          3,
+          7
         ],
         "without": [
           4,
@@ -253,7 +253,7 @@
       },
       "Grey": {
         "with": [
-          3,
+          5,
           7
         ],
         "without": [
@@ -268,13 +268,13 @@
         ],
         "without": [
           3,
-          3
+          5
         ]
       },
       "Purple": {
         "with": [
-          5,
-          7
+          6,
+          8
         ],
         "without": [
           1,
@@ -284,7 +284,7 @@
       "Red": {
         "with": [
           2,
-          4
+          6
         ],
         "without": [
           2,
@@ -297,8 +297,8 @@
           4
         ],
         "without": [
-          3,
-          3
+          4,
+          4
         ]
       },
       "Yellow": {
@@ -326,17 +326,22 @@
       {
         "sub": "Hassan Sub",
         "pts": 18,
-        "gp": 7
+        "gp": 10
       },
       {
         "sub": "Sid Paradkar",
         "pts": 17,
-        "gp": 4
+        "gp": 6
       },
       {
         "sub": "Wes Sub",
         "pts": 17,
-        "gp": 2
+        "gp": 4
+      },
+      {
+        "sub": "Christian Tolbert",
+        "pts": 16,
+        "gp": 9
       },
       {
         "sub": "Nayan Patel",
@@ -344,24 +349,43 @@
         "gp": 6
       },
       {
-        "sub": "Christian Tolbert",
-        "pts": 13,
-        "gp": 8
-      },
-      {
-        "sub": "Naufil Baig",
+        "sub": "Puneet Badwal",
         "pts": 12,
-        "gp": 10
+        "gp": 14
       }
     ],
     "mostUsed": [
       {
         "sub": "Puneet Badwal",
-        "apps": 12,
-        "ppg": 4.8,
+        "apps": 14,
+        "ppg": 5.8,
         "teams": "Purple, White",
-        "w": 6,
+        "w": 7,
+        "l": 7
+      },
+      {
+        "sub": "Bilal G",
+        "apps": 11,
+        "ppg": 2.0,
+        "teams": "Yellow, Red, Green, Orange, Brown, Purple",
+        "w": 5,
         "l": 6
+      },
+      {
+        "sub": "Usman Ahmad",
+        "apps": 11,
+        "ppg": 3.3,
+        "teams": "White, Green, Orange, Yellow, Red",
+        "w": 5,
+        "l": 6
+      },
+      {
+        "sub": "Hassan Sub",
+        "apps": 10,
+        "ppg": 7.7,
+        "teams": "Black, Brown, Red",
+        "w": 3,
+        "l": 7
       },
       {
         "sub": "Naufil Baig",
@@ -372,35 +396,11 @@
         "l": 4
       },
       {
-        "sub": "Bilal G",
-        "apps": 9,
-        "ppg": 1.8,
-        "teams": "Yellow, Red, Green, Orange, Brown",
-        "w": 4,
-        "l": 5
-      },
-      {
-        "sub": "Usman Ahmad",
-        "apps": 9,
-        "ppg": 3.0,
-        "teams": "White, Green, Orange, Yellow",
-        "w": 5,
-        "l": 4
-      },
-      {
         "sub": "Christian Tolbert",
-        "apps": 8,
-        "ppg": 5.5,
+        "apps": 9,
+        "ppg": 6.7,
         "teams": "Black, Yellow, Red",
         "w": 4,
-        "l": 4
-      },
-      {
-        "sub": "Hassan Sub",
-        "apps": 7,
-        "ppg": 8.0,
-        "teams": "Black, Brown",
-        "w": 2,
         "l": 5
       },
       {
@@ -410,6 +410,14 @@
         "teams": "Purple, Black, Grey",
         "w": 4,
         "l": 2
+      },
+      {
+        "sub": "Sid Paradkar",
+        "apps": 6,
+        "ppg": 7.5,
+        "teams": "Black, Grey",
+        "w": 6,
+        "l": 0
       },
       {
         "sub": "Danish Bashir",
@@ -452,12 +460,20 @@
         "l": 1
       },
       {
-        "sub": "Sid Paradkar",
+        "sub": "Phil Sub",
         "apps": 4,
-        "ppg": 7.5,
-        "teams": "Black, Grey",
-        "w": 4,
-        "l": 0
+        "ppg": 3.8,
+        "teams": "Black, Brown",
+        "w": 1,
+        "l": 3
+      },
+      {
+        "sub": "Wes Sub",
+        "apps": 4,
+        "ppg": 9.5,
+        "teams": "Blue, Brown",
+        "w": 2,
+        "l": 2
       },
       {
         "sub": "Akash (AK) Malhi",
@@ -513,6 +529,11 @@
         "week": 9,
         "appearances": 10,
         "subs": 5
+      },
+      {
+        "week": 10,
+        "appearances": 20,
+        "subs": 10
       }
     ],
     "history": [
@@ -538,56 +559,56 @@
       },
       {
         "season": "S4*",
-        "subs": 29,
-        "gp": 116
+        "subs": 31,
+        "gp": 136
       }
     ]
   },
   "lineup": {
     "meta": {
       "season": "S4",
-      "through": "S4 Week 9 (Nov 12, 2026)",
-      "teamGames": 144,
-      "note": "Per-game box scores (who played). 1 of 144 team-games excluded from quality/combo reads: September 24, 2026 Purple (unrated: Jesse Kellog)."
+      "through": "S4 Week 10 (Nov 19, 2026)",
+      "teamGames": 160,
+      "note": "Per-game box scores (who played). 1 of 160 team-games excluded from quality/combo reads: September 24, 2026 Purple (unrated: Jesse Kellog)."
     },
     "captain": {
       "with": [
-        66,
-        64
+        73,
+        69
       ],
       "without": [
-        5,
-        9
+        6,
+        12
       ],
       "note": "Yellow won both Week 1 games without Tahseen Almas."
     },
     "starPower": {
       "t1": {
         "with": [
-          37,
-          27
+          41,
+          29
         ],
         "without": [
-          34,
-          45
+          38,
+          51
         ]
       },
       "t1t2": {
         "with": [
-          60,
-          56
+          64,
+          60
         ],
         "without": [
-          11,
-          16
+          15,
+          20
         ]
       }
     },
     "t1ByPlayer": [
       {
         "name": "John Welsh (Blue)",
-        "w": 9,
-        "l": 3
+        "w": 10,
+        "l": 4
       },
       {
         "name": "Mike Hansler (Green)",
@@ -600,22 +621,22 @@
         "l": 6
       },
       {
-        "name": "Sumant Bhupathiraju (White)",
-        "w": 6,
-        "l": 6
+        "name": "Mo Rana (Black)",
+        "w": 7,
+        "l": 5
       },
       {
-        "name": "Mo Rana (Black)",
-        "w": 5,
-        "l": 5
+        "name": "Sumant Bhupathiraju (White)",
+        "w": 7,
+        "l": 7
       }
     ],
     "unitOvr": {
-      "higherWon": 38,
-      "games": 71,
+      "higherWon": 42,
+      "games": 79,
       "mismatch": [
-        6,
-        4
+        7,
+        6
       ]
     },
     "combos": [
@@ -640,6 +661,16 @@
         "l": 2
       },
       {
+        "desc": "1\u00d7T1 + 3\u00d7T3 + 1\u00d7T4, captain",
+        "w": 4,
+        "l": 4
+      },
+      {
+        "desc": "2\u00d7T2 + 1\u00d7T3 + 2\u00d7T4, captain",
+        "w": 3,
+        "l": 5
+      },
+      {
         "desc": "1\u00d7T2 + 1\u00d7T3 + 2\u00d7T4 + 1\u00d7T5, captain",
         "w": 2,
         "l": 6
@@ -650,14 +681,14 @@
         "l": 2
       },
       {
-        "desc": "1\u00d7T1 + 3\u00d7T3 + 1\u00d7T4, captain",
-        "w": 3,
-        "l": 3
+        "desc": "2\u00d7T3 + 3\u00d7T5, captain + 2 subs",
+        "w": 4,
+        "l": 0
       },
       {
-        "desc": "2\u00d7T2 + 1\u00d7T3 + 2\u00d7T4, captain",
+        "desc": "1\u00d7T1 + 1\u00d7T3 + 2\u00d7T4 + 1\u00d7T5, captain",
         "w": 3,
-        "l": 3
+        "l": 1
       },
       {
         "desc": "2\u00d7T2 + 1\u00d7T3 + 1\u00d7T4 + 1\u00d7T5, captain + 1 sub",
@@ -702,9 +733,9 @@
     ]
   },
   "meta": {
-    "computed": "2026-11-13",
-    "games": 344,
-    "through": "S4 Week 9 (Nov 12, 2026)",
+    "computed": "2026-11-20",
+    "games": 352,
+    "through": "S4 Week 10 (Nov 19, 2026)",
     "seasons": [
       "S1",
       "S2",
